@@ -1,0 +1,35 @@
+ul.pagination {
+    position: absolute;
+    right:0;
+    display: inline-block;
+    padding-top: 50px;
+}
+
+ul.pagination li {display: inline;}
+ul.pagination li a {
+    color: black;
+    float: left;
+    text-decoration: none;
+    margin: 0 4px;
+    font-size: 20px;
+    padding: 9px 14px;
+    background: #2cb7c9!important;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    padding: 0!important;
+    margin: 0!important;
+    text-align: center;
+    line-height: 40px;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 3;
+    color: #eee!important;
+    background: #23527c!important;
+}
+
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+	 border-color:#fff!important;
+}

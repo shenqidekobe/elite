@@ -1,0 +1,26 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd" name="dw-cms">
+	
+	<!-- Cache Monitor 
+	<cacheManagerPeerListenerFactory class="org.terracotta.ehcachedx.monitor.probe.ProbePeerListenerFactory"
+		properties="monitorAddress=192.168.113.50, monitorPort=9889, memoryMeasurement=true" />
+	 -->
+	<!-- DiskStore  -->
+	<diskStore path="java.io.tmpdir" />
+
+	<!-- DefaultCache -->
+	<defaultCache  maxElementsInMemory="10000" eternal="false" memoryStoreEvictionPolicy="LRU" 
+		timeToLiveSeconds="600" overflowToDisk="true" diskPersistent="false" />
+
+	<!-- StandardQueryCache holds the cached query results-->
+	<cache name="org.hibernate.cache.internal.StandardQueryCache"
+		maxElementsInMemory="10000" eternal="false" timeToIdleSeconds="3600"
+		timeToLiveSeconds="3600">
+	</cache>
+
+	<!-- UpdateTimestampsCache holds timestamps of the most recent updates to queryable tables -->
+	<cache name="org.hibernate.cache.spi.UpdateTimestampsCache"
+		maxElementsInMemory="10000" eternal="true">
+	</cache>
+	
+</ehcache>

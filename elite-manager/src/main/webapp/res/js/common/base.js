@@ -1,0 +1,9 @@
+var BASE={
+	DATA:null,
+	JS_RESULT:{
+		SUCCESS:"SUCCESS",
+		ERROR:"ERROR",
+		FAIL:"FAIL",
+		SUCCESS_DELETED:"删除成功"
+	}
+}

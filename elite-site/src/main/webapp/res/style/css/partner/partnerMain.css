@@ -1,0 +1,121 @@
+		#partnerMain .content{
+            width:1000px;
+            margin:0 auto;
+        }
+
+        #partnerMain .twoways{
+                width: 860px;
+			    margin: 0px auto;
+			    height: 150px;
+			    margin-top: 50px;
+			    margin-bottom: 50px;
+        }
+
+        #partnerMain .way{
+            float:left;
+            width:400px;
+            height:150px;
+        }
+        #partnerMain .way > *{
+            float:left;
+        }
+
+        #partnerMain .way img{
+            padding-top:12px;
+        }
+
+        #partnerMain .way img:hover{
+            opacity: 0.8;
+        }
+        #partnerMain .waybox{
+            margin-left:40px;
+            padding-top:12px;
+        }
+        #partnerMain .want{
+            font-size: 20px;
+            color:#9B9B9B;
+        }
+
+        #partnerMain .opt{
+            margin-top:28px;
+        }
+
+        #partnerMain .opt button{
+            padding:4px 20px;
+            border-radius: 14px;
+        }
+
+        #partnerMain .coop-btn{
+            border:1px solid #2CB7C9;
+            background-color: #2CB7C9;
+            color:white;
+        }
+
+        #partnerMain .goto-btn{
+            border:1px solid #2CB7C9;
+            background-color: white;
+            color:#2CB7C9;
+            margin-left:10px;
+        }
+
+        #partnerMain .twoways >*{
+            float:left;
+        }
+        
+        
+        /*ÇþµÀÖ÷Ò³±³¾°*/
+        
+         #partnerMain .channel{
+            position: relative;
+            min-width: 1000px;
+            height: 830px;
+            background: url("/res/images/elite/channel_bg.png");
+            background-size:cover;
+            -webkit-background-size:cover;
+            -moz-background-size:cover;
+            background-position: center;
+			background-repeat: no-repeat;
+        }
+        
+        #partnerMain .content_partner{
+		    min-width: 1000px;
+		    margin: 0 auto;
+		}
+        
+        
+        /*±³¾°ÎÄ×Ö*/
+        #partnerMain .channel .channel_text{
+		    position: absolute;
+		    left: 50%;
+		    top: 262px;
+		    margin-left: -350px;
+		    width: 700px;
+		    height: 264px;
+		}
+		#partnerMain .channel .channel_text .text_bg{
+		    width: 700px;
+		    height: 264px;
+		    background: #000;
+		    opacity: 0.5;
+		    border-radius: 10px;
+		    -webkit-border-radius: 10px;
+		    -moz-border-radius: 10px;
+		    -o-border-radius: 10px;
+		}
+        #partnerMain .channel .channel_text .text1{
+		    position: absolute;
+		    top: 50px;
+		    left: 127px;
+		    font-size: 50px;
+		    color: #fff;
+		}
+		#partnerMain .channel .channel_text .text1 span{
+		    padding: 0 20px;
+		}
+		#partnerMain .channel .channel_text .text2{
+		    position: absolute;
+		    top: 138px;
+		    left: 138px;
+		    font-size: 30px;
+		    color: #fff;
+		}

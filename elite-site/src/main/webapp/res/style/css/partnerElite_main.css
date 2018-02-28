@@ -1,0 +1,253 @@
+   
+          /****************************閸掑棝銆夐弽宄扮础*************************/
+
+        .page >*{
+            display: inline-block;
+        }
+        .prev{
+            color:#CCCCCC;
+        }
+
+        .next{
+            color:#CCCCCC;
+        }
+
+        .page-circle{
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            border: 1px solid #CCCCCC;
+            text-align: center;
+            color:#CCCCCC;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            font-size: 12px;
+        }
+
+        .active-page{
+            border:1px solid #4A4A4A;
+            color:#4A4A4A;
+        }
+
+        .goto-page{
+            width:40px;
+            height:20px;
+            border:1px solid #9B9B9B;
+            border-radius: 4px;
+            outline: none;
+            font-size: 12px;
+            text-align: center;
+        }
+       
+          .go-circle{
+            width: 20px;
+            height: 20px;
+            border: 1px solid #979797;
+            text-align: center;
+            background-color: #979797;
+            color:white;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            font-size: 12px;
+        }
+   
+   
+        /****************************閸掑棝銆夐弽宄扮础*************************/
+
+        .table-head{
+            width: 40px;
+            height: 40px;
+            background:url("/res/images/test.jpg") no-repeat;
+            background-size: 40px 40px;
+            border: 1px solid #979797;
+            -moz-border-radius: 40px;
+            -webkit-border-radius: 40px;
+            border-radius: 40px;
+        }
+        
+    /****************************閺冨爼妫块幒褌娆㈤弽宄扮础*************************/
+
+        .search-status{
+            margin-top:30px;
+            width:100%;
+        }
+        .active-status{
+            color:#FEA600;
+        }
+
+        .person-table thead tr th{
+            background-color: #F5F5F5;
+            color:#9B9B9B;
+            font-weight: normal;
+            border-bottom: none;
+            line-height: 30px;
+            text-align: center;
+        }
+
+        .person-table tbody tr td{
+           border-top:none;
+            height:40px;
+            line-height: 40px;
+            font-size: 14px;
+            color:#4A4A4A;
+        }
+
+        .active-line{
+            position: absolute;
+            top:0;
+            left:0;
+            width:136px;
+            border-bottom: 2px solid #FEA600;
+        }
+
+        .other-select{
+            cursor: pointer;
+        }
+
+        .table-btn{
+            width:60px;
+            height:22px;
+            line-height:18px;
+            border:1px solid #9B9B9B;
+            color:#4A4A4A;
+            border-radius: 10px;
+            vertical-align: middle;
+        }
+        /*閿熸枻鎷烽敓鏂ゆ嫹閿熺粸鏂ゆ嫹钖烽敓锟�*/
+
+		.invite-l-box {
+		    height: 198px;
+		}
+		
+		.ceoInfo-l-a-content li {
+		    height: 39px;
+		    line-height: 39px;
+		    width: 170px;
+		    margin-left: 70px;
+		    cursor: pointer;
+		}
+		.clearfloat:after {
+		    display: block;
+		    clear: both;
+		    content: "";
+		    visibility: hidden;
+		    height: 0;
+		}
+		.clearfloat {
+		    zoom: 1;
+		}
+		.select {
+		    height: 39px;
+		    line-height: 39px;
+		    width: 170px;
+		    border-right: 3px solid #2cb7c9;
+		    color: #2cb7c9;
+		}
+
+		.li-box {
+		    height: 24px;
+		    width: 105px;
+		    padding-top: 7.5px;
+		}
+		
+		.icon-a {
+		    background: url("/res/images/ceo/icon-a-s.png") no-repeat;
+		}
+		
+		.txt-box {
+		    width: 65px;
+		    height: 24px;
+		    display: block;
+		    font-size: 16px;
+		    float: left;
+		    line-height: 24px;
+		}
+		
+		.icon-box {
+		    width: 22px;
+		    height: 24px;
+		    display: block;
+		    float: left;
+		    margin-right: 15px;
+		}
+		.invite-a {
+		    background: url("/res/images/layout/invite-a.png") no-repeat;
+		}
+		.invite-b {
+		    background: url("/res/images/layout/invite-b.png") no-repeat;
+		}
+		.invite-c {
+		    background: url("/res/images/layout/invite-c.png") no-repeat;
+		}
+		.invite-d {
+		    background: url("/res/images/layout/invite-d.png") no-repeat;
+		}
+		.invite-l {
+		    background: url("/res/images/layout/champion_no.png") no-repeat;
+		}
+		.invite-a-s {
+		    background: url("/res/images/layout/invite-a-s.png") no-repeat;
+		}
+		.invite-b-s {
+		    background: url("/res/images/layout/invite-b-s.png") no-repeat;
+		}
+		.invite-c-s {
+		    background: url("/res/images/layout/invite-c-s.png") no-repeat;
+		}
+		.invite-d-s {
+		    background: url("/res/images/layout/invite-d-s.png") no-repeat;
+		}
+		.invite-l-s {
+		    background: url("/res/images/layout/champion.png") no-repeat;
+		}
+		.pen {
+			display: block;
+			width: 20px;
+			height: 20px;
+			background: url("/res/images/pen.png");
+			float: left;
+		}
+        /*确认取消按钮*/
+        #restPassSubBtn {
+		    background: #fea600;
+		    color: #fff;
+		}
+		
+		
+		
+		
+/*人才推荐方页 > 我的资料*/
+#displayBasicInfo {
+    margin-top: 30px;
+}
+#displayBasicInfo .basic_div{
+	width: 100%;
+    margin-bottom: 20px;
+}
+#displayBasicInfo .basic_div .div_text {
+    float: left;
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+}
+#displayBasicInfo .basic_div .div_input {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 50px;
+    border: 1px solid #2cb7c9;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-left: 20px;
+}
+
+#displayBasicInfo .basic_div .div_input .input_text {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+}

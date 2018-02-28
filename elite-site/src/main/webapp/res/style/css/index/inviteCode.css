@@ -1,0 +1,182 @@
+
+/*inviteCode_a*/
+.inviteCode {
+    padding-bottom: 118px;
+}
+.inviteCode .inviteCode_a{
+    width: 100%;
+    min-width: 1000px;
+    height: 584px;
+    border-bottom: 1px solid #e6e6e6;
+    padding-top: 100px;
+}
+
+.inviteCode .inviteCode_a .inviteCode_a_content{
+    position: relative;
+    width: 1000px;
+    height: 584px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.inviteCode .inviteCode_a .inviteCode_a_content .code_box {
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+
+.inviteCode .inviteCode_a .inviteCode_a_content .code_box .code_text {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.inviteCode .inviteCode_a .inviteCode_a_content .code_btn{
+    position: relative;
+    width: 280px;
+    height: 96px;
+    background: url("../../../../res/images/index/code_btn.png") no-repeat;
+    cursor: pointer;
+}
+
+
+/*以下点击按钮切换*/
+
+.inviteCode .inviteCode_a .inviteCode_a_content .code_btn .txt_btn{
+    position: absolute;
+    top: 27px;
+    left:80px;
+    font-size: 30px;
+    color: #fff;
+}
+.inviteCode .inviteCode_a .inviteCode_a_content .code_btn .txt_none{
+    position: absolute;
+    top: 27px;
+    left:110px;
+    font-size: 30px;
+    color: #fff;
+}
+.inviteCode .inviteCode_a .inviteCode_a_content .code_btn .txt_code_div{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #fff;
+}
+
+.inviteCode .inviteCode_a .inviteCode_a_content .code_btn .txt_code_div .txt_code {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.inviteCode .inviteCode_a .inviteCode_a_content .code_btn .txt_code_div .txt_time {
+    font-size: 16px;
+}
+
+/*以上点击按钮切换*/
+
+.inviteCode .inviteCode_a .inviteCode_a_content .inviteCode_bg {
+    position: absolute;
+    top: -101px;
+    right: 0px;
+    width: 689px;
+    height: 758px;
+    background: url("../../../../res/images/index/inviteCode_bg.png") no-repeat;
+    background-position: 70px 0px;
+}
+
+/*inviteCode_b*/
+.inviteCode .inviteCode_b {
+    width: 100%;
+    min-width: 1000px;
+}
+
+.inviteCode .inviteCode_b .inviteCode_b_content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.inviteCode .inviteCode_b .inviteCode_b_content h1 {
+    position: relative;
+    width: 182px;
+    height: 28px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #2cb7c9;
+    text-align: center;
+    font-weight: 600;
+}
+
+.inviteCode .inviteCode_b .inviteCode_b_content h1 .h1_line {
+    position: absolute;
+    top: 38px;
+    left: 29px;
+    display: block;
+    width: 120px;
+    border-bottom: 3px solid #2cb7c9;
+}
+
+
+.inviteCode .inviteCode_b .inviteCode_b_content .why_dl_box,.where_dl_box {
+    margin-top: 40px;
+    width: 998px;
+    background: #F7F7F7;
+    border: 1px solid #F5F5F5;
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.10);
+    border-radius: 6px;
+}
+
+.inviteCode .inviteCode_b .inviteCode_b_content .why_dl,.where_dl {
+    padding: 30px 18px;
+}
+
+.inviteCode .inviteCode_b .inviteCode_b_content .dd_icon {
+    float: left;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #2cb7c9;
+    border-radius: 3px;
+    margin-right: 8px;
+    margin-top: 4px;
+}
+
+.inviteCode .inviteCode_b .inviteCode_b_content .dd_text {
+    display: block;
+    float: left;
+    width: 930px;
+    font-size: 16px;
+}
+
+.inviteCode .inviteCode_b .inviteCode_b_content dd {
+    margin-bottom: 20px;
+}
+.inviteCode .inviteCode_b .inviteCode_b_content .why {
+    position: relative;
+    margin-top: 55px;
+}
+
+.inviteCode .inviteCode_b .where {
+    position: relative;
+    margin-top: 40px;
+}
+.inviteCode .inviteCode_b .inviteCode_b_content .weChat_box{
+    position: absolute;
+    right: 30px;
+    top: 118px;
+    width: 84px;
+}
+.inviteCode .inviteCode_b .inviteCode_b_content .weChat_box span{
+    display: block;
+    color: #9b9b9b;
+    margin-top: 5px;
+}
+.inviteCode .inviteCode_b .inviteCode_b_content .why_icon {
+    position: absolute;
+    right: 161px;
+    top: -20px;
+}
+.inviteCode .inviteCode_b .inviteCode_b_content .where_icon {
+    position: absolute;
+    left: 116px;
+    top: -26px;
+}

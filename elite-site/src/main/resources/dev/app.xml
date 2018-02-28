@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:lang="http://www.springframework.org/schema/lang"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:cache="http://www.springframework.org/schema/cache"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd
+	http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.2.xsd
+	http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-4.2.xsd
+	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
+	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
+	http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.2.xsd
+	http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache-4.2.xsd">
+	
+	<aop:aspectj-autoproxy proxy-target-class="true" />
+	<context:component-scan base-package="com.ledao.elite" />
+	<context:annotation-config />
+	<!-- 支持异步方法执行 -->
+	<task:annotation-driven />
+
+	<bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+		   <list>
+		      <value>classpath:/profile/dataSource.properties</value>
+		      <value>classpath:/profile/xmlRes.properties</value>
+		   </list>
+		</property>
+	</bean>
+ 
+	<import resource="classpath:/app-db.xml"/>
+	<import resource="classpath:/app-email.xml"/>
+	<import resource="classpath:/app-shiro.xml"/>
+	<import resource="classpath:/app-redis.xml"/>
+	
+	<!-- 用户认证信息 -->
+	<bean id="principal" class="com.ledao.elite.site.shiro.Principal"
+		scope="session">
+		<aop:scoped-proxy />
+	</bean>
+	<bean id="coreUserContainer" class="java.util.concurrent.ConcurrentHashMap"/>
+	<bean id="coreUserLastRefreshContainer" class="java.util.concurrent.ConcurrentHashMap"/>
+</beans>
+

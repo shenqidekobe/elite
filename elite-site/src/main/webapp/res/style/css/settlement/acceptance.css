@@ -1,0 +1,491 @@
+/*楠屾敹椤甸潰*/
+.bd-acceptance{
+    min-width: 1200px;
+    margin: 0 auto;
+}
+.bd-acceptance-title{
+    width: 100%;
+    height: 80px;
+}
+.bd-acceptance-title h1 {
+     line-height: 80px;
+     margin-left: 100px;
+ }
+.bd-acceptance-title h1 span {
+  color: #2cb7c9;
+}
+.bd-acceptance-content{
+    width: 1200px;
+    margin: 0 auto;
+    min-height: 1000px;
+    background: #FAFAFA;
+}
+
+/*杩涘害*/
+.bac-progress-box {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.finish{
+    color: #fff;
+    background: #7dd2e1;
+}
+.unfinish{
+    color: #fff;
+    background: #ccc;
+}
+
+
+.bac-progress{
+    width: 630px;
+    height: 72px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bac-progress .progress-one{
+    height: 72px;
+    width: 97px;
+    text-align: center;
+    float: left;
+    margin-right: 206px;
+}
+
+.bac-progress .progress-two{
+    height: 72px;
+    width: 40px;
+    text-align: center;
+    float: left;
+    margin-right: 206px;
+}
+.bac-progress .progress-three{
+    height: 72px;
+    width: 81px;
+    text-align: center;
+    float: left;
+}
+
+.bac-progress .ball{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 22px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 auto;
+}
+
+.line-finish {
+    width: 200px;
+    border-bottom: 2px solid #95d6e2;
+    position: absolute;
+    top: 20px;
+    left: 79px;
+}
+
+.line-unfinish {
+    width: 200px;
+    border-bottom: 2px solid #d9d9d9;
+    position: absolute;
+    top: 20px;
+    left: 355px;
+}
+/*bac-details*/
+.bac-details{
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 240px;
+}
+.details-text {
+    height: 177px;
+}
+.details-text-a {
+    height: 40px;
+    background: #ebebeb;
+    line-height: 40px;
+    position: relative;
+}
+.dta-line{
+    height: 29px;
+    border: 1px solid #d9d9d9;
+    position: absolute;
+    top: 4px;
+    left: 209px;
+}
+
+.details-text-b .dtb-l {
+    width: 474px;
+    float: left;
+    height: 136px;
+    background: #f5f5f5;
+}
+
+.details-text-b .dtb-c {
+    width: 222px;
+    float: left;
+    height: 136px;
+    background: #f5f5f5;
+}
+.details-text-b .dtb-r {
+    width: 300px;
+    float: left;
+    height: 136px;
+    background: #F5FBFC;
+}
+
+.dtb-l-logo {
+    width: 95px;
+    height: 95px;
+    background: #ee7068;
+    float: left;
+    font-size: 40px;
+    line-height: 95px;
+    text-align: center;
+    color: #fff;
+   margin: 20px;
+}
+.dtb-l-text .text-box{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.details-text-b {
+    position: relative;
+}
+.dtb-line {
+    height: 134px;
+    border: 1px solid #e6e6e6;
+    position: absolute;
+    left: 489px;
+}
+.dtb-c-content {
+    margin-top: 40px;
+    margin-left: 38px;
+}
+
+.dtb-c-content .head-logo2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.dtb-r-a {
+    font-size: 16px;
+    color: #2cb7c9;
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.dtb-r-b {
+    font-size: 14px;
+    color: #4A90E2;
+    display: block;
+    text-align: center;
+}
+.details-money {
+    width: 212px;
+    height: 28px;
+    line-height: 28px;
+    float: right;
+    margin-top: 30px;
+}
+
+
+/*bac-pay*/
+.bac-pay {
+	position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    height: 250px;
+    padding-top: 40px;
+}
+.bac-pay  .bac-pay-content {
+    width: 998px;
+    height: 178px;
+    border: 1px solid #a67d7d;
+    border-radius: 6px;
+    background: #f5fbfc;
+}
+
+.bac-pay .errortip {
+    position: absolute;
+    bottom: -50px;
+    width: 400px;
+    height: 60px;
+    border: 1px solid #dd5b56;
+    line-height: 60px;
+    text-align: center;
+    background: #f4d7d6;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-size: 18px;
+}
+
+.bac-pay .errortip .error_icon{
+    position: absolute;
+    top: 14px;
+    left: 32px;
+    display: block;
+    width: 32px;
+    height: 29px;
+    background: url("/res/images/error/error_icon.png") no-repeat;
+}
+
+.bac-pay .errortip .error_text{
+    position: absolute;
+    top: 0px;
+    left: 88px;
+    color: #dd5b56;
+}
+
+
+.bac-pay .bac-pay-confirm {
+    width: 140px;
+    height: 40px;
+    border-radius: 41px;
+    background: #fea600;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.bac-pay .bac-pay-content p {
+    font-size: 20px;
+    color: #fea600;
+    margin-top: 22px;
+    margin-left: 50px;
+}
+
+.bac-pay .bac-pay-content div{
+    height: 50px;
+    line-height: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.bac-pay .bac-pay-content div input{
+    padding-left: 20px;
+    font-size: 14px;
+    color: #9b9b9b;
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid #E6E6E6;
+    width: 278px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*楠屾敹纭寮圭獥*/
+
+.bac-window{
+    position: fixed;
+    overflow-x: hidden;
+    top: 0px;
+    left:0px;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    background: url("../../../images/ceo/layer_bg.png");
+}
+.bac-window .window-box{
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 50%;
+    margin-top: -140px;
+}
+
+.bac-window .window-box{
+    width: 600px;
+    height: 280px;
+    background: #F5FBFC;
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.18);
+    border-radius: 20px;
+}
+.window-box .window-a{
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+}
+.window-a .window-icon{
+    width: 50px;
+    height: 48px;
+    background: url("../../../images/ceo/window-icon.png");
+    display: block;
+    margin-right: 30px;
+    float: left;
+    margin-left: 40px;
+}
+.window-a .window-text{
+    display: block;
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    font-size: 20px;
+    color: #2CB7C9;
+}
+.window-box .window-b {
+    height: 19px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.window-box .window-c {
+    height: 40px;
+    margin-top: 40px;
+}
+.window-c .hosting-btn {
+    width: 200px;
+    height: 40px;
+    border-radius: 72px;
+    background: #fea600;
+    display: block;
+    line-height: 40PX;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    float: left;
+    margin-left: 131px;
+}
+
+.window-c .evaluation-btn {
+    width: 140px;
+    height: 40px;
+    border-radius: 72px;
+    background: #fea600;
+    display: block;
+    line-height: 40PX;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    float: left;
+    margin-left: 30px;
+}
+
+.window-box .window-close{
+    width: 30px;
+    height: 30px;
+    background: url("../../../images/ceo/window-close.png");
+    position: absolute;
+    right:15px;
+    top: 17px;
+    cursor: pointer;
+}
+
+
+
+
+/*浠诲姟鍘婚獙鏀堕〉闈�*/
+.task_acceptance_title {
+    height: 86px;
+    line-height: 86px;
+    background: #fff;
+    padding-left: 100px;
+    padding-top: 120px;
+}
+.paddinglr5{
+    padding: 0 5px;
+}
+.bd-acceptance {
+    min-width: 1200px;
+    margin: 0 auto;
+}
+.bd-acceptance-content{
+    min-width: 1000px;
+    margin: 0 auto;
+}
+.task_acceptance_progress {
+    position: relative;
+    width: 727px;
+    height: 83px;
+    margin: 0 auto;
+}
+.progress_ball{
+    position: absolute;
+    top: 0px;
+    z-index: 50;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background-color: #BFBFBF;
+    color:#fff;
+    font-size: 22px;
+}
+.progress_ball img {
+    margin-top: 12px;
+}
+.progress-text {
+    position: absolute;
+    top: 64px;
+    font-size: 16px;
+
+}
+.progress-line {
+    position: absolute;
+    top: 20px;
+    left: 46px;
+    width: 80px;
+    border-bottom: 2px solid #d9d9d9;
+}
+.active-process{
+    background: #2cb7c9;
+}
+.active-title{
+    color:#2CB7C9;
+}
+.finish-line {
+    border-color: #2cb7c9;
+}
+.backButton {
+    width: 140px;
+    height: 40px;
+    border-radius: 72px;
+    background: #fea600;
+    display: block;
+    line-height: 40PX;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    float: left;
+}
+.window-c-text{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.backButton:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*寮圭獥*/
+.bac-window{
+    position: fixed;
+    overflow-x: hidden;
+    top: 0px;
+    left: 0px;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    background: url("../../../images/ceo/layer_bg.png");

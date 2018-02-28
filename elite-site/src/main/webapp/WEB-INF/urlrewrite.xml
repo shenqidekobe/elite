@@ -1,0 +1,9 @@
+<urlrewrite>
+   <rule enabled="false">
+	  <name>yunyinghui redirect</name>
+	  <condition name="host" operator="notequal">^www.yunyinghui.com</condition>
+	  <condition name="host" operator="notequal">^127.0.0.1</condition>
+	  <from>^/(.*)</from>
+	  <to type="permanent-redirect" last="true">https://www.yunyinghui.com/$1</to>
+   </rule>
+</urlrewrite> 

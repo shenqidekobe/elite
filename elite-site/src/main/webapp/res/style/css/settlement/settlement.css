@@ -1,0 +1,403 @@
+/*公共元素*/
+.clearfloat:after{
+    display:block;
+    clear:both;
+    content:"";
+    visibility:hidden;
+    height:0
+}
+.clearfloat{
+    zoom:1
+}
+
+#settlementListForm .s-a .hosting-box {
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    width: 200px;
+    height: 92px;
+}
+
+#settlementListForm #hosting-box-p1 {
+    margin-top: 18px;
+}
+
+#settlementListForm .s-a .hosting-box .hosting-box-p1 {
+    font-size: 12px;
+    color: #9b9b9b;
+    padding-bottom: 5px;
+}
+#settlementListForm .s-a .hosting-box .hosting-box-p2 {
+    font-size: 16px;
+    color: #4a4a4a;
+    padding-bottom: 5px;
+}
+#settlementListForm .hosting-box-p3 {
+    font-size: 12px;
+    color: #9b9b9b;
+    padding-bottom: 5px;
+}
+#settlementListForm .hosting-box-p4 {
+    font-size: 16px;
+    color: #4a4a4a;
+}
+#settlementListForm .s-a .account-box {
+    position: absolute;
+    top: 30px;
+    left: 242px;
+    width: 232px;
+    height: 42px;
+}
+
+
+/*结算记录h1文字*/
+.s-b h1 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+.s-a .hosting-box .hosting-box-p1 {
+    font-size: 12px;
+    color: #9b9b9b;
+    padding-bottom: 10px;
+}
+
+.s-a .hosting-box .hosting-box-p2 {
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+.s-a .account-box .account-box-p1 {
+    font-size: 14px;
+    color: #9B9B9B;
+}
+.s-a .account-box .account-box-p2 {
+    font-size: 16px;
+    color: #4a4a4a;
+}
+.hosting-box-p3 {
+    font-size: 12px;
+    color: #9b9b9b;
+    padding-bottom: 5px;
+}
+
+.hosting-box-p4 {
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+
+/*光标文字去底*/
+.reflect-btn:hover {
+    text-decoration: none;
+}
+
+.trigger {
+    display: inline-block;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    border-style: solid;
+    margin-left: 4px;
+    margin-right: 4px;
+    position: relative;
+    top: 0;
+    border-width: 6px 6px 0;
+    border-color: #4a4a4a transparent transparent;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.color9b{
+    color: #9B9B9B;
+}
+.color00{
+    color: #000;
+}
+.color4a{
+    color: #4a4a4a;
+}
+.font-size12{
+    font-size: 12px;
+}
+.font-size14{
+    font-size: 14px;
+}
+.font-size16{
+    font-size: 16px;
+}
+
+.padding-bottom5{
+    padding-bottom: 5px;
+}
+.padding-bottom9{
+    padding-bottom: 9px;
+}
+.padding-bottom10{
+    padding-bottom: 10px;
+}
+
+.bgf5{
+    background: #F5FBFC;
+}
+.bgff{
+      background: #fff;
+}
+.bgee{
+    background: #ee706b;
+}
+.bg3f{
+    background: #3f6695;
+}
+.bg66{
+    background: #66c89c;
+}
+
+/*主体元素*/
+.settlement-box{
+    width: 730px;
+    font-size: 12px;
+}
+
+/*s-a部分*/
+.s-a{
+    width: 728px;
+    height: 118px;
+    background: #F5FBFC;
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
+    position: relative;
+    background: #F5FBFC;
+    margin-bottom: 39px;
+
+}
+
+.s-a .hosting-box {
+    position: absolute;
+    top: 38px;
+    left: 20px;
+    width: 200px;
+    height: 92px;
+}
+.s-a .hosting-box .hosting-box-p1 .text1 {
+    font-size: 14px;
+    padding-right: 10px;
+}
+.s-a .hosting-box .hosting-box-p1 .text2 {
+    font-size: 12px;
+}
+.s-a .account-box .account-box-p1 .text1 {
+    font-size: 14px;
+    padding-right: 10px;
+}
+.s-a .account-box .account-box-p1 .text2 {
+    font-size: 12px;
+}
+.s-a .account-box {
+    position: absolute;
+    top: 38px;
+    left: 242px;
+    width: 232px;
+    height: 42px;
+}
+.s-a .line-r{
+    height: 80px;
+    border-right: 1px solid #d9d9d9;
+    position: absolute;
+    top: 20px;
+    left: 220px;
+}
+
+.s-a  .reflect-btn,.top-up{
+    width: 80px;
+    height: 36px;
+    display: block;
+    border-radius: 50px;
+    background: #FEA600;
+    font-size: 16px;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+}
+
+.s-a .reflect-btn {
+    position: absolute;
+    top: 42px;
+    right: 140px;
+}
+.s-a .top-up {
+    margin-top: 42px;
+    margin-left: 30px;
+}
+
+/*s-b-content*/
+
+.se-line {
+    width: 730px;
+    height: 60px;
+}
+
+.s-b .s-b-content {
+    padding-top: 20px;
+}
+
+.s-b  .select-btn {
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    right: -20px;
+    top: 8px;
+    cursor: pointer;
+}
+.s-b .title-select-a {
+    position: relative;
+}
+
+.s-b .line-bottom {
+    border-bottom: 1px solid #e6e6e6;
+    padding-top: 10px;
+}
+
+.s-b    .s-b-title {
+    padding-top: 10px;
+}
+
+.s-b  .title-title{
+    font-size: 12px;
+    color: #2CB7C9;
+    letter-spacing: 0.08px;
+    float: left;
+    margin-right: 58px;
+}
+
+.s-b   .title-record li{
+    font-size: 12px;
+    letter-spacing: 0.08px;
+    float: left;
+    width: 69px;
+    height: 19px;
+    border-right: 1px solid #2CB7C9;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+}
+.s-b  .title-select {
+    float: right;
+}
+.s-b .title-select-a span:nth-child(1){
+    font-size: 14px;
+    color: #9b9b9b;
+}
+.s-b  .title-select-a input{
+    width: 131px;
+    height: 38px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #4a4a4a;
+    line-height: 38px;
+    padding-left: 29px;
+    cursor: pointer;
+}
+
+.s-b  .sb h1{
+    font-family: FZLTXHK--GBK1-0;
+    font-size: 14px;
+    color: #4A4A4A;
+    letter-spacing: 0.1px;
+}
+
+.s-b   .line-content{
+    width: 709px;
+    height: 40px;
+    padding: 10px;
+}
+
+.s-b   .line-logo{
+    width: 40px;
+    height: 40px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    margin-right: 10px;
+}
+.s-b  .line-time{
+    width: 140px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    font-size: 12px;
+    color: #9B9B9B;
+}
+.s-b  .line-time span{
+    padding: 0 2px;
+}
+.s-b .line-title{
+    width: 180px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    font-size: 12px;
+    color: #4a4a4a;
+    margin-right: 90px;
+}
+.s-b .line-money{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #FEA600;
+    float: left;
+}
+.s-b  .line-state{
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    font-size: 12px;
+    color: #9b9b9b;
+    margin-left: 65px;
+}
+.s-b  .line-details{
+    display: block;
+    width: 30px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    float: right;
+    color: #4a90e2;
+}
+
+/*ѡ����ʽ*/
+#procUl {
+    position: absolute;
+    left: 105px;
+    top: 38px;
+    z-index: 80;
+}
+#procUl ul li{
+	width: 130px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #f5fbfc;
+    cursor: pointer;
+}
+#procUl ul li:hover{
+	background: #2cb7c9;
+	color:#fff;
+}

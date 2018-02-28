@@ -1,0 +1,447 @@
+
+        #eliteExperience_process .process-box{
+            width:1000px;
+            margin:0 auto;
+            position: relative;
+        }
+
+        #eliteExperience_content{
+            width:1000px;
+            margin:0 auto;
+            min-height:250px;
+            padding-bottom: 60px;
+        }
+       
+     
+        #eliteExperience_content .complete-circle{
+            width:100px;
+            height:100px;
+            border:1px solid red;
+            margin-left:200px;
+            margin-top:20px;
+            float:left;
+        }
+
+
+        #eliteExperience_content .complete-tips{
+            margin-top:30px;
+            height:140px;
+        }
+
+        #eliteExperience_content .complete-theme{
+            margin-left:50px;
+            padding-top:40px;
+            float:left;
+        }
+
+        #eliteExperience_content .tips{
+            float:left;
+            margin-left:20px;
+        }
+
+        #eliteExperience_content .tips img{
+            width:20px;
+            height:20px;
+        }
+
+        #eliteExperience_content .tips p{
+            font-size: 12px;
+            color:#9B9B9B;
+        }
+
+        #eliteExperience_content .split-line{
+            height:140px;
+            border-left:1px solid #E6E6E6;
+            float:left;
+            margin-left:40px;
+        }
+
+        #eliteExperience_content .form-person{
+            display: block;
+            padding-top:30px;
+        }
+
+        #eliteExperience_content .form-tip{
+            font-size: 12px;
+            color:#FEA600;
+            padding-left:66px;
+        }
+
+        #eliteExperience_content .required{
+            color:#FEA600!important;
+        }
+
+        #eliteExperience_content .date-select{
+            display: block;
+            width:152px;
+            position: relative;
+            float:left;
+        }
+
+        #eliteExperience_content .date-icon{
+            width:20px;
+            height:20px;
+            position: absolute;
+            top:7px;
+            right:16px;
+            z-index: 100;
+        }
+
+
+        #eliteExperience_content .form-opt{
+            margin-top:50px;
+            padding-left:224px;
+        }
+
+        #eliteExperience_content .btn-ok{
+            width:186px;
+            height:50px;
+            background-color: #FEA600;
+            border:none;
+            border-radius: 32px;
+            color:white;
+            vertical-align: bottom;
+            margin-right:20px;
+        }
+
+     
+
+        #eliteExperience_content .label-tip{
+            font-size: 12px;
+            color:#9B9B9B;
+        }
+
+        #eliteExperience_content .belong-class{
+            width:538px;
+            background-color: #FAFAFA;
+            border-radius: 4px;
+        }
+
+        #eliteExperience_content .select-box{
+            padding:10px;
+        }
+
+        #eliteExperience_content .select-box button{
+            width:80px;
+            border:1px solid #CCCCCC;
+            background-color: transparent;
+            border-radius: 4px;
+            font-size: 14px;
+            margin:7px 10px;
+        }
+
+        #eliteExperience_content .active-btn{
+            background-color: #7DD2E1!important;
+            border:1px solid #7DD2E1!important;
+            color:white;
+        }
+
+        #eliteExperience_content .add-tr{
+            line-height: 30px;
+            font-size: 14px;
+            margin-top:10px;
+        }
+
+        #eliteExperience_content .add-tr img{
+            width:24px;
+            height:24px;
+            cursor: pointer;
+        }
+
+        #eliteExperience_content .append-tr-new{
+        	position: relative;
+            width:100%;
+            height:48px;
+            line-height: 48px;
+            border:1px solid #2cb7c9;
+            border-radius: 8px;
+            font-size: 14px;
+            padding:0 12px;
+            margin-top:5px;
+        }
+
+        #eliteExperience_content .work-period{
+            color:#9B9B9B;
+            float: right;
+        }
+
+        #eliteExperience_content .opt-icon{
+            width:20px;
+            height:20px;
+            margin-right:15px;
+        }
+
+        #eliteExperience_content .upload-button button{
+            margin:0px 20px 0px 0px;
+        }
+        #eliteExperience_content .upload-file{
+            padding:5px 36px;
+            background-color: #7DD2E1;
+            border:none;
+            border-radius: 6px;
+            height:50px;
+            min-width: 240px;
+            color:white;
+            cursor: default;
+            font-size: 14px;
+        }
+
+        #eliteExperience_content #resumeAtta_show .delete-cross {
+		    display: block;
+		    position: absolute;
+		    right: 0;
+		    top: -15px;
+		    width: 26px;
+		    height: 26px;
+		    cursor: pointer;
+		}
+       
+        #eliteExperience_content .oper-new {
+		    position: absolute;
+		    right: -105px;
+		    top: -11px;
+		    width: 80px;
+		}
+
+       #eliteExperience_content .upload-resume {
+		    width: 100%;
+		    height: 48px;
+		    line-height: 48px;
+		    background-color: #f0eeec;
+		    border: none;
+		    border-radius: 8px;
+		    text-align: center;
+		    cursor: pointer;
+		    font-size: 14px;
+		    color: #4A4A4A;
+		    margin-bottom: 20px;
+		}
+
+        #eliteExperience_content .form-person .form-group{
+            margin-bottom: 30px;
+        }
+
+        #eliteExperience_content .modal-body{
+            background-image:url('${_PATH}/res/images/pic_shadow3.png');
+        }
+        #eliteExperience_content .close-icon{
+            width:24px;
+            height:24px;
+            float:right;
+            margin-top:6px;
+            margin-right:6px;
+            cursor: pointer;
+        }
+
+        #eliteExperience_content .my-form label{
+            color:white;
+        }
+
+        #eliteExperience_content .error-tip{
+            text-align: center;
+            height:24px;
+            color:red;
+        }
+
+        #eliteExperience_content .modal-opt{
+            margin-top:10px;
+            padding-left:202px;
+        }
+
+        #eliteExperience_content .opt-btn-ok{
+            width:100px;
+            height:34px;
+            background-color: #FEA600;
+            border:1px solid #FEA600;
+            border-radius: 20px;
+            color:white;
+        }
+
+        #eliteExperience_content .opt-btn-cancel{
+            width:100px;
+            height:34px;
+            background-color: transparent;
+            border:1px solid #CCCCCC;
+            border-radius: 20px;
+            color:white;
+            margin-left:120px;
+        }
+
+        #eliteExperience_content .birth-box{
+            position: relative;
+        }
+
+        #eliteExperience_content .year-select{
+            position: absolute;
+            top:33px;
+            left:0px;
+            z-index: 100;
+            border:1px solid #2CB7C9;
+
+        }
+
+        #eliteExperience_content .year-select{
+            display: none;
+            height:266px;
+            overflow: auto;
+        }
+
+        #eliteExperience_content .year-select li{
+            padding:0 16px;
+            background-color: white;
+
+        }
+
+        #eliteExperience_content .year-select li:hover{
+            background-color: #2CB7C9;
+            color:white;
+            cursor: pointer;
+        }
+        #eliteExperience_content .birth-year{
+            position: absolute;
+            top:7px;
+            left:16px;
+        }
+
+        #eliteExperience_content .birth-month{
+            position: absolute;
+            top:7px;
+            left:37px;
+        }
+
+        #eliteExperience_content .triangle{
+            position: absolute;
+            bottom: 6px;
+            left:58px;
+            cursor: pointer;
+        }
+        #eliteExperience_content .trigger{
+            display: inline-block;
+            height: 0;
+            width: 0;
+            overflow: hidden;
+            border-style: solid;
+            margin-left: 4px;
+            margin-right: 4px;
+            position: relative;
+            top:0;
+            border-width:6px 6px 0;
+            border-color:#D8D8D8 transparent transparent;
+            -webkit-transition:all .4s ease 0s;
+            -moz-transition:all .4s ease 0s;
+            -o-transition:all .4s ease 0s;
+            transition:all .4s ease 0s;
+        }
+
+        #eliteExperience_content .trigger-inverse{
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+            animation-fill-mode: forwards;
+        }
+
+        #eliteExperience_content .form-label{
+            float:left;
+            line-height: 36px;
+            margin-right:10px;
+            color:white;
+        }
+
+        #eliteExperience_content .error-tip{
+            width:100%;
+            height:24px;
+            line-height: 24px;
+            padding-left:24px;
+            color:red;
+            text-align: left;
+        }
+
+        #eliteExperience_content .error-sign{
+            border-color:red;
+        }
+        
+        #eliteExperience_content .form-opt{
+		    position: relative;
+		    margin-top: 100px;
+		    padding-left: 224px;
+		}
+		
+		#eliteExperience_content .error-tip{
+		    position: absolute;
+		    top: -26px;
+		    left: 192px;
+		    width: 100%;
+		    height: 24px;
+		    line-height: 24px;
+		    padding-left: 24px;
+		    color: red;
+		    text-align: left;
+		}
+		
+		/*项目经历弹窗*/
+		#eliteExperience_window #addProjectForm .group_div{
+		    height: 50px;
+		}
+		#eliteExperience_window #addProjectForm label{
+		    color: #fff;
+		    font-weight: 400;
+		    height: 50px;
+		    line-height: 50px;
+		    padding: 0!important;
+		}
+		#eliteExperience_window .form-control{
+			display: block;
+		    width:357px;
+		    height: 50px;
+		    padding:0!important;
+		    font-size: 14px;
+		    line-height:50px!important;
+		    color: #555;
+		    background-color: #fff;
+		    background-image: none;
+		    border: 1px solid #ccc;
+		    border-radius:8px;
+		}
+		#eliteExperience_window #addProjectForm .time_div{
+		    position: relative;
+		}
+		#eliteExperience_window #addProjectForm .date-select{
+			position: absolute;
+    		z-index: 9999;
+		    width: 160px;
+		    height: 50px;
+		}
+		#eliteExperience_window #addProjectForm .select1{
+			left:16px;
+		}
+		#eliteExperience_window #addProjectForm .select2{
+			left: 215px;
+		}
+		#eliteExperience_window #addProjectForm .time_line {
+		    position: absolute;
+		    left: 186px;
+		    top: 24px;
+		    display: block;
+		    width: 20px;
+		    border: 1px solid #fff;
+		}
+		#eliteExperience_window #addProjectForm .textarea{
+		    width: 363px;
+		    height: 175px;
+		    border-radius: 6px;
+		    -webkit-border-radius: 6px;
+		    -moz-border-radius: 6px;
+		    -o-border-radius: 6px;
+		}
+		#eliteExperience_window #addProjectForm .modal-opt{
+			position: relative;
+		    margin-top: 30px;
+		    padding-left: 154px;
+		}
+		#eliteExperience_window #addProjectForm .modal-opt .error-tip{
+		    position: absolute;
+		    height: 24px;
+		    color: red;
+		    top: -24px;
+		}

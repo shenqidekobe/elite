@@ -1,0 +1,651 @@
+		#task_assign .release-list{
+            width:100%;
+            height:178px;
+            border:1px solid #E6E6E6;
+            border-radius: 5px;
+            margin-top:20px;
+        }
+
+        #task_assign .part1{
+            width:100%;
+            height:40px;
+            line-height: 40px;
+            background-color: #F2F2F2;
+            border-bottom: 1px solid #E6E6E6;
+            text-align: center;
+            font-size: 14px;
+            color:#9B9B9B;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+       #task_assign .opt-icon{
+            width:50px;
+            height:20px;
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        #task_assign .vertical-line{
+            height:28px;
+            border-right:1px solid #E6E6E6;
+            position: absolute;
+            top:5px;
+            left:240px;
+        }
+
+        #task_assign .project-detail{
+            width:100%;
+            height:136px;
+            background-color: #FAFAFA;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        #task_assign .main-info{
+            float:left;
+            width:54%;
+            height:136px;
+            border-right: 1px solid #E6E6E6;
+        }
+
+        #task_assign .project-logo{
+            width:95px;
+            height:95px;
+            line-height: 105px;
+            text-align: center;
+            background-color: #F29D70;
+            color:white;
+            font-size: 58px;
+            float:left;
+        }
+
+        #task_assign .project-info{
+            float:left;
+            margin-left:20px;
+        }
+        #task_assign .project-name{
+            margin-bottom: 10px;
+        }
+        #task_assign .index{
+            font-size: 12px;
+            color:#9B9B9B;
+        }
+
+        #task_assign .value{
+            font-size: 12px;
+        }
+
+        #task_assign .status{
+            float:left;
+            width:22%;
+            height:136px;
+            border-right: 1px solid #E6E6E6;
+            font-size: 12px;
+            color:#9B9B9B;
+            text-align: center;
+        }
+
+        #task_assign .opt{
+            float:left;
+            width:24%;
+            height:135px;
+            background-color: #F5FBFC;
+        }
+
+        #task_assign .current-status{
+            font-size: 14px;
+        }
+
+        #task_assign .opt-btn{
+            width:100px;
+            height:26px;
+            background-color: #FEA600;
+            border:1px solid #FEA600;
+            border-radius: 14px;
+            color:white;
+            font-size: 14px;
+        }
+
+        #task_assign .recommend-btn{
+            width:100px;
+            height:26px;
+            background-color: transparent;
+            border:1px solid #FEA600;
+            border-radius: 14px;
+            color:#FEA600;
+            font-size: 14px;
+        }
+
+        #task_assign .sign{
+            font-size: 12px;
+            color:#9B9B9B;
+            cursor: pointer;
+        }
+
+        #task_assign .view-times{
+            font-size: 12px;
+            color:#9B9B9B;
+            text-align: left;
+            padding-left:26px;
+        }
+        #task_assign .head-logo{
+        	float:left;
+            width: 30px;
+            height: 30px;
+            background:url("/res/images/test.jpg") no-repeat;
+            background-size: cover!important;
+            -webkit-background-size: cover!important;
+            -moz-background-size: cover!important;
+            -o-background-size: cover!important;
+    		background-position: center!important;
+            border: 1px solid #979797;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px; 
+            cursor: pointer;
+        }
+        
+        #task_assign .imgBox{
+		    padding-top: 20px;
+		    display: inline-block;
+		    text-align: center;
+		}
+        
+         #task_assign .head-logo2{
+        	float:left;
+            width: 30px;
+            height: 30px;
+            background:url("/res/images/test.jpg") no-repeat;
+            background-size: cover!important;
+            -webkit-background-size: cover!important;
+            -moz-background-size: cover!important;
+            -o-background-size: cover!important;
+    		background-position: center!important;
+            border: 1px solid #979797;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px; 
+            margin-left: -8px;
+        }
+
+        #task_assign .release-btn{
+            width:300px;
+            height:50px;
+            border:1px solid #95D6E2;
+            border-radius: 26px;
+            background-color: transparent;
+            color:#95D6E2;
+        }
+
+        #task_assign .close-icon{
+            width:24px;
+            height:24px;
+            float:right;
+            margin-top:6px;
+            margin-right:6px;
+            cursor: pointer;
+        }
+
+        #task_assign .required{
+            color:#FEA600!important;
+        }
+       #task_assign .error-tip {
+		    position: absolute;
+		    top: -24px;
+		    height: 24px;
+		    color: red;
+		}
+        #task_assign .form-triangle{
+            position: absolute;
+            bottom: 7px;
+            right:20px;
+            cursor: pointer;
+        }
+        #task_assign .form-trigger {
+            display: inline-block;
+            height: 0;
+            width: 0;
+            overflow: hidden;
+            border-style: solid;
+            margin-left: 4px;
+            margin-right: 4px;
+            position: relative;
+            top:0;
+            border-width:6px 6px 0;
+            border-color:#000 transparent transparent;
+            -webkit-transition:all .4s ease 0s;
+            -moz-transition:all .4s ease 0s;
+            -o-transition:all .4s ease 0s;
+            transition:all .4s ease 0s;
+        }
+
+        #task_assign .trigger-inverse{
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+            animation-fill-mode: forwards;
+        }
+
+        #task_assign .modal-select{
+            position: relative;
+            width:220px;
+            height:34px;
+            float:left;
+            padding-left:18px;
+        }
+
+        #task_assign .date-icon{
+        	position: absolute;
+            top: 7px;
+            right: 16px;
+            z-index: 11000;
+            width: 20px;
+            height: 20px;
+            
+        }
+        
+        #task_assign #endTime_div .date-icon{
+        	position: absolute;
+            top: 7px;
+            right: 34px;
+            z-index: 11000;
+            width: 20px;
+            height: 20px; 
+        }
+
+        #task_assign .date-link{
+            float:left;
+            line-height: 34px;
+            margin-left:36px;
+        }
+
+        #task_assign .money-unit{
+            position: absolute;
+            right:0;
+            top:6px;
+        }
+        
+        #task_assign #endTime_div .money-unit{
+            position: absolute;
+            right:20px;
+            top:6px;
+        }
+
+        #task_assign .logo-box{
+            position: absolute;
+            top:34px;
+            right:80px;
+        }
+
+       #task_assign .word-logo{
+            width:80px;
+            height:80px;
+            line-height: 80px;
+            text-align: center;
+            background-color: #F29D70;
+            color:white;
+            font-size: 36px;
+            cursor: pointer;
+        }
+
+        #task_assign .upload-tip{
+            text-align: center;
+            font-size: 12px;
+            color:#9B9B9B;
+            margin-top:10px;
+        }
+
+        #task_assign .upload-btn{
+            float:left;
+            width: 140px;
+            height: 40px;
+            border: none;
+            border-radius: 6px;
+            background-color: #F0EEEC;
+            color: #9B9B9B;
+            margin-left:20px;
+            margin-bottom: 10px;
+        }
+
+       #task_assign .modal-opt{
+        	position: relative;
+            padding-left:20px;
+            margin-top:10px;
+        }
+
+       #task_assign .modal-opt-btn{
+            width:120px;
+            height:40px;
+            background-color: #FEA600;
+            border:none;
+            border-radius: 20px;
+            font-size: 18px;
+            color:white;
+            margin-right:30px;
+        }
+        
+        #task_assign #publicBtn{
+            width:180px;
+            height:40px;
+            background-color: #FEA600;
+            border:none;
+            border-radius: 20px;
+            font-size: 18px;
+            color:white;
+            margin-right:30px;
+        }
+
+        #task_assign .cancel-btn{
+            width:120px;
+            height:40px;
+            border:1px solid #CCCCCC;
+            border-radius: 20px;
+            background-color: transparent;
+            font-size: 18px;
+            color:#CCCCCC;
+        }
+
+        #task_assign .tabs{
+            width:100%;
+            height:40px;
+            text-align: center;
+            font-size: 18px;
+            border-bottom: 1px solid #B3B3B3;
+        }
+        #task_assign .active-tab{
+            color:#FEA600;
+        }
+        #task_assign .active-line{
+            width:213px;
+            border-bottom: 3px solid #FEA600;
+            position: absolute;
+            left:0;
+            bottom: 0;
+        }
+
+        #task_assign .tab{
+            width:32%;
+            float:left;
+        }
+
+        #task_assign .team-box{
+            float:left;
+            width:330px;
+            height:425px;
+            border:1px solid #CCCCCC;
+            border-radius: 6px;
+            background-color: white;
+            padding:20px 10px 20px 20px;
+            font-size: 12px;
+        }
+
+        #task_assign .trigger-icon{
+            width:7px;
+            height:12px;
+            vertical-align: text-top;
+            cursor: pointer;
+        }
+
+        #task_assign .trigger-icon-inverse{
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+            animation-fill-mode: forwards;
+        }
+
+        #task_assign .person-box{
+            width:294px;
+            height:47px;
+            border-radius: 6px;
+            border:none;
+            float:right;
+        }
+
+        #task_assign .modal-head{
+            width: 30px;
+            height: 30px;
+            background:url("/res/images/test.jpg") no-repeat;
+            background-size: 30px 30px;
+            border: 1px solid #979797;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            margin:9px;
+            float:left;
+        }
+
+        #task_assign .name-title{
+            float:left;
+            width:90px;
+            height:34px;
+            margin-top:6px;
+        }
+        #task_assign .phone-task{
+            float:left;
+            width:114px;
+            height:34px;
+            margin-top:6px;
+        }
+
+        #task_assign .opt-person{
+            width:16px;
+            height:16px;
+            margin:16px 12px;
+            cursor: pointer;
+            display: none;
+        }
+
+        #task_assign .person-box:hover{
+            background-color: #EBEBEB;
+        }
+
+        #task_assign .person-box:hover .opt-person{
+            display: block;
+        }
+
+        #task_assign .search-box{
+            width:100%;
+            background-color: #F5F5F5;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            color:#9B9B9B;
+        }
+
+        #task_assign .phone-email-input{
+            width:80%;
+            border:none;
+            background-color: #F5F5F5;
+            height:40px;
+            display: inline-block;
+            padding:20px;
+        }
+
+        #task_assign .search-person{
+            width:21px;
+            height:20px;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        #task_assign .select-person{
+            font-size: 12px;
+            color:#4A4A4A;
+            margin-top:10px;
+        }
+
+        #task_assign .select-person-box{
+            width:294px;
+            height:47px;
+            background-color: #EBEBEB;
+            border-radius: 6px;
+            border:none;
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        #task_assign .delete-cross{
+            width:16px;
+            height:16px;
+            position: absolute;
+            top:15px;
+            right:18px;
+        }
+
+        #task_assign .send-to-friends{
+            padding-top:40px;
+            padding-left:70px;
+            font-size: 14px;
+            color:#4A4A4A;
+            width:100%;
+            height:330px;
+        }
+
+	    #task_assign .datepicker {  
+	    	z-index: 9999;  
+		}
+		#task_assign .theme-ban .theme a .logo {
+		    width: 145px!important;
+		    height: 82px!important;;
+		}
+		#task_assign .logo {  
+		    color: white;
+		    float: left;
+		    font-size: 58px;
+		    height: 95px;
+		    line-height: 105px;
+		    text-align: center;
+		    width: 95px;
+		}
+		
+		#task_assign #demandTypeVal,#taskTypeVal{
+		    cursor: pointer;
+		}
+		
+		#task_assign #demandList,#taskTypeList{
+			border: none;
+			z-index: 99999;
+		}
+		
+		#task_assign #demandList li,#taskTypeList li{
+		    width: 218px;
+		    height: 30px;
+		    text-align: center;
+		    line-height: 30px;
+		    background: #f5fbfc;
+		    cursor: pointer;
+		}
+		
+		#task_assign #demandList li:hover,#taskTypeList li:hover{
+			background: #2cb7c9;
+			color:#fff;
+		}
+		
+		#task_assign .uploadBox{
+		    min-height: 120px;
+		}
+		#task_assign .uploadBox #resumeAtta_show{
+		    position: relative;
+		    bottom:2px;
+		}
+		#task_assign #resumeAtta_show .delete-cross {
+		    width: 25px;
+		    height: 25px;
+		    position: absolute;
+		    top: -7px;
+		    right: -16px;
+		}
+		
+		
+		#task_assign .textarea_div .textarea_text{
+		    font-size: 18px;
+		    text-align: center;
+		}
+		
+		#task_assign .upload-button .upload-file{
+			position: relative;
+		    padding:0 10px;
+		    background-color: #7DD2E1;
+		    border: none;
+		    border-radius: 6px;
+		    height: 50px;
+		    color:#fff;
+		    cursor: pointer;
+		    font-size: 14px;
+		    left: 20px;
+		}
+		
+		#task_assign .textarea_div .form-control{
+		    box-shadow: none !important;
+		    width: 90%;
+		    margin: 0 auto;
+		}
+		
+		#task_assign .textarea_div .btnDiv{
+		    position: relative;
+		    height: 30px;
+		    padding-top: 20px;
+		    margin: 0 auto;
+		    width: 74%;
+		}
+		#task_assign .textarea_div .btnDiv .errortip{
+		    position: absolute;
+		    color: red;
+		    left: -30px;
+		    top: 0px;
+		}
+		
+		#task_assign .modal-content{
+			width: 468px;
+		    height: 260px;
+		    background: #F5FBFC;
+		    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.18);
+		    border-radius: 20px;
+		}
+		
+		#task_assign .moreBox{
+		    padding-top:10px;
+		}
+		
+		#task_assign .moreBox a{
+		    color: #4a90e2;
+		    cursor: pointer;
+		}
+		#task_assign .moreBox a:hover{
+		    color: #4a90e2;
+		    cursor: pointer;
+		}
+		#task_assign .numberBox{
+		     padding-top:10px;
+		}
+		#task_assign .numberBox .number1,.number2{
+		    color: #4a4a4a;
+		    font-size: 12px;
+		}
+		
+		#task_assign .modal-select .select_input1,.select_input2,.select_input3{
+			position: relative;
+    		z-index: 9999;
+		}
+		
+		#task_assign .uploadBox .btn_text{
+		    float: left;
+		    font-size: 12px;
+		    color: #9B9B9B;
+		    margin-left: 45px;
+		    height: 40px;
+		    line-height: 40px;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+				

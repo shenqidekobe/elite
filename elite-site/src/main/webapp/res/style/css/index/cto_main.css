@@ -1,0 +1,105 @@
+/*cto任务详情左侧导航*/
+.cto_task_div {
+    height: 231px;
+}
+.cto_task_div .cto_task_ul {
+    margin-top: 27px;
+}
+.cto_task_div .cto_task_ul  li {
+    position: relative;
+    list-style: none;
+    height: 39px;
+    line-height: 39px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+	
+.cto_task_div .cto_task_ul .active_line {
+    position: absolute;
+    right: -2px;
+    height: 39px;
+    border-right: 3px solid #2cb7c9;
+}
+.active_color {
+    color:#2cb7c9;
+}
+.cto_task_div .cto_task_ul li .icon_span{
+    position: absolute;
+    top: 7px;
+    left: 68px;
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+.cto_task_div .cto_task_ul li .text_span{
+    position: absolute;
+    top: 7px;
+    left: 107px;
+    display: block;
+    width: 65px;
+    height: 22px;
+    line-height: 22px;
+}
+
+.active_line {
+    position: absolute;
+    right: -2px;
+    height: 39px;
+    border-right: 3px solid #2cb7c9;
+}
+
+.detail_select{
+	background: url("/res/images/ceo/detail_select.png") no-repeat;
+}
+.demand_select{
+	background: url("/res/images/ceo/demand_select.png") no-repeat;
+}
+.weekly_select{
+	background: url("/res/images/ceo/weekly_select.png") no-repeat;
+}
+.material_select{
+	background: url("/res/images/ceo/material_select.png") no-repeat;
+}
+.log_select{
+	background: url("/res/images/ceo/log_select.png") no-repeat;
+}
+
+.task_select{
+	background: url("/res/images/cto/task_select.png") no-repeat;
+}
+.task_noselect{
+	background: url("/res/images/cto/task_noselect.png") no-repeat;
+}
+
+.detail_noselect{
+	background: url("/res/images/ceo/detail_noselect.png") no-repeat;
+}
+.demand_noselect{
+	background: url("/res/images/ceo/demand_noselect.png") no-repeat;
+}
+.weekly_noselect{
+	background: url("/res/images/ceo/weekly_noselect.png") no-repeat;
+}
+.material_noselect{
+	background: url("/res/images/ceo/material_noselect.png") no-repeat;
+}
+.log_noselect{
+	background: url("/res/images/ceo/log_noselect.png") no-repeat;
+}
+
+
+/*cto的progress样式*/
+.cto_process .process-line {
+    width: 80px!important;
+}
+
+
+/*CTO项目详情*/
+.project_view_process .process-line{
+    width: 90px!important;
+    border-bottom: 2px solid #BFBFBF;
+    position: absolute;
+    top: 36px;
+    left: 70px;
+}

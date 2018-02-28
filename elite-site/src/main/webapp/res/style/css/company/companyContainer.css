@@ -1,0 +1,351 @@
+/*��Ŀ����������label*/
+#companyPersonageBasic .ceo-int {
+    width: 100%;
+    min-height: 570px;
+    background: #F5FBFC;
+}
+#companyPersonageBasic .ceo-int label{
+	display: block;
+    float: left;
+	width: 146px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    margin-right: 20px;
+    text-align: right;
+} 
+/*��Ŀ���������ϴ�����ʾ*/
+#companyPersonageBasic .btnBox {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top:50px;
+}
+#companyPersonageBasic .btnBox button{
+	width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -o-border-radius: 48px;
+    border-radius: 48px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 110px;
+}
+#companyPersonageBasic .btnBox .save {
+    background: #FEA600;
+    color: #fff;
+    border: none;
+    margin-left: 165px;
+}
+#companyPersonageBasic .btnBox .cancel {
+    background: none;
+    color: #ccc;
+    border: 1px solid #ccc;
+}
+#companyPersonageBasic .btnBox .error_div {
+    position: absolute!important;
+    top: -52px!important;
+    left: 165px!important;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #dd5b56;
+    background: #f4d7d6!important;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+#companyPersonageBasic .btnBox .error_div .error_icon {
+    position: absolute;
+    top: 8px;
+    left: 32px;
+    display: block;
+    width: 32px;
+    height: 29px;
+    background: url(/res/images/error/error_icon.png) no-repeat;
+}
+#companyPersonageBasic .btnBox .error_div .error_text {
+    position: absolute;
+    top: 12px;
+    left: 79px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #dd5b56!important;
+}
+
+/*��Ŀ���˺�����label*/
+#companyPersonageSetting .ceo-phone label{
+	display: block;
+    float: left;
+	width: 146px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    margin-right: 20px;
+    text-align: right;
+}
+/*��Ŀ���˺����ô�����ʾ*/
+#companyPersonageSetting .btnBox {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top:50px;
+}
+#companyPersonageSetting .btnBox button{
+	width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -o-border-radius: 48px;
+    border-radius: 48px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 110px;
+}
+#companyPersonageSetting .btnBox .save {
+    background: #FEA600;
+    color: #fff;
+    border: none;
+    margin-left: 165px;
+}
+#companyPersonageSetting .btnBox .cancel {
+    background: none;
+    color: #ccc;
+    border: 1px solid #ccc;
+}
+#companyPersonageSetting .btnBox .error_div {
+    position: absolute!important;
+    top: -52px!important;
+    left: 165px!important;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #dd5b56;
+    background: #f4d7d6!important;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+#companyPersonageSetting .btnBox .error_div .error_icon {
+    position: absolute;
+    top: 8px;
+    left: 32px;
+    display: block;
+    width: 32px;
+    height: 29px;
+    background: url(/res/images/error/error_icon.png) no-repeat;
+}
+#companyPersonageSetting .btnBox .error_div .error_text {
+    position: absolute;
+    top: 12px;
+    left: 79px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #dd5b56!important;
+}
+/*��Ŀ����˾*/
+#companyPersonagecompany .btnBox {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top:50px;
+}
+#companyPersonagecompany .btnBox button{
+	width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -o-border-radius: 48px;
+    border-radius: 48px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 110px;
+}
+#companyPersonagecompany .btnBox .save {
+    background: #FEA600;
+    color: #fff;
+    border: none;
+    margin-left: 88px;
+}
+#companyPersonagecompany .btnBox .cancel {
+    background: none;
+    color: #ccc;
+    border: 1px solid #ccc;
+}
+#companyPersonagecompany .btnBox .error_div {
+    position: absolute!important;
+    top: -52px!important;
+    left: 88px!important;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #dd5b56;
+    background: #f4d7d6!important;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+#companyPersonagecompany .btnBox .error_div .error_icon {
+    position: absolute;
+    top: 8px;
+    left: 32px;
+    display: block;
+    width: 32px;
+    height: 29px;
+    background: url(/res/images/error/error_icon.png) no-repeat;
+}
+#companyPersonagecompany .btnBox .error_div .error_text {
+    position: absolute;
+    top: 12px;
+    left: 79px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #dd5b56!important;
+    line-height: inherit;
+    width: inherit;
+    text-align: inherit;
+}
+/*��Ŀ������*/
+#companyPersonageCredit .btnBox {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top:50px;
+}
+#companyPersonageCredit .btnBox button{
+	width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -o-border-radius: 48px;
+    border-radius: 48px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 110px;
+}
+#companyPersonageCredit .btnBox .save {
+    background: #FEA600;
+    color: #fff;
+    border: none;
+    margin-left: 0px;
+}
+#companyPersonageCredit .btnBox .cancel {
+    background: none;
+    color: #ccc;
+    border: 1px solid #ccc;
+}
+#companyPersonageCredit .btnBox .error_div {
+    position: absolute!important;
+    top: -52px!important;
+    left: 0px!important;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #dd5b56;
+    background: #f4d7d6!important;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+#companyPersonageCredit .btnBox .error_div .error_icon {
+    position: absolute;
+    top: 8px;
+    left: 32px;
+    display: block;
+    width: 32px;
+    height: 29px;
+    background: url(/res/images/error/error_icon.png) no-repeat;
+}
+#companyPersonageCredit .btnBox .error_div .error_text {
+    position: absolute;
+    top: 12px;
+    left: 79px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #dd5b56!important;
+}
+
+
+
+
+
+/*��Ŀ��������ʾ*/
+#personFrom .form-opt {
+    position: relative;
+    margin-top: 66px;
+    padding-left: 35px;
+}
+#personFrom .form-opt .error_div {
+    position: absolute;
+    top: -55px;
+    left: 138px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #dd5b56;
+    background: #f4d7d6;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+#personFrom .form-opt .error_div .error_icon {
+    position: absolute;
+    top: 8px;
+    left: 32px;
+    display: block;
+    width: 32px;
+    height: 29px;
+    background: url(/res/images/error/error_icon.png) no-repeat;
+}
+
+#personFrom .form-opt .error_div .error_text {
+    position: absolute;
+    top: 12px;
+    left: 79px;
+    font-size: 16px;
+    color: #dd5b56;
+}
+#companyFrom .form-opt {
+    position: relative;
+    margin-top: 66px;
+    padding-left: 35px;
+}
+#companyFrom .form-opt .error_div {
+    position: absolute;
+    top: -55px;
+    left: 138px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #dd5b56;
+    background: #f4d7d6;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+#companyFrom .form-opt .error_div .error_icon {
+    position: absolute;
+    top: 8px;
+    left: 32px;
+    display: block;
+    width: 32px;
+    height: 29px;
+    background: url(/res/images/error/error_icon.png) no-repeat;
+}
+
+#companyFrom .form-opt .error_div .error_text {
+    position: absolute;
+    top: 12px;
+    left: 79px;
+    font-size: 16px;
+    color: #dd5b56;
+}

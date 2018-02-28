@@ -1,0 +1,79 @@
+/*收益样式*/
+.money-box {
+    margin-top: 20px;
+}
+
+.earn-box{
+    background: #F5FBFC;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.20);
+    border-radius: 6px;
+    width: 200px;
+    height: 120px;
+    float: left;
+    margin-right: 50px;
+}
+
+.earn-box .earn-text{
+    font-size: 14px;
+    color: #9B9B9B;
+    letter-spacing: 0.1px;
+    margin: 40px 80px 10px 20px;
+}
+
+.earn-number{
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0.15px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/*withdrawal-box*/
+
+.withdrawal-box{
+    width: 275px;
+    height: 120px;
+    background: #F5FBFC;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.20);
+    border-radius: 6px;
+    position: relative;
+    float: left;
+}
+
+.withdrawal-number{
+	position: absolute;
+    top: 20px;
+    left:20px;
+    width: 130px;
+    height: 80px;
+    border-right: 1px solid #d9d9d9; 
+}
+
+.number-t{
+    font-size: 14px;
+    color: #9B9B9B;
+    letter-spacing: 0.1px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.number-n{
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0.15px;
+}
+.withdrawal-btn{
+    width: 80px;
+    height: 36px;
+    border-radius:50px ;
+    background: #FEA600;
+    color: #fff;
+    line-height: 36px;
+    text-align: center;
+    position: absolute;
+    right: 20px;
+    top:42px;
+    cursor: pointer;
+}

@@ -1,0 +1,581 @@
+/*人才推荐我的资料修改*/
+#accountSecurity .basicBox {
+    width: 100%;
+    min-height: 700px;
+    background: #f5fbfc;
+}
+#accountSecurity .basicBox .line-box {
+    position: static;
+    width: 730px;
+    height: 56px;
+    line-height: 56px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 18px;
+    font-weight: 500;
+}
+#accountSecurity .basicBox .basicForm {
+	position:relative;
+    width: 660px;
+    min-height: 610px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/*人才推荐我的资料修改的公共元素*/
+#accountSecurity .labelDiv {
+    float: left;
+    position: relative;
+    width: 330px;
+    height: 104px;
+}
+#accountSecurity .labelDiv label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+#accountSecurity input {
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+}
+
+/*基本资料*/
+#accountSecurity .basicBox .basicForm .inputDiv {
+    position: relative;
+    width: 300px;
+    height: 50px;
+}
+#accountSecurity .basicBox .basicForm .labelDiv label{
+	margin-bottom: 10px;
+}
+#accountSecurity .basicBox .basicForm .triangleBtn{
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #4a4a4a transparent transparent;
+}
+#accountSecurity .basicBox .basicForm .triangleBtn_down{
+    border-color: #4a4a4a transparent transparent;
+}
+
+#accountSecurity .basicBox .basicForm .location_icon {
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+}
+#accountSecurity .basicBox .basicForm .saveBtn {
+    position: absolute;
+    bottom: 0;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #fea600;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 100px;
+}
+
+/*性别选择*/
+#accountSecurity .basicBox .basicForm .sex_ul {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#accountSecurity .basicBox .basicForm .sex_ul li {
+	position: relative;
+    float: left;
+    width: 99px;
+    height: 40px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    margin-right: 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#accountSecurity .basicBox .basicForm .sex_ul .sex_text {
+    position: absolute;
+    top: 9px;
+    right: 20px;
+    color: #fff;
+    font-size: 16px;
+}
+#accountSecurity .basicBox .basicForm .sex_ul .sex_icon {
+    position: absolute;
+    top: 10px;
+    left: 23px;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+#accountSecurity .basicBox .basicForm .sex_ul .active_bg {
+    border: none;
+    background: #2cb7c9;
+}
+#accountSecurity .basicBox .basicForm .sex_ul .default_bg {
+    border: 1px solid #ccc;
+    background: #fff;
+}
+#accountSecurity .basicBox .basicForm .sex_ul .active_color {
+    color: #fff;
+}
+#accountSecurity .basicBox .basicForm .sex_ul .default_color {
+    color: #4a4a4a;
+}
+#accountSecurity .basicBox .basicForm .sex_ul .man_select {
+    background:url("/res/images/channel/man_select.png") no-repeat;
+}
+#accountSecurity .basicBox .basicForm .sex_ul .man_noselect {
+    background:url("/res/images/channel/man_noselect.png") no-repeat;
+}
+#accountSecurity .basicBox .basicForm .sex_ul .woman_select {
+    background:url("/res/images/channel/woman_select.png") no-repeat;
+}
+#accountSecurity .basicBox .basicForm .sex_ul .woman_noselect {
+    background:url("/res/images/channel/woman_noselect.png") no-repeat;
+}
+
+/*公共选择*/
+#accountSecurity .basicBox .basicForm .selectUl {
+    position: absolute!important;
+    top: 50px;
+    left: 0!important;
+    width: 300px!important;
+    height: auto!important;
+    border: 1px solid #999999!important;
+    box-shadow: 2px 4px 6px -1px rgba(0,0,0,0.15);
+    border-radius: 6px;
+    z-index: 999!important;
+    margin-bottom: 0;
+    margin-top: 0;
+    box-sizing: border-box;
+    background: #fff;
+}
+#accountSecurity .basicBox .basicForm .selectUl_li {
+    width: 298px!important;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    color: #4a4a4a;
+    padding: 0!important;
+    cursor: pointer;
+}
+#accountSecurity .basicBox .basicForm .selectUl_li:hover{
+	background:#2cb7c9;
+	color:#fff;
+}
+/*错误提示*/
+#accountSecurity .basicBox .basicForm .error_div {
+    position: absolute;
+    top: -55px;
+    left: 0px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #dd5b56;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    background: #f4d7d6;
+}
+#accountSecurity .basicBox .basicForm .error_div .error_icon {
+    position: absolute;
+    top: 5px;
+    left: 32px;
+    width: 32px;
+    height: 29px;
+    background: url("/res/images/error/error_icon.png") no-repeat;
+}
+#accountSecurity .basicBox .basicForm .error_div .error_text {
+    position: absolute;
+    top: -3px;
+    left: 79px;
+    color: #dd5b56;
+    font-size: 16px;
+}
+
+/*征信*/
+#accountSecurity .creditBox {
+    width: 100%;
+    min-height: 670px;
+    background: #f5fbfc;
+    margin-top:16px;
+}
+#accountSecurity .creditBox .line-box {
+    position: static;
+    width: 730px;
+    height: 56px;
+    line-height: 56px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 18px;
+    font-weight: 500;
+}
+#accountSecurity .creditBox .line-box span:nth-child(1) {
+    font-size: 18px;
+}
+#accountSecurity .creditBox .line-box span:nth-child(2) {
+    font-size: 14px;
+    color: #fea600;
+}
+/*征信form*/
+#accountSecurity .creditBox .creditForm {
+    position: relative;
+    width: 660px;
+    min-height: 420px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#accountSecurity .creditBox .identity_group {
+    width: 100%;
+    height: 104px;
+}
+#accountSecurity .creditBox .certificate_group {
+    width: 100%;
+    height: 200px;
+}
+#accountSecurity .creditBox .creditForm .labelDiv label {
+    margin-bottom: 10px;
+}
+#accountSecurity .creditBox .certificate_group .photoBox {
+    float: left;
+    width: 230px;
+    margin-right: 40PX;
+    text-align: center;
+}
+#accountSecurity .creditBox .certificate_group .photoBox .photo_img {
+    display: block;
+    margin: 10px 0;
+}
+#accountSecurity .creditBox .certificate_group .photoBox .photo_img img {
+	display: block;
+    width: 230px;
+    height: 144px;
+    cursor: pointer;
+}
+
+/*其它证件*/
+#accountSecurity .creditBox .otherDocuments h1 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+#accountSecurity .creditBox .roup {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(/res/images/partner/omit_icon.png) no-repeat center;
+    vertical-align: bottom;
+    height: 19px;
+    line-height: 19px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+#accountSecurity .creditBox .idBox{
+	display: block;
+    width: 230px;
+    height: 144px;
+    cursor: pointer;
+}
+
+#accountSecurity .creditBox .saveBtn {
+    position: relative;
+    margin-top: 70px;
+    margin-left: 20px;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #fea600;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 100px;
+}
+#accountSecurity .creditBox .error_div {
+    position: absolute;
+    top: -55px;
+    left: 0px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #dd5b56;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    background: #f4d7d6;
+}
+#accountSecurity .creditBox .error_div .error_icon {
+    position: absolute;
+    top: 5px;
+    left: 32px;
+    width: 32px;
+    height: 29px;
+    background: url("/res/images/error/error_icon.png") no-repeat;
+}
+#accountSecurity .creditBox .error_div .error_text {
+    position: absolute;
+    top: -3px;
+    left: 79px;
+    color: #dd5b56;
+    font-size: 16px;
+}
+
+/*账号设置*/
+#accountSecurity .accountBox{
+    width: 100%;
+    min-height: 400px;
+    background: #f5fbfc;
+    margin-top:16px;
+}
+#accountSecurity .accountBox .line-box {
+    position: static;
+    width: 730px;
+    height: 56px;
+    line-height: 56px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 18px;
+    font-weight: 500;
+}
+#accountSecurity .accountBox .accountForm {
+    position: relative;
+    width: 660px;
+    min-height: 350px;
+    margin-left: 20px;
+}
+#accountSecurity .accountBox .accountForm .phoneDiv input{
+	border: none;
+	background: #f5fbfc;
+}
+#accountSecurity .accountBox .accountForm .passwordDiv button {
+    color: #2cb7c9;
+    border: none;
+    background: #f5fbfc;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#accountSecurity .accountBox .accountForm .bankAdd {
+    width: 500px;
+    height: 100px;
+    background: #ebebeb;
+    border: 2px dashed #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#accountSecurity .accountBox .accountForm .bankAdd .add_icon {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    background: url("/res/images/channel/add_icon.png") no-repeat;
+}
+#accountSecurity .accountBox .accountForm .bankAdd .add_text {
+    display: block;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 16px;
+    color: #2cb7c9;
+}
+#accountSecurity .accountBox .accountForm .bankGroup {
+    position: relative;
+    width: 500px;
+    height: 60px;
+    background: #ebebeb;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    margin-bottom: 20px;
+}
+#accountSecurity .accountBox .accountForm .bankGroup .bank_delete {
+    position: absolute;
+    top: 21px;
+    right: 20px;
+    color: #2cb7c9;
+    cursor: pointer;
+}
+#accountSecurity .accountBox .accountForm .bankGroup .bank_logo {
+    position: absolute;
+    top: 19px;
+    left: 20px;
+    width: 103px;
+    height: 22px;
+}
+#accountSecurity .accountBox .accountForm .bankGroup .bank_number {
+    position: absolute;
+    top: 20px;
+    left: 204px;
+}
+#accountSecurity .accountBox .accountForm .bankGroup .bank_number span:nth-child(1){
+	margin-right:4px;
+}
+#accountSecurity .accountBox .accountForm .bankGroup .bank_id {
+    position: absolute;
+    top: 19px;
+    left: 282px;
+    width: 54px;
+    height: 22px;
+    background: #61a2d1;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 12px;
+    color: #fff;
+}
+#accountSecurity .accountBox .accountForm .passwordDiv {
+    margin-bottom: 18px;
+}
+
+/*修改密码弹窗*/
+.passwordWindow {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    min-height: 1000px;
+}
+.passwordWindow .windowForm{
+    position: absolute;
+    width: 500px;
+    min-height:400px;
+    height:auto!important;
+    top: 50%;
+    margin-top: -200px!important;
+    left: 50%;
+    margin-left: -250px;
+}
+.passwordWindow .windowForm .form_bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -o-border-radius: 12px;
+    border-radius: 12px;
+}
+.passwordWindow .windowForm .close_btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    background: url("/res/images/channel/close_btn.png") no-repeat;
+}
+.passwordWindow .windowForm h1 {
+    height: 50px;
+    line-height: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid #b3b3b3;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.passwordWindow .windowForm .group {
+    margin-top: 30px;
+}
+.passwordWindow .windowForm .group label {
+    width: 84px;
+    font-weight: normal;
+    color: #fff;
+    text-align: right;
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+.passwordWindow .windowForm .saveBtn {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #FEA600;
+    color: #fff;
+    border-radius: 48px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -o-border-radius: 48px;
+    margin-right: 100px;
+    margin-left: 104px;
+    border: none;
+}
+.passwordWindow .windowForm .cancelBtn {
+    width: 120px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background-color: transparent;
+    border: 1px solid #CCCCCC;
+    border-radius: 48px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -o-border-radius: 48px;
+    color: #ccc;
+}
+.passwordWindow .windowForm .error_div {
+    position: absolute;
+    top: 2px;
+    left: 106px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #dd5b56;
+    background: #f4d7d6;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.passwordWindow .windowForm .error_div .error_icon {
+    position: absolute;
+    top: 8px;
+    left: 32px;
+    display: block;
+    width: 32px;
+    height: 29px;
+    background: url(/res/images/error/error_icon.png) no-repeat;
+}
+.passwordWindow .windowForm .error_div .error_text {
+    position: absolute;
+    top: 12px;
+    left: 79px;
+    font-size: 16px;
+    color: #dd5b56;
+}
+.passwordWindow .windowForm .btnDiv {
+	position: relative;
+    padding-bottom: 30px;
+    padding-top: 55px;
+}

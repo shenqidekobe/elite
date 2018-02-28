@@ -1,0 +1,438 @@
+  		/*������ʽ*/
+        #registerBasic .content{
+            width:1000px;
+            margin:0 auto;
+        }
+        /*ͼƬ��Ƕ�ı�*/
+       #registerBasic .required{
+		    font-family: "Microsoft YaHei" !important;
+		    color: #fea600;
+		}
+		#registerBasic label.col-xs-3.col-md-3.control-label.label_sex{
+		    height: 40px;
+		    line-height: 40px;
+		}
+        #registerBasic .form-box{
+            padding:0px;
+        }
+        #registerBasic .title{
+            font-size: 24px;
+            color:#414141;
+        }
+        #registerBasic .hr-line{
+            width:100%;
+            border-bottom: 2px solid #2CB7C9;
+            margin:20px 0;
+        }
+        #registerBasic #recommend-form .btn-group{
+            display: block;
+        }
+        #registerBasic #recommend-form .btn,.btn-default{
+            border-color:#2CB7C9;
+            outline: none;
+        }
+        #registerBasic .active-title{
+            background-color: #2CB7C9!important;
+            color:white!important;
+            border:1px solid #2CB7C9!important;
+        }
+        #registerBasic .send-msg-btn{
+            float:left;
+            width:120px;
+            height:34px;
+            background-color: #2CB7C9;
+            border:1px solid #2CB7C9;
+            border-radius: 8px;
+            color:white;
+            margin-left:10px;
+            font-size: 14px;
+        }
+        #registerBasic .hr-line2{
+            width:92%;
+            border-bottom: 1px dashed #CCCCCC;
+            margin-left:20px;
+            margin-top:30px;
+            margin-bottom: 20px;
+        }
+        #registerBasic .agree{
+            font-size: 12px;
+            color:#D0021B;
+        }
+        #registerBasic #error-tip {
+		    position: absolute;
+		    left: 185px;
+		    top: -63px;
+		    width: 400px;
+		    height: 60px;
+		    line-height: 60px;
+		    font-size: 18px;
+		    color: red;
+		    border: 1px solid #dd5b56;
+		    border-radius: 4px;
+		    color: #dd5b56;
+		    background: #f4d7d6;
+		}
+		
+		#registerBasic #error-tip .error_icon{
+		    position: absolute;
+		    top: 16px;
+		    left: 32px;
+		    display: block;
+		    width: 32px;
+		    height: 29px;
+		    background: url(/res/images/error/error_icon.png) no-repeat;
+		}
+		
+		#registerBasic #error-tip .error_text{
+		    position: absolute;
+		    top: 0px;
+		    left: 88px;
+		    font-size: 18px;
+		}
+        
+        #registerBasic .next-step {
+		    position: relative;
+		    margin-top: 60px;
+		    padding-left: 0;
+		}
+        #registerBasic .next-step-btn{
+		    width: 300px;
+		    height: 50px;
+		    line-height: 50px;
+		    background-color: #FEA600;
+		    border-radius: 72px;
+		    border: none;
+		    color: #fff;
+		    margin-left: 96px;
+		}
+        #registerBasic .birth-box{
+		    position: relative;
+		    width: 300px;
+		    float: left;
+		}
+        #registerBasic .year-select{
+            position: absolute;
+            top:33px;
+            left:0px;
+            z-index: 100;
+            border:1px solid #2CB7C9;
+
+        }
+        #registerBasic .year-select{
+            display: none;
+            height:266px;
+            overflow: auto;
+        }
+        #registerBasic .year-select li{
+            padding:0 16px;
+            background-color: white;
+
+        }
+        #registerBasic .year-select li:hover{
+            background-color: #2CB7C9;
+            color:white;
+            cursor: pointer;
+        }
+        #registerBasic .birth-year{
+            position: absolute;
+            top:7px;
+            left:16px;
+        }
+        #registerBasic .birth-month{
+            position: absolute;
+            top:7px;
+            left:37px;
+        }
+        #registerBasic .triangle{
+            position: absolute;
+            bottom: 6px;
+            left:58px;
+            cursor: pointer;
+        }
+        #registerBasic .trigger{
+            display: inline-block;
+            height: 0;
+            width: 0;
+            overflow: hidden;
+            border-style: solid;
+            margin-left: 4px;
+            margin-right: 4px;
+            position: relative;
+            top:0;
+            border-width:6px 6px 0;
+            border-color:#D8D8D8 transparent transparent;
+            -webkit-transition:all .4s ease 0s;
+            -moz-transition:all .4s ease 0s;
+            -o-transition:all .4s ease 0s;
+            transition:all .4s ease 0s;
+        }
+        #registerBasic .trigger-inverse{
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+            animation-fill-mode: forwards;
+        }
+        #registerBasic .active-control{
+            border-color:#2CB7C9;
+        }
+
+        #registerBasic .location{
+		    position: absolute;
+		    top: 15px;
+		    left: 20px;
+		    width: auto;
+		    height: 20px;
+		}
+
+	/*��Ŀ��ע����ҳ*/
+	#registerBasic .form-grp{
+		margin:15px auto;
+	}
+	#registerBasic .form-group-cent{
+		width:100%;
+	}
+	#registerBasic .group-cent-inpt{
+		width:400px;
+		margin:0 auto;
+	}
+/*��Ŀ��ע����ҳ*/
+
+
+/*��Ŀ�Ƽ���-��������*/
+
+    #registerBasic .group-yea{
+    	text-align:left;
+    }
+    #registerBasic .group-yea >p {
+        display:inline-block;
+        position: relative
+    }
+    #registerBasic .group-years> p .radio-male{
+        display: inline-block;
+        width:22px;
+        height:22px;
+        position:absolute;
+        top:9px;
+        left:20px;
+    }
+    #registerBasic .group-yea >p:hover input{
+        background:#7dd2e1;
+        color:#fff;
+    }
+    #registerBasic .radio-male{
+    	width:20px;
+    	height:21px;
+    	position:absolute;
+    	top:8px;
+    	left:19px;
+    }
+    #registerBasic .man_select{
+        background: url(/res/images/ceo/man_select.png) no-repeat center;
+    }
+    #registerBasic .woman_noselect{
+        background:url(/res/images/ceo/woman_noselect.png) no-repeat center;
+    }
+    #registerBasic .man_noselect{
+        background: url(/res/images/ceo/man_noselect.png) no-repeat center;
+    }
+    #registerBasic .woman_select{
+        background:url(/res/images/ceo/woman_select.png) no-repeat center;
+    }
+    #registerBasic .city{
+        width: 360px;
+        height:50px;
+        border:1px solid #7dd2e1;
+        border-radius: 8px;
+        list-style: none;
+    }
+    #registerBasic .maps {
+        width:20px;
+        height:30px;
+        position: absolute;
+        top:11px;
+        left:30px;
+        background:url(/res/images/location_icon.png) no-repeat center;
+    }
+    #registerBasic .city li{
+        width:50%;
+        line-height: 50px;
+        float:left;
+        position: relative;
+    }
+    #registerBasic .Angle{
+        display: inline-block;
+        border-top:7px solid #333;
+        border-right:7px solid transparent;
+        border-left:7px solid transparent;
+        position:absolute;
+        top:20px;
+        right:33px;
+    }
+    
+    /*������ע��Ļ�����Ϣ-�İ�*/
+    #registerBasic .rdio{
+	    position: relative;
+	    width: 99px;
+	    height: 40px;
+	    line-height: 40px;
+	    border: none;
+	    border-radius: 6px;
+	    background: #fff;
+	    border: 1px solid #ccc;
+	}
+	#registerBasic .active_radio{
+	    color: #fff!important;
+	    background: #2CB7C9!important;
+	    border: none;
+	}
+	
+	#registerBasic .return_btn{
+    	vertical-align: bottom;
+	    margin-right: 30px;
+	    color: #fea600;
+	}
+	
+	#registerBasic .skip_btn{
+		vertical-align: bottom;
+	    margin-left: 30px;
+	    color: #9b9b9b;
+	}
+	
+	#registerBasic #personnel-form1 {
+	    position: relative;
+	    width: 588px;
+	    height: 430px;
+	    margin: 0 auto;
+	}
+	#registerBasic  #personnel-form1  .headBox{
+	    position: absolute;
+	    top: 30px;
+	    right: 50px;
+	    cursor: pointer;
+	}
+	
+	#registerBasic  #personnel-form1 .head_img{
+	    width: 120px;
+	    height: 120px;
+	    border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    -o-border-radius: 50%;
+	    overflow: hidden;
+	}
+	
+	#registerBasic  #personnel-form1  .headBox .head_text {
+	    padding-top: 20px;
+	}
+	
+	/*�������*/
+	#registerBasic .idInput{
+		position: relative;
+	    margin-left: 14px;
+	    float: left;
+	    width: 240px;
+	}
+	
+	#registerBasic .down_icon{
+	    position: absolute;
+	    right: 20px;
+	    top: 20px;
+	    display: block;
+	    width: 0;
+	    height: 0;
+	    border-width: 12px;
+	    border-style: solid;
+	    border-color: #4a4a4a transparent transparent transparent;
+	}
+	
+	#registerBasic .idInput .id_ul{
+	    position: absolute;
+	    z-index: 10;
+	}
+	#registerBasic .idInput .id_ul li {
+	    height: 40px;
+	    line-height: 40px;
+	    width: 240px;
+	    text-align: left;
+	    padding-left: 30px;
+	    color:#9b9b9b;
+	}
+	#registerBasic .idInput .id_ul li:hover{
+	    background:#2cb7c9;
+	    color:#fff;
+	}
+	
+	/*���ڳ���*/
+	#registerBasic .control-label {
+	    float: left;
+	    height: 50px;
+	    line-height: 50px;
+	    width: 78px;
+	    padding-top: 0!important;
+	    text-align: right!important;
+	    font-size: 16px;
+	    margin-right: 20px;
+	    font-weight: 400;
+	    margin-bottom: 0;
+	}
+	#registerBasic .group{
+	    margin-bottom: 30px;
+	}
+	
+	
+	
+	/*��Ŀ������������Ϣ*/
+	#registerBasic #personnel-form2 {
+	    width: 517px;
+	    margin: 0 auto;
+	    padding-top: 30px;
+	}
+	#registerBasic #personnel-form2 .photoBox{
+	    padding-bottom: 20px;
+	}
+	#registerBasic #personnel-form2 .photoBox .font {
+	    float: left;
+	    width: 230px;
+	    margin-right: 40px;
+	}
+	
+	#registerBasic #personnel-form2 .photoBox .back {
+	    width: 230px;
+	    float: left;
+	}
+	
+	#registerBasic #personnel-form2 .photoBox span {
+	    display: block;
+	    text-align: center;
+	    padding-bottom: 10px;
+	}
+	
+	#registerBasic #personnel-form2 .photoBox img {
+	    width:230px;
+	    height:144px;
+	    cursor: pointer;
+	}
+	
+	#registerBasic .back_btn{
+	    vertical-align: middle;
+	    margin-right: 30px;
+	    color: #fea600;
+	    font-size: 18px;
+	}
+	
+	#registerBasic .saveBtn{
+	    width: 300px;
+	    height: 50px;
+	    line-height: 50px;
+	    background-color: #FEA600;
+	    border-radius: 72px;
+	    border: none;
+	    color: #fff;
+	    font-size:18px;
+	}
+	
+	
+	
+	
+	

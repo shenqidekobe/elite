@@ -1,0 +1,259 @@
+ 		#bidTender .content{
+            width:1000px;
+            margin:0 auto;
+        }
+
+        #bidTender .flag{
+            font-size: 14px;
+            color:#5C5C5C;
+            padding-top:20px;
+            margin-bottom: 20px;
+        }
+
+        #bidTender .content-box{
+            width:100%;
+            background-color: #FAFAFA;
+            padding-top:20px;
+            padding-bottom: 130px;
+        }
+
+        #bidTender .process{
+            width:720px;
+            height:100px;
+            position: relative;
+            margin:0 auto;
+        }
+
+        #bidTender .process-line{
+            width:150px;
+            border-bottom: 2px solid #BFBFBF;
+            position: absolute;
+            top:36px;
+            left:70px;
+        }
+
+        #bidTender .process-circle{
+        	position: absolute;
+            top:16px;
+            left:20px;
+            z-index: 200;
+            width: 40px;
+            height: 40px;
+            border:none;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            background-color: #BFBFBF;
+            text-align: center;
+            line-height: 40px;
+            color:#fff;    
+        }
+
+        #bidTender .active-process{
+            background-color: #7DD2E1;
+        }
+
+        #bidTender .process-title{
+            position: absolute;
+            top:68px;
+            left:16px;
+        }
+
+        #bidTender .active-title{
+            color:#2CB7C9;
+        }
+
+        #bidTender .finish-line{
+            border-color: #95D6E2;
+        }
+
+        #bidTender .process-tip{
+            position: absolute;
+            left:108px;
+            top:16px;
+            font-size: 12px;
+            color:#FEA600;
+        }
+
+        #bidTender .tender-box{
+            margin-top:40px;
+            margin-left:auto;
+            margin-right:auto;
+            width:860px;
+            background-color: #F5FBFC;
+            border:1px solid #E6E6E6;
+            border-radius: 8px;
+            padding:20px 30px;
+        }
+
+        #bidTender .end-time{
+            font-size: 14px;
+            text-align: right;
+            margin-top:30px;
+            padding-right:100px;
+        }
+
+        #bidTender .go-bid-btn{
+            width:180px;
+            height:40px;
+            background-color: #FEA600;
+            border:none;
+            border-radius: 20px;
+            color:white;
+            float:right;
+            display: block;
+            margin-right: 100px;
+        }
+
+        #bidTender .service-btn{
+            padding:6px 10px;
+            background-color: white;
+            border:1px solid #CCCCCC;
+            border-radius: 6px;
+            font-size: 14px;
+            color:#4A4A4A;
+            min-width: 80px;
+        }
+
+        #bidTender .active-btn{
+            background-color: #7DD2E1;
+            border:1px solid #7DD2E1;
+            color:white;
+        }
+        #bidTender .title-index{
+            margin-top:30px;
+        }
+
+        #bidTender .tip{
+            margin-left:20px;
+            font-size: 12px;
+            color:#9B9B9B;
+            vertical-align: bottom;
+        }
+
+        #bidTender .required{
+            color:#FEA600!important;
+        }
+
+        #bidTender .period-table thead tr th{
+            font-size: 12px;
+            color:#9B9B9B;
+            font-weight: normal;
+            line-height: 30px;
+        }
+
+        #bidTender .period-table th,td{
+            border:none!important;
+        }
+
+       #bidTender .period-lab {
+		    width: 90px;
+		    height: 26px;
+		    line-height: 26px;
+		    text-align: center;
+		    border-radius: 32px;
+		    -webkit-border-radius: 32px;
+		    -moz-border-radius: 32px;
+		    -o-border-radius: 32px;
+		    font-size: 12px;
+		    margin-top: 6px;
+		    margin-left: auto;
+		    margin-right: auto;
+		    background: #2cb7c9;
+		    color: #fff;
+		}
+		
+		 #bidTender #amount{
+		    border: 1px solid #2cb7c9;
+		}
+
+        #bidTender .period-time-cost{
+            width:350px;
+            height:36px;
+            border:1px solid #95D6E2;
+            border-radius: 6px;
+            background-color: white;
+            margin:0 auto;
+            position: relative;
+        }
+
+        #bidTender .date-icon{
+        	position: absolute;
+            top:7px;
+            left:96px;
+            width:20px;
+            height:20px;
+            cursor: pointer; 
+        }
+
+        #bidTender .date-block{
+            display: block;
+            width:88px;
+            height:34px;
+            line-height: 34px;
+            position: absolute;
+            top:0;
+            left:5px;
+        }
+
+        #bidTender .vertical-line{
+            height:23px;
+            border-right:1px solid #E6E6E6;
+            position: absolute;
+            left:264px;
+            top:6px;
+        }
+
+        #bidTender .day-count{
+            position: absolute;
+            left:280px;
+            top:9px;
+        }
+        
+        #bidTender .uploadBox{
+		    position: relative;
+		    min-height: 80px;
+		}
+
+        #bidTender .upload-btn{
+		    width: 182px;
+		    height: 40px;
+		    border: none;
+		    border-radius: 6px;
+		    background-color: #F0EEEC;
+		    color: #9B9B9B;
+		    position: absolute;
+		    left: 40px;
+		    bottom: 0;
+		}
+        #bidTender .download-box{
+            width:250px;
+            height:30px;
+            line-height: 30px;
+            font-size: 14px;
+            color:#4A90E2;
+            border:1px solid #E6E6E6;
+            border-radius: 4px;
+            text-align: center;
+            margin-left:40px;
+        }
+        #bidTender #atta_show{
+		    position: absolute;
+		    bottom: -65px;
+		    left: 42px;
+		}
+
+        #bidTender .download-icon{
+            width:20px;
+            height:20px;
+        }
+        /*¥ÌŒÛÃ· æ*/
+        #bidTender .button_box {
+		    position: relative;
+		}
+		#bidTender .button_box .error_div {
+		    color: red;
+		    position: absolute;
+		    left: 84px;
+		    top: -23px;
+		}

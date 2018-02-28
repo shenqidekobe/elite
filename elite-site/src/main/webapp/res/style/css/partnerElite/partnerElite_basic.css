@@ -1,0 +1,302 @@
+		/*�˲�������������Ϣ*/
+		
+		#partnerElite_basic .recommend-form-box{
+		    position: relative;
+		    width: 100%;
+		    min-width: 1000px;
+		    margin: 0 auto;
+		    min-height: 1000px;
+		    background: url("/res/images/elite/partner_bg.png") no-repeat;
+		    background-size: cover;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    background-position: center;
+		}
+		
+		#partnerElite_basic .recommend-form-box .recommend-form {
+		    position: absolute;
+		    top: 170px;
+		    left: 50%;
+		    margin-left: -360px;
+		    width: 720px;
+		    height: 634px;
+		    background-color: #fff;
+		    border-radius: 20px;
+		    -webkit-border-radius: 20px;
+		    -moz-border-radius: 20px;
+		    -o-border-radius: 20px;
+		    text-align: center;
+		}
+		
+		#partnerElite_basic #personnelStep1 .processBox {
+		    position: relative;
+		    width: 100%;
+		    height: 120px;
+		    background: #f5fbfc;
+		    border-top-left-radius: 20px;
+		    border-top-right-radius: 20px;
+		}
+		
+		#partnerElite_basic #personnelStep1 .processBox .point{
+			position: absolute;
+		    top: 24px;
+		    left: 100px;
+		    width: 40px;
+		    height: 40px;
+		    text-align: center;
+		    line-height: 40px;
+		    font-size: 22px;
+		    background: none;
+		    color: #4a4a4a;
+		    border: 1px solid #9b9b9b;
+		    border-radius: 50%;  
+		}
+		#partnerElite_basic #personnelStep1 .processBox .point1{
+			left: 100px;
+		}
+		#partnerElite_basic #personnelStep1 .processBox .point2{
+			left: 340px;
+		}
+		#partnerElite_basic #personnelStep1 .processBox .point3{
+			left: 580px;
+		}
+		#partnerElite_basic #personnelStep1 .processBox .line {
+		    position: absolute;
+		    left: 230px;
+		    top: 44px;
+		    width: 160px;
+		    border-bottom: 1px solid #ccc;
+		}
+		#partnerElite_basic #personnelStep1 .processBox .line1{
+			left: 160px;
+		}
+		#partnerElite_basic #personnelStep1 .processBox .line2{
+			 left: 400px;
+		}
+		
+		#partnerElite_basic #personnelStep1 .processBox .text {
+		    position: absolute;
+		    top: 74px;
+		    font-size: 16px;
+		}
+		
+		#partnerElite_basic #personnelStep1 .processBox .text1{
+		    left: 86px;
+		    color: #2cb7c9;
+		}
+		#partnerElite_basic #personnelStep1 .processBox .text2 {
+		     left: 328px;
+		}
+		#partnerElite_basic #personnelStep1 .processBox .text3 {
+		     left: 569px;
+		}
+		
+		#partnerElite_basic #personnelStep1 form {
+			position: relative;
+		    width: 600px;
+		    margin: 0 auto;
+		    padding-top: 30px;
+		}
+		
+		#partnerElite_basic #personnelStep1 form .headBox {
+		    position: absolute;
+		    right: 0;
+		}
+		
+		#partnerElite_basic #personnelStep1 form .headBox .head_img {
+		    width: 120px;
+		    height: 120px;
+		    border-radius: 50%;
+		    overflow: hidden;
+		    cursor: pointer;
+		}
+		
+		#partnerElite_basic #personnelStep1 form .headBox .head_img img {
+		    width: 100%;
+		    height: 100%;
+		}
+		#partnerElite_basic #personnelStep1 form .headBox .head_text {
+		    padding-top: 20px;
+		    font-size: 16px;
+		}
+		
+		#partnerElite_basic #personnelStep1  label {
+		    float: left;
+		    width: 80px;
+		    line-height: 50px;
+		    height: 50px;
+		    margin-right: 20px;
+		    text-align: right;
+		    font-size: 16px;
+		    color: #4a4a4a;
+		    margin-bottom: 0;
+		    font-weight: 400;
+		}
+		
+		#partnerElite_basic #personnelStep1 .must{
+		    vertical-align: middle;
+		    color: #fea600;
+		    font-size: 26px;
+		}
+		
+		#partnerElite_basic #personnelStep1 input[type="text"]{
+		    width: 240px;
+		    height: 50px;
+		    line-height: 50px;
+		    padding-left: 20px;
+		    border-radius: 8px;
+		    border: 1px solid #d9d9d9;
+		    font-size: 16px;
+		}
+		
+		#partnerElite_basic #personnelStep1 .inputDiv {
+		    position: relative;
+		    float: left;
+		}
+		
+		#partnerElite_basic #personnelStep1 .iconBtn {
+		    display: block;
+		    position: absolute;
+		    right: 20px;
+		    top: 20px;
+		    width: 0;
+		    height: 0;
+		    border-width: 8px;
+		    border-style: solid;
+		    border-color: #4a4a4a transparent transparent transparent;
+		}
+		#partnerElite_basic #personnelStep1 .sexBox {
+		    margin-bottom: 0;
+		    float: left;
+		    padding-top: 5px;
+		}
+		
+		#partnerElite_basic #personnelStep1 .sexBox li {
+			position: relative;
+		    width: 99px;
+		    height: 40px;
+		    border-radius: 6px;
+		    border: 1px solid #ccc;
+		    display: inline-block;
+		    margin-right: 42px;
+		    cursor: pointer;
+		}
+		
+		#partnerElite_basic #personnelStep1 .group{
+		    margin-bottom: 30px;
+		}
+		
+		#partnerElite_basic #personnelStep1 .sexBox li span {
+		    position: absolute;
+		    font-size: 16px;
+		    top: 9px;
+		    right: 20px;
+		}
+		
+		#partnerElite_basic #personnelStep1 .sexBox li img {
+		    position: absolute;
+		    font-size: 16px;
+		    top: 10px;
+		    left: 23px;
+		}
+		
+		.select_bg {
+		    background: #2cb7c9;
+		    border: none;
+		}
+		
+		.noselect_bg {
+		    background:none;
+		    border: 1px solid #ccc;
+		}
+		
+		.select_color {
+		    color: #fff;
+		}
+		
+		.noselect_color {
+		    color: #4a4a4a;
+		}
+		
+		#partnerElite_basic #personnelStep1 .btnBox {
+			position: relative;
+		    padding-top: 40px;
+		}
+		#partnerElite_basic #personnelStep1 .btnBox .error_div {
+		    position: absolute;
+		    top: -18px;
+		    left: 101px;
+		    width: 300px;
+		    height: 50px;
+		    border: 1px solid #dd5b56;
+		    background: #f4d7d6;
+		    border-radius: 4px;
+		    -webkit-border-radius: 4px;
+		    -moz-border-radius: 4px;
+		    -o-border-radius: 4px;
+		}
+		#partnerElite_basic #personnelStep1 .btnBox .error_div .error_icon {
+		    position: absolute;
+		    top: 8px;
+		    left: 32px;
+		    display: block;
+		    width: 32px;
+		    height: 29px;
+		    background: url(/res/images/error/error_icon.png) no-repeat;
+		}
+		#partnerElite_basic #personnelStep1 .btnBox .error_div .error_text {
+		    position: absolute;
+		    top: 12px;
+		    left: 79px;
+		    font-size: 16px;
+		    color: #dd5b56;
+		}
+				
+		#partnerElite_basic #personnelStep1 .saveBtn {
+		    width: 300px;
+		    height: 50px;
+		    text-align: center;
+		    line-height: 50px;
+		    border: none;
+		    font-size: 18px;
+		    background: #fea600;
+		    color: #fff;
+		    border-radius: 100px;
+		    margin: 0 30px;
+		}
+		
+		#partnerElite_basic #personnelStep1 .returnBtn {
+		    font-size: 18px;
+		    color: #fea600;
+		    vertical-align: middle;
+		}
+		
+		#partnerElite_basic #personnelStep1 .skipBtn {
+		    font-size: 14px;
+		    color: #9b9b9b;
+		    vertical-align: bottom;
+		}
+		
+		
+		#partnerElite_basic #personnelStep1 .selectID_ul {
+		    position: absolute;
+		    z-index: 10;
+		    margin-bottom: 10px;
+		    background: #FFFFFF;
+		    border: 1px solid #999999;
+		    box-shadow: 2px 4px 6px -1px rgba(0,0,0,0.15);
+		    border-radius: 6px;
+		}
+		#partnerElite_basic #personnelStep1 .selectID_ul li {
+		    width: 240px;
+		    height: 40px;
+		    line-height: 40px;
+		    text-align: left;
+		    padding-left: 20px;
+		    cursor: pointer;
+		}
+		
+		#partnerElite_basic #personnelStep1 .selectID_ul li:hover{
+			background: #2cb7c9;
+    		color: #fff;
+		}

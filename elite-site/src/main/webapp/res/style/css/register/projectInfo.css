@@ -1,0 +1,18 @@
+#projectInfo_content{
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 820px;
+}
+#projectInfo_content .form-opt{
+    position: relative;
+    margin-top: -30px;
+    padding-left: 35px;
+}
+
+#projectInfo_content #companyFrom .error-tip{
+    position: absolute;
+    bottom: 50px;
+    left: 137px;
+    height: 24px;
+    color: red;
+}

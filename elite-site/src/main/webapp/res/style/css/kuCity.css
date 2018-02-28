@@ -1,0 +1,141 @@
+.kucity{
+    position: absolute;
+    top:50px;
+    left:50px;
+    z-index:99999999;
+    width: 350px;
+    font-family: "寰蒋闆呴粦";
+    font-size:12px;
+    box-shadow: 0 0 5px 1px #dedede;
+    padding:10px;
+    background-color: #000;
+    opacity: 0.8;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.kucity h3{
+    font-size:12px;
+    font-weight: normal;
+    color:#fff;
+}
+.kucity .kucity_nav{
+    font-size:0;
+    padding-top:10px;
+    list-style: none;
+}
+.kucity .kucity_nav li{
+    cursor: pointer;
+    font-size:12px;
+    margin-left:-1px;
+    border:1px solid  #dedede;
+    display: inline-block;
+    color: #fff;
+    padding:3px 7px;
+    transition:all .2s;
+}
+.kucity .kucity_nav li.active{
+    background-color: rgb(4, 168, 253)!important;
+    border-color:rgb(4, 168, 253)!important;
+    color:#fff!important;
+}
+
+/*kucity_body*/
+
+.kucity .kucity_body{
+    padding:10px 5px;
+    max-height: 230px;
+    overflow-y:auto; 
+}
+.kucity .kucity_body .kucity_item{
+    display: none;    
+}
+.kucity .kucity_body .kucity_item.active{
+    display: block;
+}
+.kucity_item dt, .kucity_item dd{
+    display: inline-block;
+}
+.kucity_item dl{
+    padding:3px 0;
+}
+.kucity_item dt{
+    color: #fff;
+    padding-top:3px;
+    vertical-align: top;
+    width:10%;
+}
+.kucity_item dd{
+    width:90%;
+}
+.kucity_item dd span{
+    width: 24%;
+    display: inline-block;
+    cursor: pointer;
+    padding:3px 0;
+    transition:all .3s;
+    color: #fff;
+}
+.kucity_item dd span:hover{
+    color:rgb(4, 168, 253);
+    text-decoration: underline;
+}
+
+.kucity .result{
+    list-style: none;
+}
+.kucity .result li{
+    padding:5px;
+    background-color: #fff;
+    margin:2px 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+.kucity .result li.active, .kucity .result li.active .letter{
+    background-color: rgb(4, 168, 253);
+    color:#fff;
+}
+.kucity .result li .letter{
+    float:right;
+    color:#999;
+}
+.kucity .result li .noresult{
+    padding:0 8px;
+    color:rgb(253, 130, 27);
+}
+.kucity .result li:hover, .kucity .result li:hover > .letter{
+    background-color: rgb(4, 168, 253);
+    color:#fff!important;
+}
+
+/*婊氬姩鏉�*/
+.kucity_body::-webkit-scrollbar  
+{  
+    width: 5px;  
+    height: 16px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*瀹氫箟婊氬姩鏉¤建閬� 鍐呴槾褰�+鍦嗚*/  
+.kucity_body::-webkit-scrollbar-track  
+{  
+    border-radius: 10px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*瀹氫箟婊戝潡 鍐呴槾褰�+鍦嗚*/  
+.kucity_body::-webkit-scrollbar-thumb  
+{  
+    border-radius: 5px;  
+    background-color: #dedede;  
+} 
+.kucity_body::-webkit-scrollbar-thumb:hover{
+    background-color: #999;
+}
+
+.search {
+    padding: 7px;
+    border: 1px solid rgb(207, 222, 229);
+    border-radius: 2px;
+}

@@ -1,0 +1,75 @@
+a{
+    text-decoration: none;
+}
+
+.error{
+    min-width: 1920px;
+    width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.error-content{
+    width: 1070px;
+    height: 600px;
+    margin: 0 auto;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.error-content-l{
+    width: 493px;
+    height: 433px;
+    background: url("/res/images/error/computer.png");
+    float: left;
+    margin-right: 68px;
+}
+.error-content-r{
+    width: 500px;
+    height: 600px;
+    float: left;
+}
+.r-a{
+    width: 462px;
+    height: 180px;
+    background: url("/res/images/error/number.png") no-repeat;
+}
+.r-b{
+    padding-top: 39px;
+    padding-bottom: 50px;
+    width: 393px;
+    height: 84px;
+    font-size: 30px;
+    color: #9B9B9B;
+    letter-spacing: 0.22px;
+    margin: 0 auto;
+}
+
+
+
+
+.return,.home{
+    display: block;
+    width: 200px;
+    height: 60px;
+    border-radius: 31px;
+    background: #FEA600;
+    font-size: 26px;
+    color: #FFFFFF;
+    letter-spacing: 0.19px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.return{
+    float: left;
+    margin-right: 85px;
+}
+.home{
+    float: left;
+}

@@ -1,0 +1,361 @@
+		/*精英管理*/
+		
+		#personActive #table1 tbody tr:nth-child(2n){
+		    background-color: #f5fbfc;
+		}
+ 		#personRecommend{
+            padding-top: 100px;
+        }
+        #personActive .opt-and-search{
+            width:100%;
+        }
+        
+        #personActive .table-search .time_text{
+		    font-size: 16px;
+		}
+
+        #personActive .add-btn{
+            width:240px;
+            height:40px;
+            line-height: 40px;
+            cursor: pointer;
+            border:1px solid #FEA600;
+            border-radius: 4px;
+            color:#FEA600;
+            float:right;
+        }
+
+        #personActive .add-title{
+            font-size: 18px;
+            line-height: 54px;
+        }
+
+        #personActive .add-btn img{
+            width:24px;
+            height:24px;
+            margin-left:20px;
+            vertical-align: middle;
+            margin-bottom: 3px;
+        }
+
+        #personActive .split-line{
+            width:100%;
+            border-bottom: 1px solid #E6E6E6;
+        }
+
+        #personActive .table-search >*{
+            display: inline-block;
+        }
+
+        #personActive .search-btn {
+		    width: 100px;
+		    height: 40px;
+		    line-height: 40px;
+		    background: #FEA600;
+		    color: #fff;
+		    border: none;
+		    border-radius: 28px;
+		    -webkit-border-radius: 28px;
+		    -moz-border-radius: 28px;
+		    -o-border-radius: 28px;
+		    font-size: 16px;
+		    float: right;
+		    margin-top: 7px;
+		}
+
+        #personActive .search-icon{
+            width:20px;
+            height:20px;
+        }
+
+        #personActive .active-order {
+		    font-size: 12px;
+		    color: #9B9B9B;
+		    height: 20px;
+		    margin-top: 20px;
+		    margin-left: 15px;
+		}
+		
+		#personActive .active-order ul li{
+			float:left;
+			width:105px;
+			height:20px;
+			font-size: 12px;
+			cursor: pointer;
+		}
+
+        #personActive .active-order span{
+            cursor: pointer;
+        }
+
+        #personActive .table-triangle{
+            position: absolute;
+            bottom: 2px;
+            right:3px;
+            cursor: pointer;
+        }
+        #personActive .table-trigger{
+            display: inline-block;
+            height: 0;
+            width: 0;
+            overflow: hidden;
+            border-style: solid;
+            margin-left: 4px;
+            margin-right: 4px;
+            position: relative;
+            top:0;
+            border-width:6px 6px 0;
+            border-color:#D8D8D8 transparent transparent;
+            -webkit-transition:all .4s ease 0s;
+            -moz-transition:all .4s ease 0s;
+            -o-transition:all .4s ease 0s;
+            transition:all .4s ease 0s;
+        }
+
+        #personActive .trigger-inverse{
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+            animation-fill-mode: forwards;
+        }
+
+        /****************************时间控件样式*************************/
+        #personActive .date-select{
+            /*display: block;*/
+            width:176px;
+            height:34px;
+            position: relative;
+        }
+
+        #personActive .date-icon {
+        	position: absolute;
+		    top: 10px;
+		    right: 16px;
+		    width: 20px;
+		    height: 20px;
+		}
+
+
+        /****************************时间控件样式*************************/
+
+        #personActive .search-status{
+            margin-top:30px;
+            width:100%;
+        }
+        #personActive .active-status{
+            color:#FEA600;
+        }
+
+        #personActive .person-table thead tr th{
+            background-color: #F5F5F5;
+            color:#9B9B9B;
+            font-weight: normal;
+            border-bottom: none;
+            line-height: 30px;
+        }
+
+        #personActive .person-table tbody tr td{
+            border-top:none;
+            height:40px;
+            line-height: 40px;
+            font-size: 14px;
+            color:#4A4A4A;
+        }
+
+        #personActive .active-line{
+            position: absolute;
+            top:0;
+            left:0;
+            width:136px;
+            border-bottom: 2px solid #FEA600;
+        }
+
+        #personActive .other-select{
+            cursor: pointer;
+        }
+
+        #personActive .table-btn{
+            width:76px;
+            height:22px;
+            line-height:18px;
+            border:1px solid #95D6E2;
+            background-color: white;
+            color:#2CB7C9;
+            border-radius: 10px;
+            vertical-align: middle;
+            position: relative;
+        }
+        #personActive .select{
+		    height: 39px;
+		    line-height: 39px;
+		    width: 170px;
+		    border-right: 3px solid #2cb7c9;
+		    color: #2cb7c9;
+		}
+		
+		/*人才推荐方精英管理*/
+		#personActive .table-search {
+		    position: relative;
+		    height: 40px;
+		}
+		#personActive .form-control {
+		    border: 1px solid #ccc;
+		    height: 40px;
+		    line-height: 40px;
+		    border-radius: 6px;
+		    -webkit-border-radius: 6px;
+		    -moz-border-radius: 6px;
+		    -o-border-radius: 6px;
+		     background-color: #fff;
+		}
+		#personActive .date_start {
+		    left: 15px;
+		}
+		#personActive .date_line {
+		    position: absolute;
+		    left: 160px;
+		    top: 20px;
+		    width: 20px;
+		    border-bottom: 1px solid #ccc;
+		}
+		#personActive .date_end {
+		    left: 191px;
+		}
+		#personActive #searchWordId {
+		    position: absolute;
+		    left: 361px;
+		    width: 200px;
+		}
+		#personActive #searchBtn {
+		    position: absolute;
+		    right: 60px;
+		    top: -8px;
+		}
+		
+		/*活跃度排名*/
+		#personActive .searchTitle {
+		    width: 100%;
+		    height: 52px;
+		    border-bottom: 3px solid #b3b3b3;
+		}
+		#personActive #selectStatusPane {
+		    position: relative;
+		    width: 707px;
+		    height: 50px;
+		    margin: 0 auto;
+		}
+		#personActive #selectStatusPane .ul_bg{
+			position: absolute;
+			left:-1px;
+			top:0px;
+		    width: 706px;
+		    height: 50px;
+		    margin: 0 auto;
+		    border: 1px solid #e0e0e0;
+		    box-sizing: border-box;
+		    border-top-left-radius: 6px;
+		    border-top-right-radius: 6px;
+		   	border-bottom: none;
+		   	z-index:-100;
+		}
+		
+		#personActive #selectStatusPane li {
+		    float: left;
+		    height: 49px;
+		    line-height:49px;
+		    text-align: center;
+		    font-size: 16px;
+		    color: #9b9b9b;
+		    cursor: pointer;
+		    padding: 0 28px;
+		}
+		#personActive #selectStatusPane .active_bg {
+		    background: #ebebeb;
+		    color: #4a4a4a;
+		}
+		
+		/*我推荐的精英*/
+		#personActive .table_title{
+		    height: 50px;
+		}
+		#personActive .table_title .part {
+		    float: left;
+		    width: 12.5%;
+		    height: 50px;
+		    line-height: 50px;
+		    text-align: center;
+		    font-weight: 600;
+		}
+		#personActive .groupBox{
+		    height: 40px;
+		    line-height: 40px;
+		}
+		#personActive .groupBox:nth-child(2n+1){ 
+			background-color:#f2f2f2
+		}
+		#personActive .groupBox .part {
+		    float: left;
+		    display: block;
+		    width: 12.5%;
+		    height: 40px;
+		    text-align: center;
+		    font-size: 12px;
+		}
+		#personActive .table_content {
+		    min-height: 50px;
+		    border-bottom: 1px solid #b3b3b3;
+		}
+		
+		/*分页说明*/
+		#personActive .pagination {
+		    position: static;
+			right: 0;
+			display: inline-block;
+			padding-top: 0;
+		}
+		
+		/*备注*/
+		/*备注*/
+		#personActive .noteBox{
+			width: 705px;
+		    margin-top: 100px;
+		    margin-bottom: 200px;
+		    margin-left: 20px;
+		}
+		#personActive .noteBox .note_icon {
+		    float: left;
+		    display: block;
+		    width: 23px;
+		    height: 20px;
+		    background: url("/res/images/channel/tips.png") no-repeat;
+		    margin-right: 10px;
+		}
+		#personActive .noteBox dt{
+		    font-size: 16px;
+		    color: #2cb7c9;
+		    margin-bottom: 22px;
+		}
+		#personActive .noteBox .dd_icon {
+		    display: block;
+		    width: 8px;
+		    height: 8px;
+		}
+		#personActive .noteBox .dd_icon {
+		    float: left;
+		    display: block;
+		    width: 8px;
+		    height: 8px;
+		    background: #2cb7c9;
+		    -webkit-border-radius: 50%;
+		    -moz-border-radius: 50%;
+		    -o-border-radius: 50%;
+		    border-radius: 50%;
+		    margin-top: 5px;
+		    margin-right: 5px;
+		}
+		#personActive .noteBox dd {
+		    margin-bottom: 10px;
+		    margin-left: 20px;
+		}
+			

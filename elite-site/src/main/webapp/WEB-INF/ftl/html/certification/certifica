@@ -1,0 +1,168 @@
+	<@extend name="layout">
+    <@block name="cs">
+    <style type="text/css">
+    	 .recommend-form{
+    width:520px;
+    /*height:600px;*/
+    height:auto;
+    position: absolute;
+    top:170px;
+    left:50%;
+    margin-left:-260px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.form-box{
+    padding:30px 30px;
+    text-align: center;
+}
+
+
+.title{
+    font-size: 24px;
+    color:#414141;
+}
+
+.hr-line{
+    width:100%;
+    border-bottom: 2px solid #2CB7C9;
+    margin:20px 0;
+}
+#recommend-form .btn-group{
+    display: block;
+}
+.form-group {
+    overflow: hidden;
+}
+.form-group-btn {
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 30px
+}
+.control-label {
+    width:140px;
+    float:left;
+    text-align: right;
+    line-height: 54px;
+}
+ .input {
+    width:495px;
+    float:right;
+    text-align:left;
+}
+.input input {
+    width:400px;
+    height: 50px;
+    border-radius: 8px;
+    border:1px solid #e6e6e6;
+    text-indent: .4cm;
+}
+.boxt {
+    width:230px;
+    height:160px;
+    margin-top:30px;
+    background:#231;
+    border:1px dotted #ccc;
+}
+.boxt-add {
+    width:106px;
+    height: 25px;
+    margin:65px auto 0 ;
+    line-height: 25px;
+    padding-left: 41px;
+    background:url(imgs/ff.png) no-repeat left center;
+}
+.txt {
+    width:336px;
+    margin:0 auto;
+    text-align: left;
+}
+.txt p {
+    color:#999;
+}
+.txt-right {
+    display: inline-block;
+    width:16px;
+    height:16px;
+    background:url(imgs/dsd.png);
+}
+#recommend-form .btn,.btn-default{
+    border-color:#2CB7C9;
+    outline: none;
+}
+
+.next-step{
+    margin-top:20px;
+}
+.next-step-aleft {
+    display:inline-block;
+    color:#FEA600;
+    text-decoration:none;
+    margin-right:33px;
+   
+}	 
+.next-step-btn{
+    width:338px;
+    height:50px;
+    background-color: #FEA600;
+    border-radius: 100px;
+    border:none;
+    color:white;
+    font-size:18px;
+}
+.recommend-form{
+    width:520px;
+    /*height:600px;*/
+    height:auto;
+    position: absolute;
+    top:170px;
+    left:50%;
+    margin-left:-260px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.next-step .next-step-aright {
+    display:inline-block;
+    color:#4A90E2;
+    text-decoration:none;
+    margin-left:33px;
+    vertical-align:bottom;
+}
+
+
+
+	 </style>
+    </@block>
+    
+     <@block name="body">
+
+	<div class="recommend-form" id="personnelStep1"  style="width:720px; background:#354">
+	    <div class="form-box">
+	        <div class="title">人才推荐方注册-上传认证信息</div>
+	        <div class="hr-line"></div>
+	        <form class="row form-group form-horizontal" role="form" id="personnel-form1">
+		        <div class="form-group form-group-btn">
+	                <label class="control-label">身份证号</label>
+	                <div class="input">
+	                    <input class="form-control" type="text" id="name" name="name" placeholder="请输入姓名" maxlength="20" style="width:400px;">
+	                    <div class="boxt">
+	                    	<p class="boxt-add">身份证正面</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="txt">
+	            <h1>选传其它证件：</h1>
+	            <p>项目紧急联系人&nbsp;<span class="txt-right"></span></p>
+	            <p>参考项目&nbsp;<span class="txt-right"></span></p>
+	            <p>项目所在城市&nbsp;<span class="txt-right"></span></p>
+	            </div>
+	            <div class="next-step">
+	            	<a class="next-step-aleft" href="javascript:;">上一步</a>
+	                <button type="button" class="next-step-btn" id="nextStepBtn1">保存并继续下一步</button>
+	                <a class="next-step-aright" href="javascript:;">先跳过</a>
+	            </div>
+	        </form>
+	    </div>
+	</div>
+ </@block>

@@ -1,0 +1,578 @@
+		#trustCost_content{
+            width:1000px;
+            margin:0 auto;
+        }
+
+        #trustCost_content .flag{
+            font-size: 14px;
+            color:#5C5C5C;
+            padding-top:20px;
+            margin-bottom: 20px;
+        }
+
+        #trustCost_content .content-box{
+            width:100%;
+            background-color: #FAFAFA;
+            padding-top:20px;
+            padding-bottom: 130px;
+        }
+
+        #trustCost_content .process{
+            width:760px;
+            height:100px;
+            position: relative;
+            margin:0 auto;
+        }
+
+        #trustCost_content .process-line{
+            width:110px;
+            border-bottom: 2px solid #BFBFBF;
+            position: absolute;
+            top:36px;
+            left:70px;
+        }
+
+        #trustCost_content .process-circle{
+            width: 40px;
+            height: 40px;
+            border:none;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            background-color: #BFBFBF;
+            text-align: center;
+            line-height: 40px;
+            color:white;
+
+            position: absolute;
+            top:16px;
+            left:20px;
+            z-index: 200;
+        }
+
+        #trustCost_content .active-process{
+            background-color: #7DD2E1;
+        }
+
+        #trustCost_content .process-title{
+            position: absolute;
+            top:68px;
+            left:16px;
+        }
+
+        #trustCost_content .active-title{
+            color:#2CB7C9;
+        }
+
+        #trustCost_content .finish-line{
+            border-color: #95D6E2;
+        }
+
+        #trustCost_content .process-tip{
+            position: absolute;
+            left:94px;
+            top:0;
+            font-size: 12px;
+            color:#9B9B9B;
+        }
+
+        #trustCost_content .project-box{
+            width:100%;
+            height:175px;
+            border:1px solid #E6E6E6;
+            border-radius: 6px;
+        }
+
+        #trustCost_content .part1{
+            width:100%;
+            height:40px;
+            line-height: 40px;
+            background-color: #F2F2F2;
+            border-bottom: 1px solid #E6E6E6;
+            font-size: 14px;
+            color:#9B9B9B;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        #trustCost_content .vertical-line{
+            height:28px;
+            border-right:1px solid #E6E6E6;
+            position: absolute;
+            top:5px;
+            left:240px;
+        }
+
+        #trustCost_content .project-detail{
+            width:100%;
+            height:133px;
+            background-color: #FAFAFA;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        #trustCost_content .main-info{
+            float:left;
+            width:54%;
+            height:135px;
+            border-right: 1px solid #E6E6E6;
+        }
+
+        #trustCost_content .project-logo{
+            width:95px;
+            height:95px;
+            line-height: 95px;
+            text-align: center;
+            background-color: #F29D70;
+            color:white;
+            font-size: 58px;
+            float:left;
+        }
+
+        #trustCost_content .project-info{
+            float:left;
+            margin-left:20px;
+        }
+        #trustCost_content .project-name{
+            display: inline-block;
+            margin-right:10px;
+        }
+        #trustCost_content .index{
+            font-size: 14px;
+            color:#9B9B9B;
+        }
+
+        #trustCost_content .value{
+            font-size: 14px;
+            color:#4a4a4a;
+        }
+
+        #trustCost_content .status{
+            float:left;
+            width:22%;
+            height:133px;
+            border-right: 1px solid #E6E6E6;
+            font-size: 12px;
+        }
+
+        #trustCost_content .opt{
+            float:left;
+            width:24%;
+            height:133px;
+            background-color: #F5FBFC;
+            text-align: center;
+        }
+
+
+        #trustCost_content .class-label{
+            display: inline-block;
+            width:40px;
+            height:16px;
+            line-height: 16px;
+            text-align: center;
+            border:1px solid #E6E6E6;
+            border-radius: 10px;
+            color:#9B9B9B;
+            font-size: 12px;
+            margin-right:5px;
+        }
+
+        #trustCost_content .deposit{
+            text-align: right;
+            margin-top:20px;
+            padding-right:10px;
+        }
+
+        #trustCost_content .deposit-count{
+            font-size:20px;
+            color:#FEA600;
+            margin-left:10px;
+        }
+        #trustCost_content .required{
+            color:#FEA600!important;
+            vertical-align: sub;
+        }
+
+        #trustCost_content .deposit-tip{
+            font-size: 12px;
+            color:#9B9B9B;
+        }
+
+        #trustCost_content .pay-box{
+            width:100%;
+            height:134px;
+            border:1px solid #95D6E2;
+            background-color: #F5FBFC;
+            border-radius: 6px;
+            position: relative;
+        }
+
+        #trustCost_content .radio-box {
+		    width: 18px;
+		    height: 18px;
+		    position: absolute;
+		    top: 54px;
+		    left: 0px;
+		    cursor: pointer;
+		}
+
+        #trustCost_content .two-ways {
+		    position: absolute;
+		    top: 30px;
+		    left: 30px;
+		    width: 180px;
+		    height: 60px;
+		    border: 1px solid #E6E6E6;
+		    border-radius: 6px;
+		    -webkit-border-radius: 6px;
+		    -moz-border-radius: 6px;
+		    -o-border-radius: 6px;
+		    background: #fff;
+		    cursor: pointer;
+		}
+		
+		 #trustCost_content .two-ways img{
+		 	display: block;
+		    width: 136px;
+		    height: 34px;
+		    margin: 0 auto;
+		    margin-top: 13px;
+		 }
+		
+		
+		
+        #trustCost_content .current-way{
+            border:1px solid #FEA600;
+        }
+
+        #trustCost_content .ali-pay{
+            width:145px;
+            height:44px;
+            margin-top:10px;
+        }
+
+        #trustCost_content .bank-card{
+            width:auto;
+            height:56px;
+            margin-top:3px;
+        }
+
+        #trustCost_content .account-box{
+            width:100%;
+            height:146px;
+            border:1px solid #95D6E2;
+            background-color: #F5FBFC;
+            padding-top:20px;
+        }
+
+        #trustCost_content .certificate{
+            font-size: 12px;
+            color:#9B9B9B;
+            margin-top:20px;
+        }
+
+        #trustCost_content .certificate img{
+            width:16px;
+            height:16px;
+            vertical-align: sub;
+        }
+
+        #trustCost_content .invoiceBox {
+		    margin-top: 50px;
+		}
+        #trustCost_content .change-company{
+            color:#2CB7C9;
+            cursor: pointer;
+            margin-left:10px;
+        }
+
+        #trustCost_content .goto-pay-btn{
+            width:140px;
+            height:40px;
+            background-color: #FEA600;
+            border:none;
+            border-radius: 20px;
+            color:white;
+            float:right;
+            margin-top:20px;
+            margin-bottom: 60px;
+        }
+        
+        
+        /*托管*/
+        #trustCost_content .payBank .box_a_box{
+		    width: 100%;
+		    height: 100px;
+		}
+		#trustCost_content .payBank .box-b{
+		    width: 100%;
+		    height: 78px;
+		}
+		
+		#trustCost_content .payBank .box-b-content{
+		    width: 530px;
+		    height: 78px;
+		    font-size: 14px;
+		    color: #4a4a4a;
+		    padding-left: 146px;
+		    line-height: 78px;
+		}
+		#trustCost_content .payBank .box-c{
+		    width: 100%;
+		    height: 40px;
+		}
+		
+		/*托管弹窗*/
+		#trustCost_content .payBank{
+		    position: fixed;
+		    z-index: 100000000000000000;
+		    width: 100%;
+		    height: 100%;
+		    background: url("/res/images/pay/layer_bg.png");
+		    left: 0;
+		    top: 0;
+		}
+		
+		#trustCost_content .payBank_box{
+		    position: absolute;
+		    left: 50%;
+		    top: 50%;
+		    width: 600px;
+		    z-index: 999999999999999999;
+		    margin-left: -300px;
+		    margin-top: -140px;
+		    height: 280px;
+		    background: #F5FBFC;
+		    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.18);
+		    border-radius: 20px;
+		    opacity: 1;
+		}
+		
+		/*托管费用索要发票*/
+		#trustCost_content .show_div {
+		    position: relative;
+		    height: 22px;
+		    cursor: pointer;
+		}
+		
+		#trustCost_content .show_div .show_img {
+		    position: absolute;
+		    top: 15px;
+		    left: 0;
+		    width: 20px;
+		    height: 20px;
+		}
+		
+		#trustCost_content .show_div .show_txt {
+		    position: absolute;
+		    left: 30px;
+		    top: 16px;
+		    font-size: 14px;
+		    height: 22px;
+		    line-height: 22px;
+		}
+		
+		.active_color {
+		    color: #2cb7c9;
+		}
+		
+		 #trustCost_content .hide_div {
+		    width: 100%;
+		    padding-top: 30px;
+		    padding-left: 30px;
+		    font-size: 12px;
+		}
+		
+		#trustCost_content .hide_div .form_group{
+			margin-bottom: 15px;
+		}
+		
+		
+		#trustCost_content .hide_div form input{
+			width: 320px;
+		    height: 40px;
+		    border-radius: 6px;
+		    -webkit-border-radius: 6px;
+		    -moz-border-radius: 6px;
+		    -o-border-radius: 6px;
+		    border: 1px solid #ccc;
+		    margin-left: 10px;
+		    padding-left: 20px;
+		}
+		
+		#trustCost_content .hide_div form .input_title {
+		    display: block;
+		    float: left;
+		    width: 80px;
+		    height: 40px;
+		    line-height: 40px;
+		    text-align: right;
+		    margin-left: -22px;
+		    font-size: 14px;
+		    font-weight: 500;
+		}
+		
+		#trustCost_content .hide_div form .saveBtn {
+		    width: 120px;
+		    height: 40px;
+		    text-align: center;
+		    line-height: 40px;
+		    border-radius: 48px;
+		    -webkit-border-radius: 48px;
+		    -moz-border-radius: 48px;
+		    -o-border-radius: 48px;
+		    border: none;
+		    background: #fea600;
+		    color: #fff;
+		    font-size: 18px;
+		    margin-right: 110px;
+		    margin-left: 70px;
+		}
+		
+		#trustCost_content .hide_div form .cancelBtn {
+		    width: 120px;
+		    height: 40px;
+		    text-align: center;
+		    line-height: 40px;
+		    border-radius: 48px;
+		    -webkit-border-radius: 48px;
+		    -moz-border-radius: 48px;
+		    -o-border-radius: 48px;
+		    border: 1px solid #ccc;
+		    background: none;
+		    color: #ccc;
+		    font-size: 18px;
+		}
+		
+		#trustCost_content .hide_div form .btnDiv {
+			position: relative;
+		    margin-top: 60px;
+		}
+		
+		#trustCost_content .hide_div form .btnDiv .error_div {
+		    position: absolute;
+		    top: -50px;
+		    left: 65px;
+		    width: 300px;
+		    height: 50px;
+		    border: 1px solid #dd5b56;
+		    border-radius: 4px;
+		    -webkit-border-radius: 4px;
+		    -moz-border-radius: 4px;
+		    -o-border-radius: 4px;
+		    background: #f4d7d6;
+		}
+		
+		#trustCost_content .hide_div form .btnDiv .error_div .error_icon {
+		    position: absolute;
+		    top: 5px;
+		    left: 32px;
+		    width: 32px;
+		    height: 29px;
+		    background: url("/res/images/error/error_icon.png") no-repeat;
+		}
+		
+		#trustCost_content .hide_div form .btnDiv .error_div .error_text {
+		    position: absolute;
+		    top: 10px;
+		    left: 79px;
+		    color: #dd5b56;
+		    font-size: 16px;
+		}
+		
+		
+		/*费用托管对象*/
+		#trustCost_content .demand_div {
+		    margin-bottom: 10px;
+		}
+		#trustCost_content .demand_div span:nth-child(1) {
+		    font-size: 16px;
+		    color: #4a4a4a;
+		}
+		#trustCost_content .demand_div span:nth-child(2) {
+		    font-size: 20px;
+		    color: #fea600;
+		}
+		#trustCost_content .money_div .text{
+			font-size: 14px;
+		    color: #9b9b9b;
+		}
+		#trustCost_content .money_div .number{
+			font-size: 14px;
+		    color: #4a4a4a;
+		}
+		
+		#trustCost_content .money_div {
+		    margin-bottom: 5px;
+		}
+		
+		#trustCost_content .pay_title {
+		    padding: 20px 0;
+		    font-size: 18px;
+		    font-weight: 500;
+		}
+		
+		
+		#trustCost_content .accountBox{
+		    width: 1000px;
+		    height: 130px;
+		    background: #f5fbfc;
+		    border: 1px solid #2cb7c9;
+		    border-radius: 12px;
+		    margin-top: 20px;
+		    box-sizing: border-box;
+		}
+		#trustCost_content #gatheringDiv .account{
+			margin-top: 30px;
+    		margin-left: 20px;
+		}
+		
+		#trustCost_content #gatheringDiv .account_text {
+		    float: left;
+		    width: 100px;
+		    height: 20px;
+		    line-height: 20px;
+		    font-size: 16px;
+		    font-weight: 600;
+		}
+		
+		#trustCost_content #gatheringDiv .account_number {
+		    float: left;
+		    height: 20px;
+		    line-height: 20px;
+		    font-size: 16px;
+		    
+		}
+		
+		#trustCost_content #gatheringDiv .account_number span:nth-child(1){
+			font-weight: 500;
+			margin-right: 10px
+		}
+		#trustCost_content #gatheringDiv .account_number span:nth-child(2){
+			margin-right: 10px
+		}
+		#trustCost_content #gatheringDiv .account_number span:nth-child(3){
+			font-weight: 500;
+		}
+		#trustCost_content .accountBox .note{
+			margin-top: 20px;
+			margin-left: 20px;
+		}
+		
+		#trustCost_content .accountBox .note_icon {
+		    display: block;
+		    float: left;
+		    width: 23px;
+		    height: 20px;
+		    background: url("/res/images/ceo/note_icon.png") no-repeat;
+		    margin-right: 10px;
+		}
+		
+		#trustCost_content .accountBox .note_text {
+		    display: block;
+		    float: left;
+			height: 20px;
+		    line-height: 20px;
+		    color:#2cb7c9;   
+		}
+				

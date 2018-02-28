@@ -1,0 +1,179 @@
+/*如何认领任务*/
+#claimTask {
+    padding-top: 100px;
+}
+#claimTask .claimTask_bg{
+    width: 100%;
+    height: 720px;
+    background: url("../../../../res/images/task/claimTask.png") no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-position: center;
+}
+#claimTask .claimTask_bg .title{
+    width: 140px;
+    height: 85px;
+    font-size: 20px;
+    border-bottom: 2px solid #2CB7C9;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#claimTask .claimTask_text{
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 240px;
+}
+
+#claimTask .claimTask_text .conditions .titleDiv_text{
+    display: block;
+    float: left;
+    font-size: 20px;
+    color: #2cb7c9;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+
+#claimTask .claimTask_text .conditions .in_btn{
+    float: left;
+    display: block;
+    width: 148px;
+    height: 34px;
+    border: 1px solid #fea600;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 82px;
+    color: #fea600;
+    font-size: 16px;
+}
+
+#claimTask .claimTask_text .conditions .conditions_box,.skills_box{
+    position: relative;
+    width: 998px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-top: 16px;
+}
+#claimTask .claimTask_text .conditions .conditions_box .conditions_content,.skills_content{
+    padding: 20px;
+}
+
+#claimTask .claimTask_text .conditions .conditions_box .conditions_content,.skills_content li{
+    margin-bottom: 6px;
+}
+
+#claimTask .claimTask_text .conditions {
+    margin: 40px 0;
+}
+
+#claimTask .claimTask_text .conditions .conditions_box em{
+    display:block;
+    border-width:20px;
+    position:absolute;
+    bottom:-40px;
+    left:100px;
+    border-style:solid dashed dashed;
+    border-color:#09F transparent transparent;
+    font-size:0; line-height:0;
+}
+#claimTask .claimTask_text .conditions .conditions_box span{
+    display:block;
+    border-width:20px;
+    position:absolute;
+    bottom:-33px;
+    left:100px;
+    border-style:solid dashed dashed;
+    border-color:#FFF transparent transparent;
+    font-size:0; line-height:0;
+}
+
+#claimTask .claimTask_text .skills .title{
+    font-size: 20px;
+    color: #2cb7c9;
+}
+
+#claimTask .claimTask_text .li_icon {
+    float: left;
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #2cb7c9;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+#claimTask .claimTask_text .li_text{
+    float: left;
+    display: block;
+    font-size: 16px;
+}
+
+#claimTask .claimTask_text .problems {
+    min-height: 420px;
+    height: auto!important;
+    margin-top: 40px;
+}
+#claimTask .claimTask_text .problems_group {
+    border-bottom: 1px dashed #e0e0e0;
+    min-height: 67px;
+    height: auto!important;
+    margin-bottom: 10px;
+}
+
+#claimTask .claimTask_text .problems .title{
+    font-size: 16px;
+    color: #2cb7c9;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#claimTask .claimTask_text .problems .problems_group ul li img{
+    display: block;
+    float: left;
+    margin-right: 8px;
+}
+#claimTask .claimTask_text .problems .problems_group ul li span{
+    display: block;
+    float: left;
+    width: 940px;
+}
+
+#claimTask .claimTask_text .problems .problems_group ul .marginbottom8{
+    margin-bottom: 8px;
+}
+#claimTask .claimTask_text .more{
+    margin-top: 40px;
+}
+
+#claimTask .claimTask_text .more .btn_div{
+    margin-bottom: 20px;
+}
+
+#claimTask .claimTask_text .more .btn_div a{
+    float: left;
+    display: block;
+    width: 150px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 82px;
+}
+#claimTask .claimTask_text .more .btn_div .check_btn{
+    border: 1px solid #9b9b9b;
+    color: #9b9b9b;
+    margin-right: 100px;
+}
+#claimTask .claimTask_text .more .btn_div .return_btn{
+    border: 1px solid #2CB7C9;
+    color: #2CB7C9;
+}
+
+#claimTask .claimTask_text .more .reminder_div img{
+    display: block;
+    float: left;
+    margin-right: 8px;
+}

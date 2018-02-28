@@ -1,0 +1,437 @@
+		/*城市选择插件*/
+		.kucity{
+			width: 370px!important;
+		}
+		.kucity .kucity_body{
+		    position: absolute;
+		    z-index: 100;
+		    top:58px;
+		    left:0px;
+		    width: 375px;
+		    max-height: 230px;
+		    overflow-y: auto;
+		    padding: 0!important;
+		}
+		#personRecommend{
+		    padding-top: 100px;
+		}
+		#inviteRegister_company .opt-and-search{
+		    width:730px;
+		}
+		#inviteRegister_company .radio-box{
+		    vertical-align: text-bottom!important;
+		    cursor: pointer;
+		}
+        /*****************************************模态框样式**********************/
+        #inviteRegister_company .modal-body{
+            background-image:url('/res/images/pic_shadow3.png');
+        }
+
+        #inviteRegister_company #addProjectForm label{
+            font-size: 14px;
+            color:white;
+        }
+
+        #inviteRegister_company .close-icon{
+            width:24px;
+            height:24px;
+            float:right;
+            margin-top:6px;
+            margin-right:6px;
+            cursor: pointer;
+        }
+
+        #inviteRegister_company #addProjectForm{
+            padding-top:30px;
+        }
+        #inviteRegister_company .hr-line2{
+            width:88%;
+            border-bottom: 1px dashed #CCCCCC;
+            margin-left:48px;
+            margin-top:30px;
+            margin-bottom: 20px;
+        }
+        #inviteRegister_company #addProjectForm .btn,.btn-default{
+            border-color:#9B9B9B;
+            background-color: transparent;
+            outline: none;
+            color:white;
+            width:100px;
+        }
+        #inviteRegister_company .active-period{
+            background-color: #7DD2E1!important;
+            /*color:white!important;*/
+            border:1px solid #7DD2E1!important;
+        }
+        #inviteRegister_company .modal-triangle{
+            position: absolute;
+            bottom: 6px;
+            left:58px;
+            cursor: pointer;
+        }
+        #inviteRegister_company .modal-trigger{
+            display: inline-block;
+            height: 0;
+            width: 0;
+            overflow: hidden;
+            border-style: solid;
+            margin-left: 4px;
+            margin-right: 4px;
+            position: relative;
+            top:0;
+            border-width:6px 6px 0;
+            border-color:#D8D8D8 transparent transparent;
+            -webkit-transition:all .4s ease 0s;
+            -moz-transition:all .4s ease 0s;
+            -o-transition:all .4s ease 0s;
+            transition:all .4s ease 0s;
+        }
+        #inviteRegister_company .upload-resume{
+            width:100%;
+            height:34px;
+            line-height: 34px;
+            background-color: white;
+            border-radius: 4px;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        #inviteRegister_company .opt-btn-ok{
+            width:126px;
+            height:40px;
+            background-color: #FEA600;
+            border:1px solid #FEA600;
+            border-radius: 20px;
+            color:white;
+        }
+        #inviteRegister_company .opt-btn-cancel{
+            width:126px;
+            height:40px;
+            background-color: transparent;
+            border:1px solid #CCCCCC;
+            border-radius: 20px;
+            color:white;
+        }
+       
+        #inviteRegister_company .belong-class{
+            width:100%;
+            height:162px;
+            background-color: white;
+            border-radius: 4px;
+        }
+        #inviteRegister_company .select-box{
+            padding:10px;
+        }
+        #inviteRegister_company .select-box button{
+            width:80px;
+            border:1px solid #7DD2E1;
+            background-color: white;
+            border-radius: 4px;
+            font-size: 14px;
+            margin:5px 6px;
+        }
+        #inviteRegister_company .radio-box{
+            width:18px;
+            height:18px;
+            margin-top:7px;
+        }
+        /*****************************************模态框样式**********************/
+        #inviteRegister_company .your-code{
+            font-size: 14px;
+    		color: #4A4A4A;
+    		padding-top: 10px;
+    		width: 200px;
+    		height: 160px;
+    		background: #F5FBFC;
+    		border: 1px solid #E6E6E6;
+    		box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.20);
+    		border-radius: 6px;
+        }
+        #inviteRegister_company .copy-btn{
+            width:155px;
+            height:40px;
+            background-color: #7DD2E1;
+            border:none;
+            border-radius: 4px;
+            color:white;
+            float:right;
+        }
+        #inviteRegister_company .invite-code-input{
+            width:200px;
+            background-color: #F2F2F2;
+            text-align: center;
+            float:left;
+            margin-top:7px;
+        }
+        #inviteRegister_company .table-search >*{
+            display: inline-block;
+        }
+        #inviteRegister_company .search-btn{
+            width:120px;
+            height:36px;
+            background-color: #FEA600;
+            border:none;
+            border-radius: 18px;
+            color:white;
+            font-size: 14px;
+            float:right;
+        }
+        #inviteRegister_company .search-icon{
+            width:20px;
+            height:20px;
+        }
+     /****************************时间控件样式*************************/
+        #inviteRegister_company .date-select{
+            /*display: block;*/
+            width:176px;
+            height:34px;
+            position: relative;
+            margin-left:20px;
+        }
+        #inviteRegister_company .date-icon{
+            width:20px;
+            height:20px;
+            position: absolute;
+            top:7px;
+            right:16px;
+        }
+		#inviteRegister_company .search-status{
+            margin-top:30px;
+            width:100%;
+        }
+        #inviteRegister_company .active-status{
+            color:#FEA600;
+        }
+        #inviteRegister_company .person-table thead tr th{
+            background-color: #F5F5F5;
+            color:#9B9B9B;
+            font-weight: normal;
+            border-bottom: none;
+            height: 19px;
+            padding-top: 10px;
+    		padding-bottom: 10px;
+        }
+        #inviteRegister_company .person-table tbody tr td{
+           border-top:none;
+            height:40px;
+            line-height: 40px;
+            font-size: 14px;
+            color:#4A4A4A;
+        }
+        #inviteRegister_company .active-line{
+            position: absolute;
+            top:0;
+            left:0;
+            width:136px;
+            border-bottom: 2px solid #FEA600;
+        }
+        #inviteRegister_company .other-select{
+            cursor: pointer;
+        }
+        #inviteRegister_company .table-btn{
+            width:60px;
+            height:22px;
+            line-height:18px;
+            border:1px solid #9B9B9B;
+            color:#4A4A4A;
+            border-radius: 10px;
+            vertical-align: middle;
+        }
+        /****************************分页样式*************************/
+
+        #inviteRegister_company .page >*{
+            display: inline-block;
+        }
+        #inviteRegister_company .prev{
+            color:#CCCCCC;
+        }
+
+        #inviteRegister_company .next{
+            color:#CCCCCC;
+        }
+
+        #inviteRegister_company .page-circle{
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            border: 1px solid #CCCCCC;
+            text-align: center;
+            color:#CCCCCC;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            font-size: 12px;
+        }
+        #inviteRegister_company .active-page{
+            border:1px solid #4A4A4A;
+            color:#4A4A4A;
+        }
+        #inviteRegister_company .goto-page{
+            width:40px;
+            height:20px;
+            border:1px solid #9B9B9B;
+            border-radius: 4px;
+            outline: none;
+            font-size: 12px;
+            text-align: center;
+        }
+        #inviteRegister_company .go-circle{
+            width: 20px;
+            height: 20px;
+            border: 1px solid #979797;
+            text-align: center;
+            background-color: #979797;
+            color:white;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            font-size: 12px;
+        }
+
+        /****************************分页样式*************************/
+
+        #inviteRegister_company .table-head{
+            width: 40px;
+            height: 40px;
+            background:url("/res/images/test.jpg") no-repeat;
+            background-size: 40px 40px;
+            border: 1px solid #979797;
+            -moz-border-radius: 40px;
+            -webkit-border-radius: 40px;
+            border-radius: 40px;
+        }
+        
+	   
+			#inviteRegister_company a.copy-code{
+			    width: 150px;
+			    height: 40px;
+			    border: 1px solid #95D6E2;
+			    border-radius: 6px;
+			    display: block;
+			    line-height: 40px;
+			    text-align: center;
+			    color: #95d6e2;
+			    margin-left: 20px;
+			}
+				
+			#inviteRegister_company .search-box-a-content .copy-result{
+				width: 210px;
+				height: 50px;
+			    font-size: 14px;
+			    color: #262626;
+			    margin-left: 20px;
+			    word-wrap: break-word;
+			    overflow: hidden;
+			}
+			#inviteRegister_company .box_container{
+			    width: 200px;
+			    height: 70px;
+			    border: 1px solid #fea600;
+			    border-radius: 6px;
+			    cursor: pointer;
+			    margin-bottom: 20px;
+			}
+			#inviteRegister_company .add_box{
+			    float: left;
+			}
+			#inviteRegister_company .code-text{
+			    margin-left: 20px;
+			    margin-top: 10px;
+			    margin-bottom: 10px;
+			}
+			
+			#inviteRegister_company .add-btn-box{
+			    width: 144px;
+			    height: 30px;
+			    border-radius: 6px;
+			    -webkit-border-radius: 6px;
+			    -moz-border-radius: 6px;
+			    margin-top: 20px;
+			    margin-left: 45px;
+			}
+			#inviteRegister_company .add-icon{
+			    float: left;
+			    width: 30px;
+			    height: 30px;
+			    display: block;
+			    background: url("/res/images/ceo/add-icon.png") no-repeat;
+			    cursor: pointer;
+			    margin-right: 15px;
+			}
+			#inviteRegister_company .add-icon-b{
+			    width: 20px;
+			    height: 20px;
+			    background:url("/res/images/ceo/add-icon-b.png") no-repeat;
+			    display: block;
+			    float: left;
+			}
+			
+			#inviteRegister_company .add-txt-b p{
+			    font-size: 12px;
+			    color: #9b9b9b;
+			}
+			
+			#inviteRegister_company .add-txt{
+			    float: left;
+			    width: 96px;
+			    height: 30px;
+			    line-height: 30px;
+			    font-size: 16px;
+			    color: #fea600;
+			}
+			#inviteRegister_company .add-txt-b{
+			    margin-left: 8px;
+			}
+			
+			#inviteRegister_company .fl{
+				float:left;
+			}
+		
+			#inviteRegister_company th {
+			    text-align: center;
+			}
+			
+			#inviteRegister_company .search-box-a{
+			    width: 731px;
+			    height: 191px;
+			}
+			
+			#inviteRegister_company .search-box-a-content{
+				position: relative;
+			    margin-top: 30px;
+			}
+			#inviteRegister_company .rule-btn{
+			    color: #4a90e2;
+			    cursor: pointer;
+			}
+			
+			/*提示语句样式*/
+			#inviteRegister_company .reminder_text{
+				    color: #9b9b9b;
+				    font-size: 12px;
+				}		
+			#inviteRegister_company .reminder_rule{
+			    color: #4a90e2 !important;
+			    font-size: 12px;
+			}
+			
+			/*邀请码框*/
+			#inviteRegister_company .search-box-a{
+			    width: 730px;
+			   
+			}
+			
+			/*錯誤提示*/
+			#inviteRegister_company .modal-opt{
+				position: relative;
+			    margin-top: 50px;
+			    margin-left: 204px;
+			}
+			
+			#inviteRegister_company .error-tip{
+			    position: absolute;
+			    bottom: 50px;
+			    color: red;
+			}
+			
+			#inviteRegister_company tbody tr:nth-child(2n){ background-color:#f5fbfc}

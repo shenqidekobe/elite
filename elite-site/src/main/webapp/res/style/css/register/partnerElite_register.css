@@ -1,0 +1,233 @@
+		#partnerElite_register .form-box{
+            padding:30px 30px;
+            text-align: center;
+        }
+
+        #partnerElite_register .title{
+            font-size: 24px;
+            color:#4a4a4a;
+        }
+
+        #partnerElite_register .hr-line{
+            width:100%;
+            border-bottom: 2px solid #2CB7C9;
+            margin:20px 0;
+        }
+        #partnerElite_register #recommend-form .btn-group{
+            display: block;
+        }
+        #partnerElite_register #recommend-form .btn,.btn-default{
+            border-color:#2CB7C9;
+            outline: none;
+        }
+
+        #partnerElite_register .active-title{
+            background-color: #2CB7C9!important;
+            color:white!important;
+            border:1px solid #2CB7C9!important;
+        }
+
+      
+        #partnerElite_register .hr-line2{
+            width:92%;
+            border-bottom: 1px dashed #CCCCCC;
+            margin-left:20px;
+            margin-top:30px;
+            margin-bottom: 20px;
+        }
+
+        #partnerElite_register .agree{
+            font-size: 12px;
+            color:#D0021B;
+        }
+
+        #partnerElite_register .error-tip{
+		    position: absolute;
+		    height: 24px;
+		    top: -22px;
+		    left: 146px;
+		    font-size: 14px;
+		    color: red;
+		    padding-left: 0;
+		}
+
+        #partnerElite_register .next-step{
+		    position: relative;
+		    margin-top: 20px;
+		    padding-left: 0;
+		}
+
+        #partnerElite_register .birth-box{
+            position: relative;
+        }
+
+        #partnerElite_register .year-select{
+            position: absolute;
+            top:33px;
+            left:0px;
+            z-index: 100;
+            border:1px solid #2CB7C9;
+
+        }
+
+        #partnerElite_register .year-select{
+            display: none;
+            height:266px;
+            overflow: auto;
+        }
+
+        #partnerElite_register .year-select li{
+            padding:0 16px;
+            background-color: white;
+
+        }
+
+        #partnerElite_register .year-select li:hover{
+            background-color: #2CB7C9;
+            color:white;
+            cursor: pointer;
+        }
+        #partnerElite_register .birth-year{
+            position: absolute;
+            top:7px;
+            left:16px;
+        }
+
+        #partnerElite_register .birth-month{
+            position: absolute;
+            top:7px;
+            left:37px;
+        }
+
+        #partnerElite_register .triangle{
+            position: absolute;
+            bottom: 6px;
+            left:58px;
+            cursor: pointer;
+        }
+        #partnerElite_register .trigger{
+            display: inline-block;
+            height: 0;
+            width: 0;
+            overflow: hidden;
+            border-style: solid;
+            margin-left: 4px;
+            margin-right: 4px;
+            position: relative;
+            top:0;
+            border-width:6px 6px 0;
+            border-color:#D8D8D8 transparent transparent;
+            -webkit-transition:all .4s ease 0s;
+            -moz-transition:all .4s ease 0s;
+            -o-transition:all .4s ease 0s;
+            transition:all .4s ease 0s;
+        }
+
+        #partnerElite_register .trigger-inverse{
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+            animation-fill-mode: forwards;
+        }
+
+        #partnerElite_register .active-control{
+            border-color:#2CB7C9;
+        }
+
+        #partnerElite_register .location{
+            position: absolute;
+            top:8px;
+            left:12px;
+            width:auto;
+            height:20px;
+        }
+
+	/*项目方注册首页*/
+	#partnerElite_register .form-grp{
+		margin:15px auto;
+	}
+	#partnerElite_register .form-group-cent{
+		width:100%;
+	}
+	#partnerElite_register .group-cent-inpt{
+		width:400px;
+		margin:0 auto;
+	}
+	/*项目方注册首页*/
+	
+	
+	/*项目推荐方-资料完善*/
+
+    #partnerElite_register .rdio{
+        width:99px;
+        height:40px;
+        border:none;
+        border-radius:8px;
+        background:#999;
+        text-indent: 1.6cm;
+        position:relative;
+    }
+    #partnerElite_register .group-yea{
+    	text-align:left;
+    }
+    #partnerElite_register .group-yea >p{
+        display:inline-block;
+        position: relative
+    }
+    #partnerElite_register .group-years> p .radio-male{
+        display: inline-block;
+        width:22px;
+        height:22px;
+        position:absolute;
+        top:9px;
+        left:20px;
+    }
+    #partnerElite_register .group-yea >p:hover input{
+        background:#7dd2e1;
+        color:#fff;
+    }
+    #partnerElite_register .radio-male{
+    	width:20px;
+    	height:21px;
+    	position:absolute;
+    	top:8px;
+    	left:19px;
+    }
+    #partnerElite_register .male{
+    	
+        background: url(/res/images/icon-women.png) no-repeat center;
+    }
+    #partnerElite_register .afmale{
+        background:url(/res/images/icon-women.png) no-repeat center;
+    }
+    #partnerElite_register .city{
+        width: 360px;
+        height:50px;
+        border:1px solid #7dd2e1;
+        border-radius: 8px;
+        list-style: none;
+    }
+    #partnerElite_register .maps{
+        width:20px;
+        height:30px;
+        position: absolute;
+        top:11px;
+        left:30px;
+        background:url(/res/images/location_icon.png) no-repeat center;
+    }
+    #partnerElite_register .city li{
+        width:50%;
+        line-height: 50px;
+        float:left;
+        position: relative;
+    }
+    #partnerElite_register .Angle{
+        display: inline-block;
+        border-top:7px solid #333;
+        border-right:7px solid transparent;
+        border-left:7px solid transparent;
+        position:absolute;
+        top:20px;
+        right:33px;
+    }

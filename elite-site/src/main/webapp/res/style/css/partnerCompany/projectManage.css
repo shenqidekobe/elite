@@ -1,0 +1,246 @@
+#projectlManage h1 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 50px;
+    line-height: 50px;
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #e6e6e6;
+}
+#projectlManage .searchBox{
+	height: 60px;
+	border-bottom: 2px solid #b3b3b3;
+}
+#projectlManage .searchBox .searchDiv{
+	height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#projectlManage .searchBox .searchInput{
+    float: left;
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    -wedbkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+    font-size: 12px;
+    margin-right: 16px;
+}
+#projectlManage .searchBox .searchBtn {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background: #FEA600;
+    color: #fff;
+    border: none;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -o-border-radius: 28px;
+}
+#projectlManage .searchBox .searchBtn .search_icon {
+    position: absolute;
+    top: 10px;
+    left: 18px;
+    display: block;
+    width: 20px;
+    height: 30px;
+    background: url("/res/images/channel/search_icon.png") no-repeat;
+}
+#projectlManage .searchBox .searchBtn .search_text {
+    position: absolute;
+    top: -1px;
+    right: 18px;
+    font-size: 16px;
+    color: #fff;
+}
+#projectlManage .tableBox{
+	width: 705px;
+    margin: 0 auto;
+    min-height: 160px;
+}
+#projectlManage .table_title {
+    height: 40px;
+}
+#projectlManage .table_title .part1 {
+    width: 30%;
+}
+#projectlManage .table_title .part2 {
+    width: 50%;
+}
+#projectlManage .table_title .part3 {
+    width: 20%;
+}
+#projectlManage .table_title .part {
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+#projectlManage .groupBox {
+    width: 100%;
+    height: 116px;
+    margin-bottom: 15px;
+}
+#projectlManage .groupBox .group_head {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background: #f5f5f5;
+    border: 1px solid #e6e6e6;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #9b9b9b;
+}
+#projectlManage .groupBox .group_head .city_icon {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: url("/res/images/channel/city_icon.png") no-repeat;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+#projectlManage .groupBox .group_head .city_name {
+    font-size: 12px;
+    color: #4a4a4a;
+}
+#projectlManage .groupBox .group_head .record_time {
+    margin-left: 20px;
+    margin-right: 40px;
+}
+#projectlManage .groupBox .group_body {
+    width: 100%;
+    height: 80px;
+    border: 1px solid #e6e6e6;
+    border-top: none;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #9b9b9b;
+}
+#projectlManage .group_body .part1 {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+#projectlManage .group_body .part1 .name {
+    margin-top: 10px;
+    margin-left: 25px;
+    color: #4a4a4a;
+    font-weight: 500;
+}
+#projectlManage .group_body .part1 .nickname {
+    margin-left: 25px;
+}
+#projectlManage .group_body .part1 .phone {
+    font-size: 12px;
+    color: #4a4a4a;
+    margin-left: 25px;
+}
+#projectlManage .group_body .part2 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    box-sizing: border-box;
+}
+#projectlManage .group_body .part2 .part2_left {
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+#projectlManage .group_body .part2 .part2_left .attribute {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#projectlManage .group_body .part2 .part2_left .identity {
+    margin-left: 30px;
+}
+#projectlManage .group_body .part2 .part2_left .acceptance {
+    margin-left: 30px;
+}
+#projectlManage .group_body .part2 .part2_right {
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+#projectlManage .group_body .part2 .part2_right .total {
+    margin-top: 10px;
+}
+#projectlManage .group_body .part3 {
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+#projectlManage .group_body .part3 button {
+    border: none;
+    background: none;
+}
+#projectlManage .font_active{
+	font-size: 12px;
+    color: #4a4a4a;
+}
+/*·ÖÒ³*/
+#projectlManage .pagination {
+    position: static;
+    padding-top: 0;
+}
+/*±¸×¢*/
+#projectlManage .noteBox {
+    width: 705px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 20px;
+}
+ #projectlManage .noteBox dt {
+    font-size: 16px;
+    color: #2cb7c9;
+    margin-bottom: 22px;
+}
+#projectlManage .noteBox .note_icon {
+    float: left;
+    display: block;
+    width: 23px;
+    height: 20px;
+    background: url("/res/images/channel/tips.png") no-repeat;
+    margin-right: 10px;
+}
+#projectlManage .noteBox dd {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#projectlManage .noteBox .dd_icon {
+    float: left;
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #2cb7c9;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+#projectlManage .noteBox .dd_text {
+    display: block;
+    width: 646px;
+    float: left;
+}

@@ -1,0 +1,297 @@
+ 		.conditions_content .conditions_form {
+            position: relative;
+            width: 358px;
+            height: 502px;
+            background: #4a4a4a;
+            color: #fff;
+            border-radius: 6px;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            -o-border-radius: 6px;
+        }
+        .conditions_content .conditions_form h3 {
+            padding-top: 10px;
+            font-size: 16px;
+            font-weight: 500;
+            text-align: center;
+        }
+        .conditions_content .conditions_form dl dd .point_dd {
+            display: block;
+            float: left;
+            width: 8px;
+            height: 8px;
+            background: #95d6e2;
+            border-radius: 50%;
+            margin-right: 6px;
+            margin-top: 7px;
+        }
+        .conditions_content .conditions_form .conditions_a {
+            margin: 7px 10px;
+            border: 1px solid #808080;
+            border-radius: 4px;
+        }
+        .conditions_content .conditions_form .conditions_a_content {
+            padding: 15px 9px 15px 6px;
+        }
+        .conditions_content .conditions_form dl{
+        	margin-top: 0px!important;
+    		margin-bottom: 0px!important;
+        }
+        .conditions_content .conditions_form .conditions_a_content dt {
+		    text-indent: 14px;
+		    padding-bottom: 5px;
+		    color: #fff;
+		    font-weight: 500;
+		}
+        .conditions_content .conditions_form .conditions_a_content dd {
+		    margin-bottom: 5px;
+		    color: #fff;
+		}
+        .conditions_content .conditions_form .conditions_a_content .awarded_marks {
+            margin-top: 10px;
+        }
+        .conditions_content .conditions_form .conditions_b {
+            margin: 20px 10px;
+        }
+        .conditions_content .conditions_form .conditions_b .i_icon {
+            margin-right: 5px;
+        }
+        .conditions_content .conditions_form .conditions_b .icon_div {
+            margin-bottom: 6px;
+        }
+        .conditions_content .conditions_form .conditions_b dd {
+            margin-bottom: 5px;
+            color: #fff;
+        }
+        .conditions_content .conditions_form .button_div {
+            padding-top: 10px;
+            margin-left: 12px;
+        }
+        .conditions_content .conditions_form .button_div button {
+            width: 120px;
+            height: 36px;
+            line-height: 36px;
+            text-align: center;
+            border-radius: 48px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .conditions_content .conditions_form .button_div button.yes {
+            background: #fea600;
+            color: #fff;
+            border: none;
+            margin-right: 37px;
+        }
+        .conditions_content .conditions_form .button_div button.no{
+            color: #fea600;
+            border: 1px solid #fea600;
+            background: none;
+
+        }
+        .conditions_content .conditions_form .triangle_icon {
+            position: absolute;
+            top: -10px;
+            left: 172px;
+            width: 0;
+            height: 0;
+            border-left: 16px solid transparent;
+            border-right: 16px solid transparent;
+            border-bottom: 16px solid #4a4a4a;
+        }
+        
+ 
+ /*关注行业*/  
+ 
+.industry_box .industry_div {
+    width: 658px;
+    min-height: 173px;
+    height: auto!important;
+    background: #fafafa;
+}  
+
+.industry_box .industry_ul {
+    margin-bottom: 0px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+}
+.industry_box .industry_ul li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 12px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 20px;
+    border-radius: 33px;
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    -o-border-radius: 33px;
+    cursor: pointer;
+}
+
+li.industry_li_active {
+    background: #2cb7c9;
+    color: #fff;
+}
+ 
+.industry_box .title_div .title_txt {
+    font-size: 16px;
+    margin-right: 10px;
+}  
+
+.industry_box .title_div .title_txt_small {
+    font-size: 14px;
+    color: #9b9b9b;
+}
+
+
+/*相关年限*/
+#currentInfo #currentForm .text_div {
+    position: relative;
+    width: 240px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#currentInfo #currentForm .text_div .year_text,#currentInfo #currentForm .text_div .state_text,#currentInfo #currentForm .text_div .week_text {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+#currentInfo #currentForm .text_div .triangle_icon {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #4a4a4a;
+}
+
+#currentInfo #currentForm .text_ul {
+    width: 240px;
+    min-height: 80px;
+    height: auto!important;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 0!important;
+}
+#currentInfo #currentForm .text_ul li {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 30px;
+    cursor: pointer;
+    color: #4a4a4a;
+    background: #f5fbfc;
+}
+
+#currentInfo #currentForm .text_box {
+    position: relative;
+}
+
+#currentInfo #currentForm .text_ul{
+    position: absolute;
+    z-index: 1000;
+}
+
+#currentInfo #currentForm .week_box {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#currentForm .star_icon {
+    float: left;
+    font-size: 26px;
+    color: #fea600;
+    margin-top: -3px;
+    margin-right: 5px;
+}
+
+#currentInfo #currentForm .text_ul .li_text_active {
+    background: #2cb7c9;
+    color: #fff;
+}
+
+#currentInfo #currentForm .title_div {
+    margin-bottom: 15px;
+}
+
+
+#currentInfo #currentForm .time_box{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.time_box .year{
+    float: left;
+    margin-right: 80px;
+}
+.time_box .state{
+    float: left;
+}
+
+/*签约条件*/
+.conditions_box {
+    position: relative;
+}
+.conditions_box .conditions_content {
+    position: absolute;
+    z-index: 500;
+    left: -86px;
+    top: 26px;
+}
+
+#currentInfo #currentForm .industry_box {
+    margin-left: 20px;
+}
+#currentInfo #currentForm .good_box {
+    margin-left: 20px;
+    margin: 20px 0 0px 34px;
+}
+
+#currentInfo #currentForm .good_box .text2 {
+    font-size: 14px;
+    color: #9B9B9B;
+    padding: 0 7px;
+}
+#currentInfo #currentForm .good_box .text3 {
+    color: #fea600;
+}
+
+/*错误提示*/
+#currentInfo #currentForm .form-opt {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+.form-opt .error-tip {
+    position: absolute;
+    top: 8px;
+    color: red;
+    width: 400px;
+    height: 60px;
+    border: 1px solid #dd5b56;
+    background: #f4d7d6;
+    border-radius: 4px;
+}
+.form-opt .error-tip .error_icon {
+    display: block;
+    float: left;
+    margin-top: 15px;
+    margin-left: 32px;
+}
+.form-opt .error-tip #tipError {
+    display: block;
+    float: left;
+    font-size: 18px;
+    margin-top: 18px;
+    margin-left: 24px;
+}
+

@@ -1,0 +1,658 @@
+.fl{
+    float: left;
+}
+.content {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.clearfloat:after{
+    display:block;
+    clear:both;
+    content:"";
+    visibility:hidden;
+    height:0
+}
+.certificate img {
+    width: 16px;
+    height: 16px;
+    vertical-align: sub;
+    cursor: pointer;
+}
+.clearfloat{
+    zoom:1
+}
+
+.color2c{
+    color: #2cb7c9;
+}
+
+.colorfe{
+    color: #FEA600;
+}
+
+a{
+    text-decoration: none;
+}
+
+.payBox,.payBank{
+    width: 600px;
+    height: 280px;
+    background: #F5FBFC;
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.18);
+    border-radius: 20px;
+
+}
+.box-a-logo{
+    width: 50px;
+    height: 48px;
+    display: block;
+    float: left;
+    margin-right: 50px;
+}
+.successLogo{
+    background: url("../../../images/pay/successLogo.png");
+}
+.failureLogo{
+    background: url("../../../images/pay/failureLogo.png");
+}
+.box-a-txt{
+    width: 120px;
+    height: 48px;
+    display: block;
+    line-height: 48px;
+    font-size: 24px;
+    float: left;
+}
+
+.payBox .box-b span:nth-child(2){
+    font-size: 14px;
+    color: #9B9B9B;
+}
+.payBox .box-c-content{
+    width: 140px;
+    height: 40px;
+    display: block;
+    border-radius: 72px;
+    background: #FEA600;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    margin: 20px auto;
+}
+
+.payBox .box-a {
+    width: 323px;
+    height: 48px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 12px;
+}
+
+.payBox .box-b{
+    width:100%;
+    height: 56px;
+    margin: 0 auto;
+}
+
+.payBox .box-b-content{
+    width: 119px;
+    height: 19px;
+    margin: 0 auto;
+}
+
+.box-c {
+    width: 100%;
+    height: 40px;
+}
+
+
+/*payBank*/
+
+
+.payBank .box-a {
+    width: 400px;
+    height: 48px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.payBank  .box-a-txt {
+    width: 300px;
+    height: 48px;
+    display: block;
+    line-height: 48px;
+    float: left;
+    font-size: 20px;
+}
+.payBank .box-b{
+    width:100%;
+    height: 78px;
+    margin: 0 auto;
+}
+
+.payBank .box-b-content {
+    width: 512px;
+    height: 19px;
+    font-size: 14px;
+    color: #4a4a4a;
+    padding-left: 146px;
+}
+.payBank .box-c-txt{
+    font-size: 14px;
+    color: #9B9B9B;
+}
+
+.payBank .box-c-l {
+    width: 119px;
+    height: 40px;
+    float: left;
+    font-size: 14px;
+    display: block;
+    line-height: 40px;
+    margin-right: 28px;
+}
+.payBank .box-c-content {
+    width: 140px;
+    height: 40px;
+    display: block;
+    border-radius: 72px;
+    -webkit-border-radius: 72px;
+    -moz-border-radius: 72px;
+    -o-border-radius: 72px;
+    background: #FEA600;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    float: left;
+    margin: 0 auto;
+}
+.payBank{
+    position: relative;
+}
+.payClose {
+	position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: url("../../../images/pay/payClose.png");
+    cursor: pointer;
+}
+
+.paddingbottom20{
+    padding-bottom: 20px;
+}
+.paddingbottom33{
+    padding-bottom:33px;
+}
+.box-c-box {
+    padding-left: 147px;
+}
+
+
+
+
+/*个人主页 > 我的项目 > 项目详情 > 提交项目意向金*/
+#submit_intention .content{
+            width:1000px;
+            margin:0 auto;
+        }
+
+        #submit_intention .flag{
+            font-size: 14px;
+            color:#5C5C5C;
+            padding-top:20px;
+            margin-bottom: 20px;
+        }
+
+        #submit_intention .content-box{
+            width:100%;
+            background-color: #FAFAFA;
+            padding-top:20px;
+            padding-bottom: 130px;
+        }
+
+        #submit_intention .process{
+            width:720px;
+            height:100px;
+            position: relative;
+            margin:0 auto;
+        }
+
+        #submit_intention .process-line{
+            width:150px;
+            border-bottom: 2px solid #BFBFBF;
+            position: absolute;
+            top:36px;
+            left:70px;
+        }
+
+        #submit_intention .process-circle{
+            width: 40px;
+            height: 40px;
+            border:none;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            background-color: #BFBFBF;
+            text-align: center;
+            line-height: 40px;
+            color:white;
+            position: absolute;
+            top:16px;
+            left:20px;
+            z-index: 80;
+        }
+
+        #submit_intention .active-process{
+            background-color: #7DD2E1;
+        }
+
+        #submit_intention .process-title{
+            position: absolute;
+            top:68px;
+            left:16px;
+        }
+
+        #submit_intention .active-title{
+            color:#2CB7C9;
+        }
+
+        #submit_intention .finish-line{
+            border-color: #95D6E2;
+        }
+
+        #submit_intention .process-tip{
+            position: absolute;
+            left:108px;
+            top:16px;
+            font-size: 12px;
+            color:#9B9B9B;
+        }
+
+        #submit_intention .project-box{
+            width:100%;
+            height:175px;
+            border:1px solid #E6E6E6;
+            border-radius: 6px;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            -o-border-radius: 6px;
+            margin-top: 15px;
+        }
+
+        #submit_intention .part1{
+            width:100%;
+            height:40px;
+            line-height: 40px;
+            background-color: #F2F2F2;
+            border-bottom: 1px solid #E6E6E6;
+            font-size: 14px;
+            color:#9B9B9B;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        #submit_intention .vertical-line{
+            height:28px;
+            border-right:1px solid #E6E6E6;
+            position: absolute;
+            top:5px;
+            left:240px;
+        }
+
+        #submit_intention .project-detail{
+            width:100%;
+            height:133px;
+            background-color: #FAFAFA;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        #submit_intention .main-info{
+            float:left;
+            width:54%;
+            height:135px;
+            border-right: 1px solid #E6E6E6;
+        }
+
+        #submit_intention .project-logo{
+            width:95px;
+            height:95px;
+            line-height: 95px;
+            text-align: center;
+            background-color: #F29D70;
+            color:white;
+            font-size: 58px;
+            float:left;
+        }
+
+        #submit_intention .project-info{
+            float:left;
+            margin-left:20px;
+        }
+        #submit_intention .project-name{
+            display: inline-block;
+            margin-right:10px;
+        }
+        #submit_intention .index{
+            font-size: 12px;
+            color:#9B9B9B;
+        }
+
+        #submit_intention .value{
+            font-size: 12px;
+        }
+
+        #submit_intention .status{
+            float:left;
+            width:22%;
+            height:133px;
+            border-right: 1px solid #E6E6E6;
+            font-size: 12px;
+        }
+
+        #submit_intention .opt{
+            float:left;
+            width:24%;
+            height:133px;
+            background-color: #F5FBFC;
+            text-align: center;
+        }
+
+
+        #submit_intention .class-label{
+            display: inline-block;
+            width:40px;
+            height:16px;
+            line-height: 16px;
+            text-align: center;
+            border:1px solid #E6E6E6;
+            border-radius: 10px;
+            color:#9B9B9B;
+            font-size: 12px;
+            margin-right:5px;
+        }
+
+        #submit_intention .deposit{
+            text-align: right;
+            margin-top:20px;
+            padding-right:10px;
+        }
+
+        #submit_intention .deposit-count{
+            font-size:20px;
+            color:#FEA600;
+            margin-left:10px;
+        }
+        #submit_intention .required{
+            color:#FEA600!important;
+            vertical-align: sub;
+        }
+
+        #submit_intention .deposit-tip{
+            font-size: 12px;
+            color:#9B9B9B;
+        }
+
+        #submit_intention .pay-box{
+            width:100%;
+            height:134px;
+            border:1px solid #95D6E2;
+            background-color: #F5FBFC;
+            border-radius: 6px;
+            position: relative;
+        }
+
+        #submit_intention .radio-box{
+        	position: absolute;
+            top:54px;
+            left:0px;
+            width:20px;
+            height:20px;
+            cursor: pointer;
+        }
+
+        #submit_intention .two-ways{
+        	position: absolute;
+            top: 30px;
+    		left: 40px;
+            width:180px;
+            height:60px;
+            border:1px solid #ccc;
+            border-radius: 6px;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            -o-border-radius: 6px;
+            cursor: pointer;
+            background: #fff;
+        }
+
+        #submit_intention .current-way{
+            border:1px solid #FEA600;
+        }
+
+        #submit_intention .ali-pay{
+            display: block;
+		    width: 136px;
+		    height: 34px;
+		    margin: 0 auto;
+		    margin-top: 13px;
+        }
+
+       #submit_intention .bank-card,#submit_intention .company-card {
+		    display: block;
+		    width: 136px;
+		    height: 34px;
+		    margin: 0 auto;
+		    margin-top: 13px;
+		}
+
+        #submit_intention .account-box{
+            width:100%;
+            height:146px;
+            border:1px solid #95D6E2;
+            background-color: #F5FBFC;
+            padding-top:20px;
+        }
+
+        #submit_intention .certificate{
+            font-size: 12px;
+            color:#9B9B9B;
+            margin-top:20px;
+        }
+
+        #submit_intention .certificate img{
+            width:16px;
+            height:16px;
+            vertical-align: sub;
+        }
+       #submit_intention .show_div {
+		    position: relative;
+		    height: 22px;
+		    cursor: pointer;
+		}
+        #submit_intention .show_div .show_img {
+		    position: absolute;
+		    top: 15px;
+		    left: 0;
+		    width: 20px;
+		    height: 20px;
+		}
+		
+		#submit_intention .show_div .show_txt {
+		    position: absolute;
+		    left: 30px;
+		    top: 16px;
+		    font-size: 14px;
+		    height: 22px;
+		    line-height: 22px;
+		}
+
+        #submit_intention .certificate-box {
+		    width: 100%;
+		    padding-top: 30px;
+		    padding-left: 30px;
+		    font-size: 12px;
+		}
+        #submit_intention .change-company{
+            color:#2CB7C9;
+            cursor: pointer;
+            margin-left:10px;
+        }
+
+        #submit_intention .goto-pay-btn{
+            width:140px;
+            height:40px;
+            background-color: #FEA600;
+            border:none;
+            border-radius: 20px;
+            color:white;
+            float:right;
+            margin-top:20px;
+            margin-bottom: 60px;
+        }
+        #submit_intention .deposit .note1 {
+		    padding-top: 16px;
+		    padding-bottom: 5px;
+		}
+        
+        #submit_intention .deposit .note{
+		    width: 300px;
+		    margin-left: 700px;
+		    text-align: left;
+		}
+		
+		#submit_intention .deposit .note .note_text {
+		    color: #9b9b9b;
+		    font-size: 12px;
+		}
+		
+		#submit_intention .deposit .note .note_icon {
+		    display: block;
+		    float: left;
+		    width: 6px;
+		    height: 6px;
+		    background: #d8d8d8;
+		    border-radius: 50%;
+		    -webkit-border-radius: 50%;
+		    -moz-border-radius: 50%;
+		    -o-border-radius: 50%;
+		    margin-top: 7px;
+		    margin-right: 5px;
+		}
+		
+		
+		#submit_intention .p1 {
+		    margin-top: 30px;
+		    font-size: 16px;
+		    font-weight: 500;
+		}
+		
+		#submit_intention .p2 {
+		    margin-bottom: 20px;
+		    font-size: 16px;
+		    font-weight: 600;
+		}
+		
+		#submit_intention .p_index {
+		    color: #9b9b9b;
+		}
+		
+		#submit_intention .p_value,.input_index {
+		    color: #4a4a4a;
+		}
+		
+		/*索要发票*/
+		#submit_intention .certificate-box p{
+			 margin-bottom: 10px;
+		}
+		
+		#submit_intention .certificate-box input {
+		    width: 320px;
+		    height: 40px;
+		    border-radius: 6px;
+		    -webkit-border-radius: 6px;
+		    -moz-border-radius: 6px;
+		    -o-border-radius: 6px;
+		    border: 1px solid #ccc;
+		    margin-left: 10px;
+		    padding-left: 20px;
+		}
+		
+		#submit_intention .certificate-box .btnBox {
+			position: relative;
+		    margin-top: 50px;
+		}
+		
+		
+		/*错误提示*/
+		
+		#submit_intention .certificate-box .btnBox .error_div {
+		    position: absolute;
+		    top: -50px;
+		    left: 65px;
+		    width: 300px;
+		    height: 50px;
+		    border: 1px solid #dd5b56;
+		    border-radius: 4px;
+		    -webkit-border-radius: 4px;
+		    -moz-border-radius: 4px;
+		    -o-border-radius: 4px;
+		    background: #f4d7d6;
+		}
+		
+		#submit_intention .certificate-box .btnBox .error_div .error_icon {
+		    position: absolute;
+		    top: 5px;
+		    left: 32px;
+		    width: 32px;
+		    height: 29px;
+		    background: url("/res/images/error/error_icon.png") no-repeat;
+		}
+		
+		#submit_intention .certificate-box .btnBox .error_div .error_text {
+		    position: absolute;
+		    top: 10px;
+		    left: 79px;
+		    color:#dd5b56;
+		    font-size:16px;
+		}
+		
+		
+		
+		#submit_intention .certificate-box .save {
+		    width: 120px;
+		    height: 40px;
+		    text-align: center;
+		    line-height: 40px;
+		    border-radius: 48px;
+		    -webkit-border-radius: 48px;
+		    -moz-border-radius: 48px;
+		    -o-border-radius: 48px;
+		    border: none;
+		    background: #fea600;
+		    color: #fff;
+		    font-size: 18px;
+		    margin-right:110px;
+		    margin-left: 70px;
+		}
+		
+		#submit_intention .certificate-box .cancel {
+		    width: 120px;
+		    height: 40px;
+		    text-align: center;
+		    line-height: 40px;
+		    border-radius: 48px;
+		    -webkit-border-radius: 48px;
+		    -moz-border-radius: 48px;
+		    -o-border-radius: 48px;
+		    border:1px solid #ccc;
+		    background: none;
+		    color: #ccc;
+		    font-size: 18px;
+		}

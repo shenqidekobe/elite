@@ -1,0 +1,135 @@
+
+        #login .show-box{
+            position: relative;
+            width:100%;
+            height:1080px;
+            background: url("/res/images/banner_login.png") no-repeat;
+        	background-size: cover;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    background-position: center;
+        }
+
+        #login .login-logo{
+            position: absolute;
+            top: 214px;
+            left:50%;
+            margin-left:-75px;
+        }
+
+        #login .slogan{
+        	position: absolute;
+            top: 264px;
+            left:50%;
+            font-size: 14px;
+            color:#fff;
+            margin-left:-60px;
+        }
+		#login .login-box{
+		    position: absolute;
+		    top: 300px;
+		    left: 50%;
+		    margin-left: -250px;
+		    width: 500px;
+		    height: 435px;
+		    background-color: white;
+		    text-align: center;
+		    border-radius: 20px;
+		    -webkit-border-radius: 20px;
+		    -moz-border-radius: 20px;
+		    -o-border-radius: 20px;
+		}
+        #login .login-box .welcome {
+		    color: #4A4A4A;
+		    padding-top: 30px;
+		    margin-bottom: 25px;
+		    font-size: 24px;
+		}
+        #login #loginForm input{
+		    width: 400px;
+		    height: 50px;
+		    line-height: 50px;
+		    border-radius: 8px;
+		    -webkit-border-radius: 8px;
+		    -moz-border-radius: 8px;
+		    -o-border-radius: 8px;
+		    background: #fff;
+		}
+		#login .form-group {
+		    margin-bottom: 20px!important;
+		}
+		
+		#login .checkbox-inline #autoLogin{
+		    width: 20px!important;
+		    height: 20px!important;
+		    cursor: pointer;
+		}
+
+        #login .form-horizontal .form-group{
+            margin-left:0;
+            margin-right:0;
+            padding-left:50px;
+        }
+
+        #login .checkbox-inline{
+            float:left;
+            padding-left:20px;
+            padding-top:0!important;
+        }
+
+        #login .checkbox-inline .auto-login{
+            font-size: 20px;
+            margin-left:20px;
+        }
+
+        #login .forget-password{
+		    font-size: 20px;
+		    float: right;
+		    padding-right: 60px;
+		}
+
+        #login .forget-password a{
+            color:#2CB7C9;
+        }
+
+        #login .login-btn{
+		    width: 400px;
+		    height: 50px;
+		    text-align: center;
+		    line-height: 50px;
+		    background-color: #fea600;
+		    color: #fff;
+		    font-size: 20px;
+		    font-weight: 500;
+		    border: none;
+		    border-radius: 72px;
+		    -webkit-border-radius: 72px;
+		    -moz-border-radius: 72px;
+		    -o-border-radius: 72px;
+		}
+
+        #login .register-tip{
+            font-size: 20px;
+        }
+
+        #login .register-tip a{
+            color:#2CB7C9;
+        }
+
+        #login .error-tip{
+		    position: absolute;
+		    left: 50px;
+		    width: 100%;
+		    height: 24px;
+		    line-height: 24px;
+		    color: red;
+		    text-align: left;
+		}
+
+        #login .focus-input:focus{
+            box-shadow: 0 0 6px 0 #2CB7C9!important;
+        }
+        
+        #login .error-sign{
+           border-color:red;
+        }

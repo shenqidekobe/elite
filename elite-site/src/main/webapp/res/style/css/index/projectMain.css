@@ -1,0 +1,356 @@
+/*鎴戞槸椤圭洰鏂逛富椤�*/
+#projectMain .platform{
+    height: 720px;
+    background: url("../../../../res/images/project/platform.png") no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-position: center;
+}
+#projectMain .platform .platform_text_box {
+    position: relative;
+    margin: 0 auto;
+    width: 800px;
+    height: 343px;
+    padding-top: 237px;
+}
+#projectMain .platform .platform_bg{
+    margin: 0 auto;
+    width: 800px;
+    height: 343px;
+    opacity: 0.47;
+    background: #000000;
+    border-radius: 8px;
+}
+#projectMain .platform .div1{
+    position: absolute;
+    font-size: 46px;
+    color: #fff;
+   	left: 50px;
+    top: 328px;
+}
+#projectMain .platform .div2{
+    position: absolute;
+    font-size: 46px;
+    color: #2CB7C9;
+    right: 50px;
+    top: 430px;
+}
+#projectMain .platform .div2 span{
+    color: #fff;
+}
+/*澶ф祦绋�*/
+#projectMain .flow_big .headline {
+    padding-top: 49px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+#projectMain .headline{
+    position: relative;
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+    font-size: 20px;
+    height: 35px;
+    line-height: 35px;
+}
+#projectMain .headline .headline_line{
+    display: block;
+    width: 140px;
+    border-bottom: 2px solid #2cb7c9;
+    margin: 0 auto;
+}
+#projectMain .flow_big .img_box{
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 43px;
+}
+#projectMain .flow_big .text_box {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    height: 22px;
+}
+
+#projectMain .flow_big{
+    height: 400px;
+    background: #fafafa;
+}
+#projectMain .flow_big .number{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #48516f;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+}
+
+#projectMain .flow_big .number1{
+    position: absolute;
+    left: 0;
+}
+
+#projectMain .flow_big .number2{
+    position: absolute;
+    left:250px;
+}
+
+#projectMain .flow_big .number3{
+    position: absolute;
+    left:595px;
+}
+#projectMain .flow_big .number4{
+    position: absolute;
+    left:857px;
+}
+
+#projectMain .flow_big .text_box .text{
+    color: #48516f;
+}
+
+#projectMain .flow_big .text_box .text1{
+    position: absolute;
+    left:30px;
+}
+#projectMain .flow_big .text_box .text2{
+    position: absolute;
+    left:280px;
+}
+#projectMain .flow_big .text_box .text3{
+    position: absolute;
+    left:625px;
+}
+#projectMain .flow_big .text_box .text4{
+    position: absolute;
+    left:887px;
+}
+/*缁嗗寲娴佺▼*/
+#projectMain .flow_thin{
+    margin: 0 auto;
+    height: 709px;
+    border-bottom: 1px solid #b3b3b3;
+}
+#projectMain .flow_thin .flow_thin_content{
+    width: 1100px;
+    margin: 0 auto;
+}
+#projectMain .flow_thin .flow_thin_content .headline {
+    padding-top: 41px;
+    padding-bottom: 43px;
+}
+
+/*鍒濆績*/
+#projectMain .heart{
+    height: 1506px;
+}
+#projectMain .heart .heart_content{
+    width: 1000px;
+    margin: 0 auto;
+}
+#projectMain .heart .heart_content .headline{
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+#projectMain .heart .heart_group_box .heart_group{
+    position: relative;
+    height: 300px;
+    margin-bottom: 50px;
+}
+#projectMain .heart .heart_group_box .heart_group .before ,.now{
+    width: 398px;
+    height: 298px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0px 2px 6px 2px #E6E6E6;
+    border-radius: 6px;
+}
+
+#projectMain .heart .heart_group_box .heart_group .before{
+    position: absolute;
+    left: 0;
+}
+
+#projectMain .heart .heart_group_box .heart_group .costing{
+    position: absolute;
+    left: 464px;
+}
+#projectMain .heart .heart_group_box .heart_group .costing img{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+#projectMain .heart .heart_group_box .heart_group .costing .text{
+    font-size: 18px;
+}
+#projectMain .heart .heart_group_box .heart_group .now{
+    position: absolute;
+    right: 0;
+}
+
+#projectMain .heart .heart_group_box .heart_group .before_a,.now_a{
+    height: 60px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    color: #fff;
+}
+#projectMain .heart .heart_group_box .heart_group .before_a{
+    background: #88999B;
+}
+#projectMain .heart .heart_group_box .heart_group .now_a{
+    background: #2cb7c9;
+}
+
+#projectMain .heart .heart_group_box .heart_group .triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #fff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    left: 190px;
+    top: 50px;
+}
+
+#projectMain .heart .heart_group_box .heart_group .dd_icon{
+    display: block;
+    float: left;
+    margin-right: 8px;
+    margin-top: 4px;
+}
+
+#projectMain .heart .heart_group_box .heart_group .dd_text{
+    display: block;
+    float: left;
+    width: 342px;
+    font-size: 16px;
+}
+#projectMain .heart .heart_group_box .heart_group dl {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#projectMain .heart .heart_group_box .heart_group dd {
+    margin-bottom: 8px;
+}
+
+#projectMain .heart .heart_group_box .heart_group dt{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 25px;
+    margin-bottom: 8px;
+}
+#projectMain .heart .heart_group_box .heart_group .prompt{
+    margin-top: 38px;
+    margin-left: 20px;
+}
+#projectMain .heart .heart_group_box .heart_group .prompt .span1{
+    display: block;
+    width: 360px;
+}
+#projectMain .heart .heart_group_box .heart_group .prompt .span2 {
+    display: block;
+    color: #2CB7C9;
+    margin-top: 6px;
+    font-weight: 700;
+}
+/*鏁堟灉*/
+#projectMain .effect{
+    height: 300px;
+    background: url("../../../../res/images/project/effect.png") no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-position: center;
+}
+#projectMain .effect .effect_text{
+    font-size: 50px;
+    text-align: center;
+    height: 300px;
+    line-height: 300px;
+    color: #fff;
+}
+
+/*绫诲瀷*/
+#projectMain .type{
+    height: 315px;
+    background: #f7f7f7;
+}
+#projectMain .type .type_content{
+    width: 1000px;
+    height: 315px;
+    margin: 0 auto;
+}
+#projectMain .type .type_content .headline{
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+#projectMain .type .type_content .type_ul{
+    padding-top: 40px;
+}
+#projectMain .type .type_ul li{
+    float: left;
+    margin-right: 20px;
+}
+
+#projectMain .type .type_div{
+    position: relative;
+    width: 148px;
+    height: 158px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.10);
+    border-radius: 6px;
+}
+
+
+#projectMain .type .type_div .type_img{
+    padding-top: 30px;
+}
+#projectMain .type .type_div .type_text{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    font-size: 18px;
+}
+
+/*鍙戝竷椤圭洰*/
+#projectMain .release{
+    height: 481px;
+}
+#projectMain .release .person_div {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+#projectMain .release .person_div .text_person {
+    position: absolute;
+    top: 30px;
+    left: 84px;
+    font-size: 26px;
+}
+#projectMain .release .person_div .btn_person {
+    position: absolute;
+    bottom: 15px;
+    left: 60px;
+    border: none;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100px;
+    background: #fea600;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}

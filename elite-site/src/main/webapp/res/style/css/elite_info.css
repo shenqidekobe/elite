@@ -1,0 +1,772 @@
+/*精英个人资料*/
+
+.eliteInfo_left .location-nav {
+    position: fixed;
+}
+
+.eliteInfo_left .personage_nav {
+    position: fixed;
+    top: 180px;
+}
+
+
+.eliteInfo .personage_current{
+    margin-top: 78px;
+}
+
+
+#dataList .c-box-b{
+    background: #f7f7f7;
+}
+
+
+.head_hover_text {
+    width: 260px;
+    height: 20px;
+    background: url("/res/images/elite/head_hover_text.png") no-repeat;
+}
+
+
+.ceoInfo-l-a {
+	width: 240px;
+	border: 1px solid #E6E6E6;
+	border-radius: 4px;
+	text-align: center;
+	background-color: #FAFAFA;
+	box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+	margin-bottom: 20px;
+	height: 372px;
+}
+
+.ceoInfo-l-b {
+	width: 240px;
+	height: 70px;
+	border: 1px solid #E6E6E6;
+	border-radius: 10px;
+	background-color: #fafafa;
+	box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+	margin-bottom: 20px;
+}
+
+.ceoInfo-l-a .ceoInfo-l-a-content li{
+	height: 39px;
+	line-height: 39px;
+	width: 170px;
+	margin-left: 70px;
+	margin-bottom: 8px;
+	cursor: pointer;
+}
+
+.select {
+	height: 39px;
+	line-height: 39px;
+	width: 170px;
+	border-right: 3px solid #2cb7c9;
+	color: #2cb7c9;
+}
+
+.li-box {
+	height: 24px;
+	width: 105px;
+	padding-top: 7.5px;
+}
+
+.ceoInfo-l-a ul li .icon-box {
+	width: 22px;
+	height: 24px;
+	display: block;
+	float: left;
+	margin-right: 15px;
+}
+
+.ceoInfo-l-a ul li .txt-box {
+	width: 65px;
+	height: 24px;
+	display: block;
+	font-size: 16px;
+	float: left;
+	line-height: 24px;
+}
+
+.clearfloat:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0
+}
+.icon-a {
+	background: url("/res/images/ceo/icon-a.png") no-repeat;
+}
+
+.icon-b {
+	background: url("/res/images/ceo/icon-b.png") no-repeat;
+}
+
+.icon-c {
+	background: url("/res/images/ceo/icon-c.png") no-repeat;
+}
+
+.icon-d {
+	background: url("/res/images/ceo/icon-d.png") no-repeat;
+}
+
+.icon-e {
+	background: url("/res/images/ceo/icon-e.png") no-repeat;
+}
+
+.icon-f {
+	background: url("/res/images/ceo/icon-f.png") no-repeat;
+}
+
+.icon-g {
+	background: url("/res/images/ceo/icon-g.png") no-repeat;
+}
+.icon-h {
+	background: url("/res/images/ceo/icon-h.png") no-repeat;
+}
+.icon-a-s {
+	background: url("/res/images/ceo/icon-a-s.png") no-repeat;
+} 
+.icon-b-s {
+	background: url("/res/images/ceo/icon-b-s.png") no-repeat;
+}
+
+.icon-c-s {
+	background: url("/res/images/ceo/icon-c-s.png") no-repeat;
+}
+
+.icon-d-s {
+	background: url("/res/images/ceo/icon-d-s.png") no-repeat;
+}
+
+.icon-e-s {
+	background: url("/res/images/ceo/icon-e-s.png") no-repeat;
+}
+
+.icon-f-s {
+	background: url("/res/images/ceo/icon-f-s.png") no-repeat;
+}
+
+.icon-g-s {
+	background: url("/res/images/ceo/icon-g-s.png") no-repeat;
+}
+.icon-h-s {
+	background: url("/res/images/ceo/icon-h-s.png") no-repeat;
+}
+
+
+
+.data .data-logo {
+	cursor: pointer;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #979797;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 155px;
+    margin-left: -60px;
+}
+.data .data-logo img {
+	display:block;
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	margin:0 auto;
+}
+.data .data-logo p {
+	text-align:center;
+}
+.data .data-logo .name {
+	font-size:2rem;
+	margin:10px 0;
+}
+.data .data-logo .badge {
+	position:absolute;
+	top:0;
+	right:0;
+}
+.dui,
+.huizan {
+	display:inline-block;
+	width:18px;
+	height:20px;
+	margin:0 5px;
+
+}
+.dui {
+	background:url(/res/images/dui.png) no-repeat center;
+}
+.huizan {
+	background:url(/res/images/huizan.png) no-repeat center;
+}
+.data  .badge {
+    position: absolute;
+    right: 264px;
+    top: 143px;
+}
+.data .data-logo .name >span {
+	display:inline-block;
+	width:18px;
+	height:18px;
+	vertical-align:text-bottom;
+	background:url(/res/images/nv.png) no-repeat;
+}
+.data .data-logo .maps {
+	font-size:.8rem;
+	color:#999;
+}
+.data .data-logo .map {
+	display:inline-block;
+	width:15px;
+	height:20px;
+	margin:0 5px;
+	vertical-align:middle;
+	background:url(/res/images/map.png) no-repeat center;
+}
+
+
+
+
+
+.data .b-content-a {
+    width: 701px;
+    min-height: 90px;
+    margin: 0 auto;
+}
+
+.data .b-content-b{
+    width: 701px;
+    margin: 20px auto;
+    min-height: 100px;
+    height: auto!important
+}
+.data .b-content-c{
+    width: 645px;
+    margin: 0 auto;
+    min-height: 267px;
+    height: auto!important;
+}
+
+.data .line-box{
+    width: 560px;
+    height: 36px;
+    margin: 0 auto;
+    position:relative;
+}
+.data .line{
+    width: 200px;
+    height: 18px;
+    border-bottom: 1px solid #95d6e2;
+    line-height: 36px;
+    display: block;
+    float: left;
+}
+.data .line-btn{
+    width: 120px;
+    height: 36px;
+    border-radius: 100px;
+    background: #2cb7c9;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    float: left;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.data .idbox{
+    width: 160px;
+    height: 100px;
+    display: block;
+    margin-right: 40px;
+}
+.data .idlogo{
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: url("/res/images/idlogo.png");
+    margin: 22px 60px 16px;
+}
+.data .idtxt{
+    font-size: 14px;
+    color: #9b9b9b;
+
+}
+.data .c-logo{
+    width: 15px;
+    height: 20px;
+    display: block;
+    background: url("/res/images/c-logo.png");
+    float: right;
+}
+.data .c-tite{
+    display: block;
+    float: right;
+}
+.data .c-city{
+    display: block;
+    float: right;
+}
+
+.data .box-logo-b {
+    margin: auto;
+    width: 72px;
+    padding-top: 16px;
+    padding-bottom: 11px;
+}
+.data .cy-l{
+    display: block;
+    float: left;
+    margin-right: 80px;
+}
+.data .cy-c{
+    display: block;
+    float: left;
+}
+.data .cy-r{
+    display: block;
+    float: left;
+    margin-right: 280px;
+}
+
+.data .box-txt {
+	overflow:hidden;
+	padding:25px 0;
+}
+.data .box-txt-left {
+	width:70%;
+	float:left;
+	border-right:1px solid #e0e0e0;
+}
+
+
+.data .work-label{
+    font-size: 12px;
+    display: inline-block;
+}
+
+#currentBox .work-label .title-label {
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 12px;
+    color: #9B9B9B;
+    text-align: left;
+    margin-left: 5px;
+    padding: 0 30px;
+}
+#currentBox .work-label .title-text {
+    font-size: 12px;
+    color: #9b9b9b;
+    margin-left: -20px;
+}
+#currentBox .work-label .title-grade {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background-color: #4A90E2;
+    color: #fff;
+    font-size: 12px;
+}
+.data .index{
+	color:#9B9B9B;
+	font-size: 12px;
+}
+
+.data .value{
+	padding:5px 10px;
+	display:inline-block;
+	margin: 5px;
+	background:#fff;
+	border-radius:6px;
+    color:#4A4A4A;
+    font-size: 12px;
+}
+
+.data .opt-btn{
+    padding:4px 20px;
+    background-color: #FEA600;
+    border:none;
+    border-radius: 14px;
+    color:white;
+    font-size: 14px;
+    margin-right: 6px;
+}
+
+.data .person-name{
+    display: inline-block;
+    width:63px;
+}
+.data .find-btn{
+    width:300px;
+    height:50px;
+    border:1px solid #95D6E2;
+    background-color: white;
+    border-radius: 36px;
+    color:#95D6E2;
+}
+.data .box-txt-right {
+	width:25%;
+	float:right;
+}
+.data .box-txt-right p {
+	margin:10px 0;
+}
+.data .editor {
+	display:inline-block;
+	width:40px;
+	height:22px;
+	
+	vertical-align:middle;
+}
+.data .editr {
+	background:url(/res/images/bier.png) no-repeat center ;
+}
+.data .editrr {
+	background:url(/res/images/icteo.png) no-repeat center ;
+}
+.data .c-box-rt {
+	position: absolute;
+	top:9px;
+	right:-71px;
+	cursor: pointer
+}
+.data .box-txt-righta {
+    text-align: right;
+}
+.data .pbtn {
+	margin-bottom:15px
+
+}
+.data .bot-txte ol {
+	padding-left:20px;
+}
+.data .bot-txte ol li {
+	margin:10px 0;
+	color:#9b9b9b;
+}
+.data .certificate ul li {
+	display:inline-block;
+}
+.data .idlogo {
+	background:url(/res/images/ff.png);
+}
+
+/*绮捐嫳澶村儚*/
+.logo_img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid #979797;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.logo_img img{
+    width: 100%;
+    height: 100%;
+}
+
+/*绮捐嫳涓婚〉*/
+.b-content-total {
+	position: relative;
+    width: 100%;
+    min-height: 200px;
+    padding-top: 80px;
+}
+.editor_box {
+    position: absolute;
+    right: -1px;
+    top: 88px;
+    cursor: pointer;
+}
+.elite_name .name_a {
+    float: left;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.elite_name .name_a_box {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    height: 30px;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.elite_name .name_a_box .name_a_img {
+	float: left;
+    display: block;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+img.name_b_icon {
+    padding: 0px 10px 0 20px;
+}
+.elite_name .name_b {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    height: 30px;
+}
+.elite_name .name_b .name_b_work {
+    display: block;
+    float: left;
+}
+.elite_name .name_b .name_b_icon {
+    display: block;
+    float: left;
+    padding: 0 15px;
+}
+.elite_name .name_b .name_b_city {
+    display: block;
+    float: left;
+}
+
+/*头像*/
+.logo_img_box {
+    position: absolute;
+    z-index: 900;
+    top: 154px;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.logo_img_box img {
+    width: 100%;
+    height: 100%;
+}
+.logo_icon_box {
+    position: absolute;
+    left: 403px;
+    top: 152px;
+}
+
+
+#dataList .cto_logo {
+    position: absolute;
+    left: -15px;
+    top: 5px;
+    z-index: 1005;
+    width: 40px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 12px;
+    background: #fea600;
+    color: #fff;
+    font-size: 12px;
+    
+}
+
+.personage_current .logo_icon_box .badge_img {
+    position: absolute;
+    left: 33px;
+    top: 3px;
+}
+
+
+
+name_a_box {
+    position: absolute;
+    left: 50%;
+    top: 93px;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    height: 30px;
+}
+
+/*账号设置*/
+#personForm .ceo-phone {
+    background: #f5fbfc;
+    min-height: 500px;
+}
+#personForm .ceo-phone div {
+    margin-left: 60px;
+}
+#personForm .ceo-phone div label {
+	width: 65px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+    margin-right: 20px;
+}
+#personForm .ceo-phone div input {
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: 1px solid #d9d9d9;
+    padding-left: 20px;
+    color: #9b9b9b;
+}
+#personForm .ceo-phone div .save {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 48px;
+    background: #fea600;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 111px;
+    cursor: pointer;
+}
+#personForm .ceo-phone div .cancel {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 48px;
+    background: none;
+    color: #ccc;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+/*项目经历*/
+#projectBox .experience_div {
+	position: relative;
+	height: 53px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#projectBox .experience_div .company {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+#projectBox .experience_div .position {
+    position: absolute;
+    left: 0;
+    top: 35px;
+    font-size: 14px;
+}
+#projectBox .experience_div .time {
+    position: absolute;
+    left: 214px;
+    top: 36px;
+    font-size: 14px;
+    color: #9b9b9b;
+}
+#projectBox .experience_div .edit {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#projectBox .experience_text {
+    width: 100%;
+    min-height: 100px;
+    height: auto!important;
+    border-top: 1px dashed #d9d9d9;
+}
+#projectBox .experience_text .experience_text_content {
+    padding: 20px 0px;
+    word-wrap: break-word;
+    white-space: normal;
+    word-break: break-all;
+    width: 700px;
+}
+
+
+/*教育经历*/
+.education_div {
+    position: relative;
+    height: 50px;
+}
+
+
+.education_div .education{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+}
+.education_div .degree{
+    position: absolute;
+    top: 0;
+    left: 180px;
+    font-size: 16px;
+}
+.education_div .time {
+    position: absolute;
+    top: 0;
+    left: 310px;
+    color: #9b9b9b;
+    font-size: 14px;
+}
+.education_div .edit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+
+/*当前状态*/
+
+.personage_current .title_name{
+    font-weight: 700;
+}
+
+#currentBox .title_name {
+    font-weight: 600;
+}
+
+.year_p .year_span {
+    margin-left: 20px;
+}
+
+/*账户设置*/
+#personForm .ceo-phone .phone_input{
+    border: none;
+    background: #f5fbfc;
+}
+
+#personForm .ceo-phone .company_error{
+    color: red;
+    position: absolute;
+    top: -22px;
+    left: -56px;
+}

@@ -1,0 +1,303 @@
+/*公用样式*/
+.ceo-int .send-btn,.ceo-login .send-btn,.ceo-phone .send-btn,.ceo-email .send-btn,.ceo-aliPay .send-btn {
+    width: 124px;
+    height: 50px;
+    background: #95d6e2;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    margin-left: 20px;
+    margin-right: 0px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+.ceo-int{
+    width: 730px;
+    height: 530px;
+    background: #F5FBFC;
+}
+.ceo-int-content{
+    padding-top: 20px;
+}
+.ceo-int input,.ceo-login input,.ceo-phone input,.ceo-email input,.ceo-aliPay input{
+    height: 48px;
+    border: 1px solid #95d6e2;
+    border-radius: 6px;
+    padding-left: 20px;
+    display: block;
+    float: left;
+    background: #fff;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+.sex-span{
+    width: 146px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    margin-right: 20px;
+    float: left;
+    text-align: right;
+}
+.ceo-int button,.ceo-login button,.ceo-phone button,.ceo-email button,.ceo-aliPay button{
+    width: 120px;
+    height: 41px;
+    border-radius: 48px;
+    text-align: center;
+    line-height: 41px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 111px;
+}
+#personForm1 .company_error{
+    position: absolute;
+    left: 87px;
+    top: -25px;
+    color: red;
+}
+#companyFrom .company_error{
+    position: absolute;
+    left: 0;
+    top: -25px;
+    color: red;
+}
+.ceo-int .save,.ceo-login .save,.ceo-phone .save,.ceo-email .save,.ceo-aliPay .save{
+    background: #FEA600;
+    color: #fff;
+    border: none;
+    margin-left: 165px;
+}
+.ceo-int .cancel,.ceo-login .cancel,.ceo-phone .cancel,.ceo-email .cancel,.ceo-aliPay .cancel{
+    background:none;
+    color: #ccc;
+    border:1px solid #ccc;
+}
+/*ceo-int样式*/
+.genderDiv ul li{
+    width: 74px;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 6px;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    cursor: pointer;
+    text-align: right;
+    padding-right: 23px;
+}
+.select-sex{
+    border: none;
+    background: #7dd2e1;
+    color: #fff;
+    padding: 1px;
+}
+.unselect-sex{
+    border: 1px solid #ccc;
+    background:none;
+    color: #9b9b9b;
+}
+.sex-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.man-c{
+    background: url("../../../../res/images/ceo/man-c.png") no-repeat;
+}
+
+.woman-c{
+    background: url("../../../../res/images/ceo/woman-c.png") no-repeat;
+}
+
+.genderDiv ul{
+    float: left;
+}
+.cityDiv{
+    position: relative;
+}
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #4a4a4a;
+    cursor: pointer;
+    position: absolute;
+    right: 276px;
+    top: 20px;
+}
+.city-icon {
+    width: 20px;
+    height: 28px;
+    background: url("../../../images/ceo/city-icon.png") no-repeat;
+    position: absolute;
+    top: 12px;
+    left: 185px;
+}
+.cityInput{
+    width:248px ;
+    height: 48px;
+    border: 1px solid #95d6e2;
+    border-radius: 6px;
+    padding-left: 50px;
+    display: block;
+    float: left;
+    background: #fff;
+    font-size: 14px;
+    color: #4a4a4a;
+    cursor: pointer;
+}
+
+/*ceo-login样式*/
+
+.yed-box, .not-box {
+    margin-top: 34px;
+    margin-left: 68px;
+}
+div#settingBox {
+    padding: 0 20px;
+}
+.ceo-login {
+    position: absolute;
+    z-index: 80;
+    width: 100%;
+    min-height: 740px;
+    background: #F5FBFC;
+}
+input#companyScale {
+    width: 20px;
+    height: 20px;
+}
+.login-title ul{
+    width: 730px;
+    height: 63px;
+    border-bottom: 2px solid #E6E6E6;
+    padding-top: 32px;
+}
+.login-title ul li{
+    width: 365px;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    height: 31px;
+}
+.yet{
+    color: #FEA600;
+    border-bottom: 4px solid #FEA600;
+}
+.login-content span{
+    width: 65px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    margin-right: 20px;
+    text-align: right;
+    display:block;
+    float: left;
+}
+
+.login-content .number span{
+    width: 65px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 16px;
+    margin-right: 20px;
+    text-align: right;
+    display:block;
+    float: left;
+}
+.login-content .number input{
+    height: 26px;
+    line-height: 26px;
+    display:block;
+    float: left;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.number ul li {
+    float: left;
+    height: 26px;
+    line-height: 26px;
+}
+span.check-custom {
+    width: 120px!important;
+}
+.companyDiv{
+    height: 287px;
+}
+.companyDiv .company-box {
+    width: 484px;
+    float: left;
+}
+.company-box .company-title{
+     height: 39px;
+     background: #F2F2F2;
+     border: 1px solid #95D6E2;
+     border-radius: 6px 6px 0px 0px;
+     width: 484px;
+ }
+.company-box .company-text{
+    width: 458px;
+    background: #fff;
+    border: 1px solid #95D6E2;
+    padding: 20px 13px;
+    min-height: 204px;
+    overflow-y: auto;
+
+}
+.companyDiv span{
+    width: 65px;
+    height: 41px;
+    line-height: 41px;
+    font-size: 16px;
+    margin-right: 20px;
+    text-align: right;
+    display:block;
+    float: left;
+}
+.company-title img {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/*ceo-phone样式*/
+.ceo-phone {
+    width: 100%;
+    min-height: 440px;
+    background: #F5FBFC;
+}
+
+/*ceo-email样式*/
+.ceo-email{
+    width: 730px;
+    height: 341px;
+    background: #F5FBFC;
+}
+/*ceo-aliPay样式*/
+.ceo-aliPay{
+    width: 730px;
+    height: 272px;
+    background: #F5FBFC;
+}
+input#teamNum {
+    width: 20px;
+    height: 20px;
+}
+/*ceo_phone*/
+#personForm {
+    margin-top: -40px;
+}
+#personForm .ceo-phone .phone_input{
+    border: none;
+    background: #f5fbfc;
+}
+#settingBox div span:nth-child(1){
+    font-weight: 700;
+}
+
+

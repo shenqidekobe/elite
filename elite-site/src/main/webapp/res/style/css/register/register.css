@@ -1,0 +1,229 @@
+ 		/*正文样式*/
+        
+
+        #register .show-box{
+        	position: relative;
+            width:100%;
+            height:1080px;
+		    background-size: cover;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    background-position: center;
+        }
+        
+       #register .register1{
+        	background: url("/res/images/banner_register1.png") no-repeat;
+        	background-size: cover;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    background-position: center;
+        }
+    	#register .register2{
+        	background: url("/res/images/banner_register2.png") no-repeat;
+        	background-size: cover;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    background-position: center;
+        }
+
+       
+
+        #register .login-logo{
+            position: absolute;
+            top:210px;
+            left:50%;
+            margin-left:-75px;
+        }
+
+        #register .slogan{
+            font-size: 14px;
+            color:white;
+            position: absolute;
+            top:268px;
+            left:50%;
+            margin-left:-60px;
+        }
+
+        #register .login-box {
+		    position: absolute;
+		    top: 250px;
+		    left: 50%;
+		    margin-left: -250px;
+		    width: 500px;
+		    min-height: 557px;
+    		height: auto!important;
+		    background-color: #fff;
+		    text-align: center;
+		    border-radius: 20px;
+		    -webkit-border-radius: 20px;
+		    -moz-border-radius: 20px;
+		    -o-border-radius: 20px;
+		}
+
+
+        #register #registerForm{
+           padding-top:30px;
+        }
+
+        #register .form-horizontal .form-group{
+            margin-left:0;
+            margin-right:0;
+            padding-left:50px;
+            padding-right:50px;
+        }
+
+        #register .forget-password a{
+            color:#2CB7C9;
+        }
+        #register .form-control{
+        	width: 400px;
+		    height: 50px;
+		    border-radius: 8px;
+        }
+        #register .form-group{
+		    margin-bottom: 20px!important;
+		}
+
+        #register .register-btn{
+		    width: 400px;
+		    height: 50px;
+		    line-height: 50px;
+		    background-color: #fea600;
+		    color: white;
+		    border: none;
+		    border-radius: 72px;
+		    font-size: 20px;
+		}
+        #register .login-tip{
+            font-size: 20px;
+        }
+        #register .login-tip a {
+		    color: #2cb7c9;
+		}
+
+        #register .register-tip a{
+            color:#2CB7C9;
+        }
+
+       #register .identity{
+           width:50%;
+           height:30px;
+           float:left;
+           text-align: center;
+           font-size: 20px;
+       }
+
+        #register .select-line{
+            width:50%;
+            border-bottom: 4px solid #FEA600;
+            position: absolute;
+            bottom: -2px;
+           
+        }
+
+        #register .other-select{
+            cursor: pointer;
+        }
+
+       #register .send-msg-btn{
+		    float: left;
+		    width: 124px;
+		    height: 50px;
+		    text-align: center;
+		    line-height: 50px;
+		    background-color: #2CB7C9;
+		    border: 1px solid #2CB7C9;
+		    border-radius: 8px;
+		    color: #fff;
+		    margin-left: 20px;
+		    font-size: 18px;
+		    cursor: pointer!important;
+		}
+
+        #register .copyright{
+        	position: absolute;
+            top:620px;
+            left:50%;
+            font-size: 12px;
+            color:#fff;
+            margin-left:-104px;
+        }
+
+        #register .identity-select{
+            width:100%;
+            height:50px;
+            border-bottom:2px solid #E6E6E6;
+            position: relative;
+        }
+
+        #register .focus-input:focus{
+            box-shadow: 0 0 6px 0 #2CB7C9!important;
+        }
+        #register .current-select{
+            color:#FEA600;
+        }
+
+        #register .error-tip {
+		    position: absolute;
+		    width: 100%;
+		    height: 24px;
+		    left: 50px;
+		    top: -20px;
+		    line-height: 24px;
+		    color: red;
+		    text-align: left;
+		    font-size: 12px;
+		}
+        #register .error-sign{
+           border-color:red;
+        }
+        
+       #register .project_group .project_checkbox{
+        	float: left;
+		    width: 20px;
+		    height: 20px;
+		    cursor: pointer;
+		}
+		#register .project_group .projext_div{
+		    float: left;
+		    margin-top: 7px;
+		    margin-left: 15px;
+		    font-size: 14px;
+		    color: #9b9b9b;
+		}
+		#register .project_group .projext_div a{
+		    padding: 0px 10px;
+		    color: #4a90e2!important;
+		}
+		#register .invite_code_box{
+		    position: relative;
+		    margin-top: 30px;
+		}
+		#register .invite_code_box .code_div{
+		    position: absolute;
+		    top: 12px;
+		    left: 137px;
+		    width: 160px;
+		    height: 26px;
+		    line-height: 26px;
+		    font-size: 12px;
+		    color: #fff;
+		    background: #000;
+		    border-radius: 4px;
+		    opacity: 0.8;
+		    cursor:pointer;
+		}
+		#register .invite_code_box .code_div .icon_code{
+		    position: absolute;
+		    left: -8px;
+		    top: 5px;
+		    width: 0;
+		    height: 0;
+		    border-top: 8px solid transparent;
+		    border-right: 8px solid #000;
+		    border-bottom: 8px solid transparent;
+		}
+		
+		
+		
+

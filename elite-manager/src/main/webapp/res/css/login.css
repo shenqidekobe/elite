@@ -1,0 +1,203 @@
+/*全局樣式*/
+abbr, address, article, aside, audio, b, blockquote, body, body div, caption, cite, code, dd, del, details, dfn, dl, dt, em, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    vertical-align: baseline;
+    background: 0 0;
+}
+body {
+    min-width: 1000px;
+    background: #fff;
+    font-family: "Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,Helvetica,sans-serif!important;
+    font-size: 14px!important;
+    color: #4a4a4a!important;
+    line-height: 1.58!important;
+}
+
+input:focus {
+	outline:none;
+}
+
+button:focus {
+	outline:none;
+}
+
+#login{
+    width: 100%;
+    height: 100%;
+    min-height:1000px;
+    min-width: 1000px;
+    background: url("../img/login_bg.jpg") no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+}
+
+
+#login .login_head{
+    position: relative;
+}
+
+#login .logoBox{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: 100px;
+}
+#login .logoBox .imgBox{
+    width: 1000px;
+    margin: 0 auto;
+    height: 100px;
+}
+#login .logoBox .imgBox .logo_img{
+    padding-top: 19px;
+    width: 145px;
+    height: 62px;
+}
+#login .head_bg{
+    width: 100%;
+    height: 100px;
+    background: #000;
+    opacity: 0.5;
+}
+
+
+#login .login_content{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#login .login_content .login_head .logo_img{
+    display: block;
+    float: left;
+    margin-right: 50px;
+}
+
+#login .login_content .login_head .logo_text{
+    font-size: 40px;
+    color: #2cb7c9;
+}
+
+#login .login_content .login_form form{
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+#login .login_content .login_form{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    margin-left: -250px;
+    width: 500px;
+    height: 435px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#login .login_content .login_form .logo_text{
+	position: absolute;
+    top: -82px;
+    left: 50%;
+    margin-left: -120px;
+    width: 240px;
+    font-size: 40px;
+    color: #2cb7c9;
+    height: 60px;
+    border-bottom: 2px solid #fea600;
+    text-align: center;
+}
+
+
+#login .login_content .login_form input{
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding-left: 60px;
+    color: #9b9b9b;
+    font-size: 16px;
+}
+
+#login .login_content .login_form .form_group{
+    position: relative;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+#login .login_content .login_form .form_group .icon_img{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+#login .login_content .login_form .loginBtn{
+    width: 400px;
+    height: 50px;
+    border: none;
+    background: #fea600;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    margin-top: 44px;
+}
+
+#login .login_content .login_form .changeBtn{
+    position: absolute;
+    right: 40px;
+    top: 17px;
+    color: #9b9b9b;
+    border: none;
+    cursor: pointer;
+    background: #fff;
+    font-size: 16px;
+}
+#login .login_content .login_form .code{
+    position: absolute;
+    top: 10px;
+    right: 120px;
+    width: 80px;
+    height: 30px;
+    background: #2cb7c9;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+#login .login_content .login_form .error{
+    position: absolute;
+    color: red;
+    top: 10px;
+}
+#login .login_content .login_form .platform{
+    position: absolute;
+    left: 50%;
+    bottom: -72px;
+    margin-left: -143px;
+    font-size: 18px;
+    color: #2cb7c9;
+}
+#login .login_content .login_form .login_copyright{
+    position: absolute;
+    bottom: -93px;
+    left: 50%;
+    margin-left: -106px;
+    color: #fff;
+}

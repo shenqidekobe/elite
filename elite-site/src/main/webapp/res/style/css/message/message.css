@@ -1,0 +1,253 @@
+ 		 #messageMain .message-count{
+            font-size: 14px;
+            color:#9B9B9B;
+            margin-left:10px;
+        }
+        #messageMain .current-select{
+            color:#FEA600;
+        }
+
+        #messageMain .current-count{
+            color:#FEA600;
+        }
+
+        #messageMain .right-opt .split-line{
+            height:20px;
+            border-right: 1px solid #E6E6E6;
+            position: absolute;
+            top:0;
+            left:128px;
+        }
+        #messageMain .message-frame{
+            margin-bottom:10px;
+            position: relative;
+        }
+
+        #messageMain .message-frame img{
+            width:732px;
+            height:60px;
+        }
+
+        #messageMain .message-select{
+            cursor: pointer;
+        }
+
+        #messageMain .message-word{
+            position: absolute;
+            top:18px;
+            left:30px;
+            font-size: 14px;
+        }
+
+        #messageMain .message-time{
+           position: absolute;
+            top:20px;
+            right:20px;
+            font-size: 12px;
+            color:#9B9B9B;
+        }
+
+        #messageMain .project-btn{
+		    width: 190px;
+		    height: 30px;
+		    line-height: 30px;
+		    text-align: center;
+		    border: 1px solid #2CB7C9;
+		    border-radius: 6px;
+		    font-size: 12px;
+		    color: #2CB7C9;
+		    display: inline-block;
+		    margin-left: 40px;
+		    position: relative;
+		    cursor: pointer;
+		}
+		#messageMain .btn-triangle{
+		    position: absolute;
+		    top: -2px;
+		    right: 2px;
+		    cursor: pointer;
+		}
+       #messageMain .btn-trigger{
+            display: inline-block;
+            height: 0;
+            width: 0;
+            overflow: hidden;
+            border-style: solid;
+            margin-left: 4px;
+            margin-right: 4px;
+            border-width:6px 6px 0;
+            border-color:#4a4a4a transparent transparent;
+            -webkit-transition:all .4s ease 0s;
+            -moz-transition:all .4s ease 0s;
+            -o-transition:all .4s ease 0s;
+            transition:all .4s ease 0s;
+        }
+
+        #messageMain .proect{
+		    position: absolute;
+		    top: 32px;
+		    right: -12px;
+		    z-index: 2;
+		    width: 200px;
+		    border-radius: 6px;
+		    list-style: none;
+		}
+		#messageMain .proect li{
+		    background: #f5fbfc;
+		    text-align: center;
+		    color: #4a4a4a!important;
+		}
+		#messageMain .proect li a{
+		    display: block;
+		    padding: 5px;
+		    color: #4a4a4a;
+		    font-size: 14px;
+		    text-decoration: none;
+		}
+		#messageMain .proect li a:hover{
+		    background:#27b7c9;
+		    color:#fff;
+		}
+        #messageMain .trigger-inverse{
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+            animation-fill-mode: forwards;
+        }
+
+        #messageMain .project-logo{
+        	position: absolute;
+            top:8px;
+            left:26px;
+            z-index: 100;
+            width:40px;
+            height:40px;
+            line-height: 40px;
+            text-align: center;
+            font-size: 20px;
+            color:white;
+            background-color: #EE706B;   
+        }
+        
+         #messageMain .pagebox{
+		    width:269px;
+		    float:left;
+		    margin:0 auto;
+		    overflow: hidden;
+		}
+		#messageMain a{
+		    text-decoration:none;
+		}
+		#messageMain ul,li{
+		    list-style:none;
+		}
+		
+		#messageMain .mbox-left{
+		    width:240px;
+		    height:230px;
+		    float:left;
+		    opacity:0.8;
+		    filter:alpha(opacity=8);
+		    border:1px solid #e6e6e6;
+		    border-radius:6px;
+		    -moz-border-radius:6px;
+		    -webkit-border-radius:6px;
+		    box-shadow:2px 2px 6px 0px rgba(0,0,0,0.3);
+		}
+		#messageMain .mbox-left ul{
+		    text-align:center;
+		    margin-top:33px;
+		}
+		#messageMain .mbox-left ul li{
+		    position:relative;
+		}
+		#messageMain .mbox-left ul li a{
+		    display:inline-block;
+		    color:#4a4a4a;
+		    vertical-align:super;
+		    padding:13px 0
+		}
+		#messageMain .mbox-left ul li span:nth-child(1){
+		    display:inline-block;
+		    width:22px;
+		    height:22px;
+		    margin-right:15px;
+		}
+		#messageMain .mbox-left ul li .system{
+		    background:url(/res/images/system.png) no-repeat center;
+		}
+		#messageMain .mbox-left ul li .project{
+		    background:url(/res/images/prjt.png) no-repeat center;
+		}
+		#messageMain .mbox-left ul li .activity{
+		    background:url(/res/images/activity.png) no-repeat center;
+		}
+		#messageMain .active_color{
+		    color: #2cb7c9!important;
+		}
+		#messageMain .mbox-left ul li .system1{
+		    background:url(/res/images/system-1.png) no-repeat center;
+		}
+		#messageMain .mbox-left ul li .project1{
+		    background:url(/res/images/prjt-1.png) no-repeat center;
+		}
+		#messageMain .mbox-left ul li .activity1{
+		    background:url(/res/images/activity-1.png) no-repeat center;
+		}
+		#messageMain .active_color{
+		    color: #2cb7c9!important;
+		}
+		#messageMain span.active_line{
+		    position: absolute;
+		    right: -2px;
+		    height: 39px!important;
+		    border-right: 3px solid #2cb7c9;
+		}
+ 		
+ 		
+ 		
+ 		.specific {
+		    position: relative;
+		    min-height: 146px;
+		    height: auto!important;
+		    border: 1px solid #CCCCCC;
+		    border-radius: 6px;
+		}
+        .specific .specific_title {
+		    margin-left: 30px;
+		    margin-top: 20px;
+		    font-size: 16px;
+		}
+        .specific .specific_time {
+		    left: 30px;
+		    color: #9b9b9b;
+		    margin-top: 5px;
+		    margin-left: 30px;
+		}
+        .specific .specific_text {
+		    width: 677px;
+		    margin-left: 30px;
+		    margin-top: 15px;
+		}
+		
+		  .specific .arrow{
+            border-color: transparent #ccc transparent transparent;
+            border-width: 10px;
+            border-style: solid;
+            width: 0;
+            height: 0;
+            position: absolute;
+            top: 17px;
+            left: -21px;
+        }
+         .specific .arrow_inner{
+            border-color: transparent #fff transparent transparent;
+            border-width: 10px;
+            border-style: solid;
+            width: 0;
+            height: 0;
+            position: absolute;
+            top: 17px;
+            left: -20px;
+        }

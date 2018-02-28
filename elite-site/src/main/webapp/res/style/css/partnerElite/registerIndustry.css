@@ -1,0 +1,251 @@
+
+        /*�˲ŷ���ҵ��Ϣ�°�*/
+        
+         #registerIndustry .recommend-form-box {
+		    position: relative;
+		    width: 100%;
+		    min-width: 1000px;
+		    margin: 0 auto;
+		    min-height: 1000px;
+		    background: url("/res/images/elite/partner_bg.png") no-repeat;
+		    background-size: cover;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    background-position: center;
+		}
+		
+		#registerIndustry #personnelStep2 {
+		    position: absolute;
+		    top: 170px;
+		    left: 50%;
+		    margin-left: -360px;
+		    width: 720px;
+		    height: 634px;
+		    background-color: #fff;
+		    border-radius: 20px;
+		    text-align: center;
+		}
+		
+		#registerIndustry #personnelStep2 .processBox {
+		    position: relative;
+		    width: 100%;
+		    height: 120px;
+		    background: #f5fbfc;
+		    border-top-left-radius: 20px;
+		    border-top-right-radius: 20px;
+		}
+		
+		#registerIndustry #personnelStep2 .processBox .point{
+			position: absolute;
+		    top: 24px;
+		    left: 100px;
+		    width: 40px;
+		    height: 40px;
+		    text-align: center;
+		    line-height: 40px;
+		    font-size: 22px;
+		    background: none;
+		    color: #4a4a4a;
+		    border: 1px solid #9b9b9b;
+		    border-radius: 50%;  
+		}
+		#registerIndustry #personnelStep2 .processBox .point1{
+			left: 100px;
+		}
+		#registerIndustry #personnelStep2 .processBox .point2{
+			left: 340px;
+		}
+		#registerIndustry #personnelStep2 .processBox .point3{
+			left: 580px;
+		}
+		#registerIndustry #personnelStep2 .processBox .line {
+		    position: absolute;
+		    left: 230px;
+		    top: 44px;
+		    width: 160px;
+		    border-bottom: 1px solid #ccc;
+		}
+		#registerIndustry #personnelStep2 .processBox .line1{
+			left: 160px;
+		}
+		#registerIndustry #personnelStep2 .processBox .line2{
+			 left: 400px;
+		}
+		
+		#registerIndustry #personnelStep2 .processBox .text {
+		    position: absolute;
+		    top: 74px;
+		    font-size: 16px;
+		}
+		
+		#registerIndustry #personnelStep2 .processBox .text1{
+		    left: 86px;
+		    color: #2cb7c9;
+		}
+		#registerIndustry #personnelStep2 .processBox .text2 {
+		     left: 328px;
+		}
+		#registerIndustry #personnelStep2 .processBox .text3 {
+		     left: 569px;
+		}
+		
+		#registerIndustry #personnel-form2 {
+		    width: 589px;
+		    height: 384px;
+		    margin: 0 auto;
+		    padding-top: 40px;
+		}
+		
+		#registerIndustry #personnel-form2 label {
+		    float: left;
+		    width: 80px;
+		    line-height: 50px;
+		    height: 50px;
+		    margin-right: 20px;
+		    text-align: right;
+		    font-size: 16px;
+		    color: #4a4a4a;
+		    margin-bottom: 0;
+		    font-weight: 400;
+		}
+		
+		#registerIndustry #personnel-form2 .group {
+		    margin-bottom: 30px;
+		}
+		
+		#registerIndustry #personnel-form2 .inputDiv {
+		    position: relative;
+		    float: left;
+		}
+		
+		#registerIndustry #personnel-form2 .nextStep {
+		    position: relative;
+		    margin-top:60px;
+		}
+		#registerIndustry #personnel-form2 .nextStep .error_div {
+		    position: absolute;
+		    top: -52px;
+		    left: 98px;
+		    width: 300px;
+		    height: 50px;
+		    border: 1px solid #dd5b56;
+		    background: #f4d7d6;
+		    border-radius: 4px;
+		    -webkit-border-radius: 4px;
+		    -moz-border-radius: 4px;
+		    -o-border-radius: 4px;
+		}
+		
+		#registerIndustry #personnel-form2 .nextStep .error_div .error_icon {
+		    position: absolute;
+		    top: 8px;
+		    left: 32px;
+		    display: block;
+		    width: 32px;
+		    height: 29px;
+		    background: url(/res/images/error/error_icon.png) no-repeat;
+		}
+		
+		#registerIndustry #personnel-form2 .nextStep .error_div .error_text {
+		    position: absolute;
+		    top: 12px;
+		    left: 79px;
+		    font-size: 16px;
+		    color: #dd5b56;
+		    padding-left: 0;
+		}
+		#registerIndustry #personnel-form2 .next-step-btn {
+		    width: 300px;
+		    height: 50px;
+		    text-align: center;
+		    line-height: 50px;
+		    background: #FEA600;
+		    border-radius: 100px;
+		    border: none;
+		    color: #fff;
+		    font-size: 18px;
+		    margin: 0 30px;
+		}
+		
+		#registerIndustry #personnel-form2 .lastStep {
+		    font-size: 18px;
+		    color: #fea600;
+		    height: 50px;
+		    line-height: 50px;
+		    margin-right: 0px;
+		}
+		
+		#registerIndustry #personnel-form2 .skip_btn {
+		    font-size: 14px;
+		    color: #9b9b9b;
+		    vertical-align: bottom;
+		}
+		
+		#registerIndustry #personnel-form2 .triangleBtn {
+		    position: absolute;
+		    bottom: 15px;
+		    right: 20px;
+		    cursor: pointer;
+		}
+		
+		#registerIndustry #personnel-form2 .must {
+		    vertical-align: middle;
+		    color: #fea600;
+		    font-size: 26px;
+		}
+	
+		#registerIndustry #personnel-form2 .down {
+		    width: 0;
+		    height: 0;
+		    border-width: 8px;
+		    border-style: solid;
+		    border-color: #4a4a4a transparent transparent;
+		}
+		
+		#registerIndustry #personnel-form2 .birth-year {
+		    position: absolute;
+		    top: 15px;
+		    left: 20px;
+		}
+		
+		#registerIndustry #personnel-form2 .form-control {
+		    border: 1px solid #2cb7c9;
+		    height: 50px;
+		    line-height: 50px;
+		    padding-left: 20px;
+		    font-size: 16px;
+		    color: #9b9b9b;
+		    border-radius: 8px;
+		    -webkit-border-radius: 8px;
+		    -moz-border-radius: 8px;
+		    -o-border-radius: 8px;
+		    cursor: pointer;
+		}
+		
+		#registerIndustry #personnel-form2 .selectUl{
+		    position: absolute;
+		    top: 50px;
+		    left: 0px;
+		    z-index: 100;
+		    border: none;
+		    width: 160px;
+		    border: 1px solid #999999;
+		    box-shadow: 2px 4px 6px -1px rgba(0,0,0,0.15);
+		    border-radius: 6px;
+		    margin-bottom: 0;
+		}
+		
+		#registerIndustry #personnel-form2 .selectUl_li {
+		    padding-left: 20px!important;
+		    background-color: #fff;
+		    color: #4a4a4a;
+		    width: 158px;
+		    text-align:left;
+		    height: 40px;
+		    line-height: 40px;
+		}
+		
+		#registerIndustry #personnel-form2 .selectUl_li:hover{
+			background: #2cb7c9;
+		    color: #fff;
+		}

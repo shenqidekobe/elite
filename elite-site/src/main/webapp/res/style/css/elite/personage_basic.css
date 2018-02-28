@@ -1,0 +1,368 @@
+/*公共样式*/
+    .personage_basic .form-control{
+	    height: 50px;
+	    line-height: 50px;
+	    border-radius: 6px;
+	    border: 1px solid #2cb7c9;
+	    font-size: 16px;
+	    color: #4a4a4a;
+	    background: #fff;
+	}
+	.personage_basic .form-group{
+		margin-bottom: 30px;    
+	}
+	.personage_basic .text_sex{
+	    height: 40px;
+	    line-height: 40px;
+	    font-size: 16px;
+	    color: #4a4a4a;
+	    font-weight: 500;
+	    padding-top: 0!important;
+	}
+
+
+	.personage_basic .btn-default{
+	    height: 40px;
+	    line-height: 40px;
+	    text-align: center;
+	    width: 99px;
+	    border: 1px solid #ccc;
+	    border-radius: 6px;
+	    -webkit-border-radius: 6px;
+	    -moz-border-radius: 6px;
+	}
+
+
+
+	.personage_basic .btn{
+		height: 50px;
+		line-height: 50px;
+		border-radius: 6px;
+		}
+		
+		
+    .personage_basic .process{
+        width:100%;
+        height:130px;
+        background-color: #F5FBFC;
+    }
+
+    .personage_basic .process-box{
+        width:1000px;
+        margin:0 auto;
+        position: relative;
+    }
+
+    .personage_basic .process-line{
+        width:132px;
+        border-bottom: 2px solid #BFBFBF;
+        position: absolute;
+        top:50px;
+        left:210px;
+    }
+
+    .personage_basic .content{
+        width:1000px;
+        margin:0 auto;
+        min-height:250px;
+        padding-bottom: 60px;
+    }
+    .personage_basic .process-circle{
+    	position: absolute;
+        top:32px;
+        left:160px;
+        z-index: 200;
+        width: 40px;
+        height: 40px;
+        border:none;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        background-color: #BFBFBF;
+        text-align: center;
+        line-height: 40px;
+        color:#fff;   
+    }
+
+    .personage_basic .active-process{
+        background-color: #7DD2E1;
+    }
+
+    .personage_basic .process-title{
+        position: absolute;
+        top:84px;
+        left:148px;
+    }
+
+    .personage_basic .active-title{
+        color:#2CB7C9;
+    }
+
+    .personage_basic .complete-circle{
+        width:100px;
+        height:100px;
+        border:1px solid red;
+        margin-left:200px;
+        margin-top:20px;
+        float:left;
+    }
+
+
+    .personage_basic .complete-tips{
+        margin-top:30px;
+        height:140px;
+    }
+
+    .personage_basic .complete-theme{
+        margin-left:50px;
+        padding-top:40px;
+        float:left;
+    }
+
+    .personage_basic .tips{
+        float:left;
+        margin-left:20px;
+    }
+
+    .personage_basic .tips img{
+        width:20px;
+        height:20px;
+    }
+
+    .personage_basic .tips p{
+        font-size: 12px;
+        color:#9B9B9B;
+    }
+
+    .personage_basic .split-line{
+        height:140px;
+        border-left:1px solid #E6E6E6;
+        float:left;
+        margin-left:40px;
+    }
+
+    .personage_basic .form-person{
+        display: block;
+        padding-left:200px;
+        padding-top:30px;
+    }
+
+    .personage_basic .form-person label{
+        text-align:right!important;
+        position: relative;
+    }
+
+    .personage_basic .form-tip{
+        font-size: 12px;
+        color:#FEA600;
+    }
+
+    .personage_basic .required{
+        color:#FEA600!important;
+    }
+
+    .personage_basic .secret-circle{
+    	position: absolute;
+        right:10px;
+        top:8px;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #4A90E2;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        text-align: center;
+        line-height: 20px;
+        font-size: 12px;
+        color:#4A90E2;
+        display: inline-block;
+    }
+
+    .personage_basic .date-select{
+    	position: relative;
+        display: block;
+        width:100%;
+    }
+
+	.personage_basic .date-icon{
+		position: absolute;
+	    top: 17px;
+	    right: -36px;
+	    z-index: 100;
+	    width: 20px;
+	    height: 20px;
+	}
+
+    .personage_basic .birth-box{
+        position: relative;
+    }
+
+    .personage_basic .year-select{
+        position: absolute;
+        top:33px;
+        left:0px;
+        z-index: 100;
+        border:1px solid #2CB7C9;
+
+    }
+
+    .personage_basic .year-select{
+        display: none;
+        height:266px;
+        overflow: auto;
+    }
+
+    .personage_basic .year-select li{
+        padding:0 16px;
+        background-color: white;
+
+    }
+
+    .personage_basic .year-select li:hover{
+        background-color: #2CB7C9;
+        color:white;
+        cursor: pointer;
+    }
+    .personage_basic .birth-year{
+        position: absolute;
+        top:7px;
+        left:16px;
+    }
+
+
+    .personage_basic .form-triangle{
+		    position: absolute;
+		    bottom: 16px;
+		    right: 20px;
+		    cursor: pointer;
+		}
+    .personage_basic .form-trigger{
+        display: inline-block;
+        height: 0;
+        width: 0;
+        overflow: hidden;
+        border-style: solid;
+        margin-left: 4px;
+        margin-right: 4px;
+        position: relative;
+        top:0;
+        border-width:6px 6px 0;
+        border-color:#D8D8D8 transparent transparent;
+        -webkit-transition:all .4s ease 0s;
+        -moz-transition:all .4s ease 0s;
+        -o-transition:all .4s ease 0s;
+        transition:all .4s ease 0s;
+    }
+
+    .personage_basic .trigger-inverse{
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+        animation-fill-mode: forwards;
+    }
+
+    .personage_basic .location{
+		    position: absolute;
+		    top: 15px;
+		    left: 12px;
+		    width: auto;
+		    height: 20px;
+		}
+    .personage_basic .split-line2{
+        width:100%;
+        border-bottom: 1px dashed #E6E6E6;
+        position: absolute;
+        top:264px;
+        left:0;
+    }
+
+    .personage_basic .upload-head{
+        position: absolute;
+        top:72px;
+        right:164px;
+        text-align: center;
+    }
+
+    .personage_basic .upload-head img{
+        width:100px;
+        height:100px;
+    }
+
+    .personage_basic .form-opt {
+	    position: relative;
+	    margin-top: 80px;
+	    margin-left: 126px;
+	}
+
+   .personage_basic .btn-ok{
+	    width: 120px;
+	    text-align: center;
+	    height: 42px;
+	    line-height: 42px;
+	    background-color: #FEA600;
+	    border: none;
+	    border-radius: 48px;
+	    -webkit-border-radius: 48px;
+	    -moz-border-radius: 48px;
+	    color:#fff;
+	    vertical-align: bottom;
+	    margin-right: 110px;
+	}
+	.personage_basic .btn-no{
+	    width: 120px;
+	    text-align: center;
+	    height: 42px;
+	    line-height: 42px;
+	    background-color: none;
+	    border:1px solid #ccc;
+	    border-radius: 48px;
+	    -webkit-border-radius: 48px;
+	    -moz-border-radius: 48px;
+	    color:#ccc;
+	    vertical-align: bottom;
+	}
+    .personage_basic .finish-line{
+        border-color: #95D6E2;
+    }
+
+    .personage_basic .active-btn{
+        background-color: #2CB7C9!important;
+        color:white!important;
+        border:1px solid #2CB7C9!important;
+    }
+
+    .personage_basic .sex button{
+        padding-left:30px;
+        padding-right:30px;
+    }
+    
+    .personage_basic .form-opt .error-tip {
+    	display: none;
+	    position: absolute;
+	    top: -68px;
+	    color: red;
+	    width: 400px;
+	    height: 60px;
+	    border: 1px solid #dd5b56;
+	    background: #f4d7d6;
+	    border-radius: 4px;
+	}
+    
+    .personage_basic .error-sign{
+       border-color:red;
+    }
+    
+    /*性別*/
+     .personage_basic .sex .sexDiv{
+	    position: relative;
+	    float: left;
+	}
+    .personage_basic .sex .sexDiv button{
+	    text-align: right!important;
+	}
+	.personage_basic .sexDiv .sexImg{
+	    position: absolute;
+	    top: 10px;
+	    left: 15px;
+	}

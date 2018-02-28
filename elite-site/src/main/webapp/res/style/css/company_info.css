@@ -1,0 +1,626 @@
+/*项目方个人资料*/
+.companyInfo_left .location-nav {
+    position: fixed;
+    top: 100px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.companyInfo_left .companyInfo_ul {
+    position: fixed;
+    top: 179px;
+}
+.companyInfo #dataList {
+    margin-top: 78px;
+}
+.part {
+	height: 50px;
+	margin-bottom: 30px;
+}
+.link-line {
+	float: left;
+	width: 35%;
+	padding-top: 6px;
+}
+.link-line hr {
+	border-color: #65C9D6;
+}
+.theme-block {
+	float: left;
+	width: 30%;
+}
+.theme-tab {
+	width: 162px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #7DD2E1;
+	color: white;
+	font-size: 20px;
+	border-radius: 26px;
+	margin: 0 auto;
+}
+.title-company {
+	width: 100%;
+	height: 186px;
+	background-color: #FAFAFA;
+	border-radius: 3px;
+}
+.company-input {
+	display: inline-block;
+}
+.opt-icon {
+	width: 20px;
+	height: 20px;
+	vertical-align: sub;
+}
+.edit {
+	line-height: 34px;
+	cursor: pointer;
+}
+.credit {
+	width: 100%;
+	height: 554px;
+	background-color: #FAFAFA;
+	border-radius: 3px;
+}
+.secret-circle {
+	width: 20px;
+	height: 20px;
+	border: 1px solid #4A90E2;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 12px;
+	color: #4A90E2;
+	display: inline-block;
+}
+.use-tip {
+	font-size: 12px;
+	color: #9B9B9B;
+	margin-left: 20px;
+}
+li {
+	list-style: none;
+	float: left;
+}
+.clearfloat:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0
+}
+.clearfloat {
+	zoom: 1
+}
+.marginbottom10 {
+	margin-bottom: 10px;
+}
+.marginbottom20 {
+	margin-bottom: 20px;
+}
+.marginbottom50 {
+	margin-bottom: 50px;
+}
+.marginright20 {
+	margin-right: 20px;
+}
+.marginright80 {
+	margin-right: 80px;
+}
+.marginright15 {
+	margin-right: 20px;
+}
+.box-logo-b .name {
+    display: block;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+}
+.name-logo {
+	width: 22px;
+	height: 22px;
+	display: block;
+	background: url("/res/images/ceo/man.png") no-repeat;
+	display: block;
+	float: left;
+	margin-left: 15px;
+}
+
+span.c-title {
+	float: left;
+	margin-right: 20px;
+	height: 20px;
+	font-size: 14px;
+	color: #9b9b9b;
+	
+}
+.c-logo {
+	width: 16px;
+	height: 20px;
+	display: block;
+	background: url("/res/images/.");
+}
+.c-box {
+	width: 730px;
+	min-height: 1050px;
+	background: #fafafa;
+	position: relative;
+}
+.c-box-a {
+	width: 730px;
+	height: 215px;
+	background: url("/res/images/c-box-a.png");
+}
+.badge-icon {
+	width: 18px;
+	height: 20px;
+	background: url("/res/images/ceo/badge.png");
+	position: absolute;
+	right: 0px;
+}
+.c-box-logo {
+	width: 193px;
+	height: 140px;
+	position: absolute;
+	top: 153px;
+	left: 264px;
+}
+.box-logo-a {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+.box-logo-a img {
+    width: 100%;
+    height: 100%;
+}
+.cy-r-com {
+    position: absolute;
+    right: 48px;
+    display: block;
+    cursor: pointer;
+    width: 60px;
+}
+.c-box-b .b-content-a {
+	width: 100%;
+	min-height: 200px;
+	padding-top: 40px;
+	margin: 0 auto;
+}
+.b-content-b {
+    width: 685px;
+    min-height: 200px;
+    height: auto!important;
+    margin: 0 auto;
+}
+.c-box-b .b-content-a {
+    width: 100%;
+    min-height: 200px;
+    height: auto!important;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+.b-content-c {
+    width: 100%;
+    min-height: 300px;
+    margin: 0 auto;
+}
+.line-box {
+	width: 560px;
+	height: 36px;
+	margin: 0 auto;
+}
+.line {
+	width: 200px;
+	height: 18px;
+	border-bottom: 1px solid #95d6e2;
+	line-height: 36px;
+	display: block;
+	float: left;
+}
+.line-btn {
+	width: 120px;
+	height: 36px;
+	border-radius: 100px;
+	background: #2cb7c9;
+	color: #fff;
+	font-size: 16px;
+	display: block;
+	float: left;
+	line-height: 36px;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.photo_div .idbox {
+	width: 160px;
+	height: 100px;
+	margin-right: 10px;
+}
+.idlogo {
+	width: 30px;
+	height: 30px;
+	display: block;
+	background: url("/res/images/idlogo.png");
+	margin: 22px 60px 16px;
+}
+.idtxt {
+	font-size: 14px;
+	color: #9b9b9b;
+	margin-left: 40px;
+}
+.c-logo {
+	width: 15px;
+	height: 20px;
+	display: block;
+	background: url("/res/images/c-logo.png");
+	float: left;
+	cursor: pointer;
+}
+.c-tite {
+	display: block;
+	float: right;
+}
+.c-city {
+	display: block;
+	float: left;
+	font-size: 14px;
+	color: #9b9b9b;
+	margin-left: 10px;
+}
+.box-logo-b {
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.editContent_container .business_title .cy-l {
+    position: absolute;
+    left: 16px;
+    font-size: 16px;
+    color: #4a4a4a;
+    height: 22px;
+}
+.editContent_container .business_title .cy-c {
+    position: absolute;
+    left: 240px;
+    width: 80px;
+    height: 22px;
+    font-size: 14px;
+    color: #4a4a4a;
+    line-height: 22px;
+}
+.cy-r {
+    position: absolute;
+    right: 0;
+    display: block;
+    cursor: pointer;
+    width: 60px;
+}
+#creditBox #editCredit {
+    right: 28px;
+}
+.pen {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url("/res/images/pen.png");
+	float: left;
+	margin-right: 10px;
+}
+span.editor {
+	float: left;
+}
+.com {
+	margin-top: 40px;
+}
+.director {
+    position: absolute;
+    top: 32px;
+    left: 16px;
+    width: 100%;
+    height: 20px;
+}
+.dottedLine {
+	width: 100%;
+	height: 25px;
+	border-bottom: 1px dotted #9d9d9d;
+}
+.margintop50 {
+	margin-top: 50px;
+}
+.margintop27 {
+	margin-top: 27px;
+}
+.marginbottom40 {
+	margin-bottom: 40px;
+}
+.margintop15 {
+	margin-top: 15px;
+}
+.ceoInfo-l-a {
+	width: 240px;
+	border: 1px solid #E6E6E6;
+	border-radius: 4px;
+	text-align: center;
+	background-color: #FAFAFA;
+	box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+	margin-bottom: 20px;
+	height: 231px;
+}
+.ceoInfo-l-b {
+	width: 240px;
+	height: 70px;
+	border: 1px solid #E6E6E6;
+	border-radius: 10px;
+	background-color: #fafafa;
+	box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+	margin-bottom: 20px;
+}
+.ceoInfo-l-a ul li {
+	height: 39px;
+	line-height: 39px;
+	width: 170px;
+	margin-left: 70px;
+	cursor: pointer;
+}
+.select {
+	height: 39px;
+	line-height: 39px;
+	width: 170px;
+	border-right: 3px solid #2cb7c9;
+	color: #2cb7c9;
+}
+.li-box {
+	height: 24px;
+	width: 105px;
+	padding-top: 7.5px;
+}
+.ceoInfo-l-a ul li .icon-box {
+	width: 22px;
+	height: 24px;
+	display: block;
+	float: left;
+	margin-right: 15px;
+}
+.ceoInfo-l-a ul li .txt-box {
+	width: 65px;
+	height: 24px;
+	display: block;
+	font-size: 16px;
+	float: left;
+	line-height: 24px;
+}
+.clearfloat:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0
+}
+.clearfloat {
+	zoom: 1
+}
+.icon-a {
+	background: url("/res/images/ceo/icon-a-s.png") no-repeat;
+}
+.icon-b {
+	background: url("/res/images/ceo/icon-b-s.png") no-repeat;
+}
+.icon-c {
+	background: url("/res/images/ceo/icon-c-s.png") no-repeat;
+}
+.icon-d {
+	background: url("/res/images/ceo/icon-d-s.png") no-repeat;
+}
+.icon-e {
+	background: url("/res/images/ceo/icon-e-s.png") no-repeat;
+}
+.icon-f {
+	background: url("/res/images/ceo/icon-f-s.png") no-repeat;
+}
+.icon-g {
+	background: url("/res/images/ceo/icon-g-s.png") no-repeat;
+}
+.icon-a-s {
+	background: url("/res/images/ceo/icon-a.png") no-repeat;
+} 
+.icon-b-s {
+	background: url("/res/images/ceo/icon-b.png") no-repeat;
+}
+.icon-c-s {
+	background: url("/res/images/ceo/icon-c.png") no-repeat;
+}
+.icon-d-s {
+	background: url("/res/images/ceo/icon-d.png") no-repeat;
+}
+.icon-e-s {
+	background: url("/res/images/ceo/icon-e.png") no-repeat;
+}
+.icon-f-s {
+	background: url("/res/images/ceo/icon-f.png") no-repeat;
+}
+.icon-g-s {
+	background: url("/res/images/ceo/icon-g.png") no-repeat;
+}
+/*ceoInfo-l-b*/
+.num-txt {
+	font-size: 14px;
+	color: #4a4a4a;
+}
+.num-num {
+	font-size: 14px;
+	color: #2cb7c9;
+	margin-left: 10px;
+}
+.progess-num {
+	padding-top: 10px;
+	padding-left: 8px;
+}
+.circle-box.ceoInfo-l-a {
+	height: 372px;
+}
+.ceoInfo-l-a-content {
+	padding-top: 33px;
+}
+.addbox {
+	cursor: pointer;
+}
+
+.c-box-logo-content {
+	position: relative;
+}
+.mark-icon {
+	width: 44px;
+	height: 18px;
+	border-radius: 12px;
+	background: #fea600;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	line-height: 18px;
+	position: absolute;
+	right: 25px;
+	top: 2px;
+}
+/*确认取消按钮*/
+button.save {
+    width: 120px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    border: none;
+    border-radius: 48px;
+    background: #fea600;
+    color: #fff;
+    margin-right: 110px;
+    cursor: pointer;
+    font-size: 18px;
+}
+button.cancel {
+    width: 120px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 48px;
+    margin-right: 110px;
+    cursor: pointer;
+    font-size: 18px;
+    background: none;
+    color: #ccc;
+    border: 1px solid #ccc;
+}
+
+
+/*项目方个人资料修改*/
+div#basicBox {
+    min-height: 100px;
+}
+.box-logo-c {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+div#creditBox {
+    min-height: 200px;
+    height: auto!important;
+}
+.txt_box_select {
+    color: #2cb7c9;
+}
+
+/*sex*/
+.manBox {
+	position:relative;
+    float: left;
+}
+.womanBox {
+	position:relative;
+    float: left;
+}
+.manBox button {
+    text-align:right!important;
+    border:none!important;
+}
+.womanBox button {
+    text-align:right!important;
+}
+.sex_img {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    
+}
+
+/*项目方个人资料*/
+.editContent_container #infoBox {
+    margin-top: 40px;
+}
+.editContent_container #infoBox {
+    min-height: 70px;
+    height: auto!important;
+}
+.editContent_container .business_title{
+	position: relative;
+    height: 70px;
+}
+.editContent_container .business_box {
+    border-top: 1px dashed #d9d9d9;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100px;
+    height: auto!important;
+}
+.editContent_container .business_box_content {
+    padding: 10px 16px;
+}
+
+.sex .manBox .btn-default ,.sex .womanBox .btn-default{
+	width: 100px!important;
+    height: 40px!important;
+    border-radius: 4px!important;
+    -webkit-border-radius: 4px!important;
+    -moz-border-radius: 4px!important;
+    -o-border-radius: 4px!important;
+    padding-left: 66px!important;
+    border: 1px solid #ccc;
+}
+.sex .sex_img {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+/*项目方账户设置*/
+#personForm .ceo-phone span{
+	font-weight: 700;
+}
+#personForm .ceo-phone .company_error{
+    position: absolute;
+    top: -37px;
+    left: 167px;
+    font-size: 20px;
+    color: red;
+}
+#personFrom .ceo-int .buttonDiv{
+    position: relative;
+}
+#personFrom .ceo-int .buttonDiv .company_error{
+    position: absolute;
+    left: 169px;
+    top: -32px;
+    color: red;
+}

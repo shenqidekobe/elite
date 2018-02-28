@@ -1,0 +1,438 @@
+		.personage_experience {
+			padding-top: 30px;
+			margin-left: 20px;
+			}
+		.personage_experience .form-control {
+		    height: 50px;
+		    line-height: 50px;
+		    border-radius: 6px;
+		    border: 1px solid #2cb7c9;
+		    font-size: 16px;
+		    color: #4a4a4a;
+		    background: #fff;
+		}
+        .personage_experience .process{
+            width:100%;
+            height:130px;
+            background-color: #F5FBFC;
+        }
+
+        .personage_experience .process-box{
+            width:1000px;
+            margin:0 auto;
+            position: relative;
+        }
+
+        .personage_experience .process-line{
+            width:132px;
+            border-bottom: 2px solid #BFBFBF;
+            position: absolute;
+            top:50px;
+            left:210px;
+        }
+
+        .personage_experience .content{
+            width:1000px;
+            margin:0 auto;
+            min-height:250px;
+
+            padding-bottom: 60px;
+        }
+        .personage_experience .process-circle{
+            width: 40px;
+            height: 40px;
+            border:none;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            background-color: #BFBFBF;
+            text-align: center;
+            line-height: 40px;
+            color:white;
+
+            position: absolute;
+            top:32px;
+            left:160px;
+            z-index: 200;
+        }
+
+        .personage_experience .active-process{
+            background-color: #7DD2E1;
+        }
+
+        .personage_experience .process-title{
+            position: absolute;
+            top:84px;
+            left:148px;
+        }
+
+        .personage_experience .active-title{
+            color:#2CB7C9;
+        }
+
+        .personage_experience .complete-circle{
+            width:100px;
+            height:100px;
+            border:1px solid red;
+            margin-left:200px;
+            margin-top:20px;
+            float:left;
+        }
+
+
+        .personage_experience .complete-tips{
+            margin-top:30px;
+            height:140px;
+        }
+
+        .personage_experience .complete-theme{
+            margin-left:50px;
+            padding-top:40px;
+            float:left;
+        }
+
+        .personage_experience .tips{
+            float:left;
+            margin-left:20px;
+        }
+
+        .personage_experience .tips img{
+            width:20px;
+            height:20px;
+        }
+
+        .personage_experience .tips p{
+            font-size: 12px;
+            color:#9B9B9B;
+        }
+
+        .personage_experience .split-line{
+            height:140px;
+            border-left:1px solid #E6E6E6;
+            float:left;
+            margin-left:40px;
+        }
+
+        .personage_experience .form-person{
+            display: block;
+            padding-left:126px;
+            padding-top:30px;
+        }
+
+        .personage_experience .form-tip{
+            font-size: 12px;
+            color:#FEA600;
+            padding-left:66px;
+        }
+
+        .personage_experience .required{
+            color:#FEA600!important;
+        }
+
+        .personage_experience .date-select{
+            display: block;
+            width:152px;
+            position: relative;
+            float:left;
+        }
+
+        .personage_experience .date_icon_img{
+            width:20px;
+            height:20px;
+            position: absolute;
+            top:15px;
+            right:16px;
+            z-index: 100;
+        }
+
+
+        .personage_experience .form-opt{
+            margin-top:50px;
+            padding-left:224px;
+        }
+
+       
+
+        .personage_experience .finish-line{
+            border-color: #95D6E2;
+        }
+
+        .personage_experience .label-tip{
+            font-size: 12px;
+            color:#9B9B9B;
+        }
+
+        .personage_experience .belong-class{
+            /*width:100%;*/
+            /*height:162px;*/
+            width:538px;
+            background-color: #FAFAFA;
+            border-radius: 4px;
+        }
+
+        .personage_experience .select-box{
+            padding:10px;
+        }
+
+        .personage_experience .select-box button{
+            width:80px;
+            border:1px solid #CCCCCC;
+            /*background-color: white;*/
+            background-color: transparent;
+            border-radius: 4px;
+            font-size: 14px;
+            margin:7px 10px;
+        }
+
+        .personage_experience .active-btn{
+            background-color: #7DD2E1!important;
+            border:1px solid #7DD2E1!important;
+            color:white;
+        }
+
+        .personage_experience .add-tr{
+            line-height: 30px;
+            font-size: 14px;
+            margin-top:10px;
+        }
+
+        .personage_experience .add-tr img{
+            width:24px;
+            height:24px;
+            cursor: pointer;
+        }
+
+        .personage_experience .append-tr{
+            width:100%;
+            height:34px;
+            line-height: 34px;
+            border:1px solid #CCC;
+            border-radius: 4px;
+            font-size: 14px;
+            padding:0 12px;
+            margin-top:5px;
+        }
+
+        .personage_experience .work-period{
+            color:#9B9B9B;
+            float: right;
+        }
+
+        .personage_experience .opt-icon{
+            width:20px;
+            height:20px;
+            margin-right:15px;
+        }
+        
+        .personage_experience .upload-button button{
+            margin:0px 20px 0px 0px;
+        }
+        .personage_experience .upload-file{
+            padding:5px 36px;
+            background-color: #7DD2E1;
+            border:none;
+            border-radius: 6px;
+            height:50px;
+            min-width: 240px;
+            //margin-left:20px;
+            color:white;
+            cursor: default;
+            font-size: 14px;
+        }
+        
+        .personage_experience .delete-cross {
+    		height: 50px;
+    		width: 50px;
+    		display: block;
+    		position: absolute;
+    		right: -35px;
+    		top: -1px;
+    		cursor: pointer;
+			}
+		.personage_experience div#resumeAtta_show {
+		    position: relative;
+		}
+
+        .personage_experience .upload-resume{
+            width:100%;
+            height:34px;
+            line-height: 34px;
+            background-color: #F2F2F2;
+            border:none;
+            border-radius: 4px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 14px;
+            color:#4A4A4A;
+            margin-bottom:20px;
+        }
+
+        .personage_experience .form-person .form-group{
+            margin-bottom: 30px;
+        }
+
+        .personage_experience .modal-body{
+            background-image:url('${_PATH}/res/images/pic_shadow3.png');
+        }
+        .personage_experience .close-icon{
+            width:24px;
+            height:24px;
+            float:right;
+            margin-top:6px;
+            margin-right:6px;
+            cursor: pointer;
+        }
+
+        .personage_experience .my-form label{
+            color:#4a4a4a;
+        }
+
+        .personage_experience .error-tip{
+            text-align: center;
+            height:24px;
+            color:red;
+        }
+
+        .personage_experience .modal-opt{
+            margin-top:10px;
+        }
+
+        .personage_experience .opt-btn-ok{
+            width:100px;
+            height:34px;
+            background-color: #FEA600;
+            border:1px solid #FEA600;
+            border-radius: 20px;
+            color:white;
+        }
+
+        .personage_experience .opt-btn-cancel{
+            width:100px;
+            height:34px;
+            background-color: transparent;
+            border:1px solid #CCCCCC;
+            border-radius: 20px;
+            color:white;
+            margin-left:120px;
+        }
+
+        .personage_experience .birth-box{
+            position: relative;
+        }
+
+        .personage_experience .year-select{
+            position: absolute;
+            top:33px;
+            left:0px;
+            z-index: 100;
+            border:1px solid #2CB7C9;
+
+        }
+
+        .personage_experience .year-select{
+            display: none;
+            height:266px;
+            overflow: auto;
+        }
+
+        .personage_experience .year-select li{
+            padding:0 16px;
+            background-color: white;
+
+        }
+
+        .personage_experience .year-select li:hover{
+            background-color: #2CB7C9;
+            color:white;
+            cursor: pointer;
+        }
+        .personage_experience .birth-year{
+            position: absolute;
+            top:7px;
+            left:16px;
+        }
+
+        .personage_experience .birth-month{
+            position: absolute;
+            top:7px;
+            left:37px;
+        }
+
+        .personage_experience .triangle{
+            position: absolute;
+            bottom: 6px;
+            left:58px;
+            cursor: pointer;
+        }
+        .personage_experience .trigger {
+            display: inline-block;
+            height: 0;
+            width: 0;
+            overflow: hidden;
+            border-style: solid;
+            margin-left: 4px;
+            margin-right: 4px;
+            position: relative;
+            top:0;
+            border-width:6px 6px 0;
+            border-color:#D8D8D8 transparent transparent;
+            -webkit-transition:all .4s ease 0s;
+            -moz-transition:all .4s ease 0s;
+            -o-transition:all .4s ease 0s;
+            transition:all .4s ease 0s;
+        }
+
+        .personage_experience .trigger-inverse{
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+            animation-fill-mode: forwards;
+        }
+
+        .personage_experience .form-label{
+            float:left;
+            line-height: 36px;
+            margin-right:10px;
+            color:white;
+        }
+        
+        .personage_experience .error-tip{
+            width:100%;
+            height:24px;
+            line-height: 24px;
+            padding-left:24px;
+            color:red;
+            text-align: left;
+        }
+        
+        .personage_experience .error-sign{
+           border-color:red;
+        }
+        
+        .personage_experience .text_public{
+        	float: left;
+		    width: 113px;
+		    margin-right: 20px;
+        	color: #4a4a4a!important; 
+        }
+        
+        .personage_experience .text_input{
+        	float: left;
+        	
+        }
+        
+        
+        .personage_experience .btn_save{
+        	margin-left: 121px;
+        }
+        
+        .personage_experience .btn_cancel{
+		    margin-left: -50px;
+		}
+		
+		.personage_experience .btn_delete{
+		    margin-left: 30px;
+		}
+  
+  

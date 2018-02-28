@@ -1,0 +1,705 @@
+/*鍏叡鍏冪礌*/
+.clearfloat:after{
+    display:block;
+    clear:both;
+    content:"";
+    visibility:hidden;
+    height:0
+}
+.clearfloat{
+    zoom:1
+}
+a:hover {
+    text-decoration: none;
+}
+.withdrawal-box{
+    min-width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.withdrawal{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.marginbottom20{
+    margin-bottom: 20px;
+}
+.marginbottom30{
+    margin-bottom: 30px;
+}
+.margintop30 {
+    margin-top: 30px;
+}
+
+
+.color2c{
+    color: #2CB7C9;
+}
+.paddinglr5 {
+    padding: 0 5px;
+}
+
+/*涓讳綋鍏冪礌*/
+.withdrawal h1 {
+    font-size: 14px;
+    color: #4A4A4A;
+    letter-spacing: 0.1px;
+    padding-left: 100px;
+    font-weight: 500;
+    height: 86px;
+    line-height: 86px;
+}
+.withdrawal-content{
+    width: 1200px;
+    background: #fafafa;
+    min-height: 1000px;
+}
+.w-box{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+
+.balance {
+    font-family: FZLTXHK--GBK1-0;
+    font-size: 16px;
+    color: #4A4A4A;
+    letter-spacing: 0.12px;
+    float: left;
+}
+
+.balance span {
+    font-family: FZLTZHK--GBK1-0;
+    font-size: 20px;
+    color: #FEA600;
+    letter-spacing: 0.15px;
+    margin-left: 20px;
+}
+.addAccount {
+    width: 136px;
+    height: 22px;
+    float: right;
+    cursor: pointer;
+}
+.way-select {
+    width: 869px;
+    height: 128px;
+    border: 1px solid #95d6e2;
+    border-radius: 6px;
+    background: #95d6e2;
+}
+
+.alipay-icon,.bank-icon{
+    display: block;
+    width: 182px;
+    height: 88px;
+    border: 1px solid #FEA600;
+    border-radius: 6px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.way-group-b input[type=radio]{
+	    margin: 33px 0 0;
+}
+
+
+.alipay-icon{
+    background: url("../../../images/ceo/alipay-icon.png") no-repeat;
+}
+
+.bank-icon{
+    background: url("../../../images/ceo/bank-icon.png") no-repeat;
+}
+
+.alipay-phone,.alipay-bank {
+    display: block;
+    width: 155px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 16px;
+    color: #4A4A4A;
+    float: left;
+    margin-right: 50px;
+}
+
+.alipay-number {
+    display: block;
+    width: 115px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 16px;
+    color: #4A4A4A;
+    float: left;
+    margin-right: 50px;
+}
+
+
+
+.alipay-name {
+    display: block;
+    width: 100px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 16px;
+    color: #4a4a4a;
+    float: left;
+}
+
+.alipay-radio {
+    display: block;
+    float: left;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #95d6e2;
+    background: #95d6e2;
+    margin: 50px 20px 50px 23px;
+    cursor: pointer;
+}
+
+.w-box-a {
+    width: 100%;
+    height: 28px;
+}
+
+.w-box-line{
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.w-box-b {
+    width: 1000px;
+    padding-top: 48px;
+}
+
+.addAccount span {
+    height: 22px;
+    line-height: 22px;
+    width: 100px;
+    display: block;
+    float: right;
+}
+/*选锟斤拷锟剿凤拷式*/
+
+.way-box-l {
+	float: left;
+    width: 110px;
+    height: 130px;
+    line-height: 130px;
+    color: #4a4a4a;
+    font-weight: 600;
+    text-align: right;
+}
+.way-box-r {
+	float: left;
+    width: 870px;
+   	min-height: 130px;
+    height: auto!important;
+}
+
+.w-box-b .amount {
+    width: 100%;
+    height:44px;
+    line-height: 44px;
+    font-size: 16px;
+    color: #4a4a4a;
+    margin-bottom: 30px;
+}
+
+/*锟斤拷取锟斤拷锟�*/
+
+.w-box-b .amount .amount_text {
+	float: left;
+    font-size: 16px; 
+    width: 110px;
+    height: 44px;
+    line-height: 44px;
+    color: #4a4a4a;
+    font-weight: 600;
+    text-align: right;
+}
+
+
+.w-box-b .amount input {
+	float: left;
+    width: 200px;
+    height: 44px;
+    line-height: 44px;
+    border: 1px solid #95d6e2;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #9B9B9B;
+    letter-spacing: 0.1px;
+    padding-left: 20px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.w-box .w-box-b .way-box{
+    width: 1000px;
+    min-height: 260px;
+    height: auto!important;
+}
+
+.next-box {
+    width: 100%;
+    height: 40px;
+}
+.withdrawal-box .public_btn_box .nextStep {
+    width: 140px;
+    height: 40px;
+    display: block;
+    border-radius: 41px;
+    background: #fea600;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 136px;
+    cursor: pointer;
+}
+
+/*娣诲姞璐︽埛寮圭獥*/
+
+.account_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 512px;
+    background: #000;
+    opacity: 0.6;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -o-border-radius: 12px;
+    z-index: -10;
+}
+
+.account-a {
+    height: 60px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #E6E6E6;
+    font-size: 20px;
+    color: #fff;
+}
+
+.account-a .a-close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("../../../images/ceo/a-close.png") no-repeat;
+    cursor: pointer;
+}
+span.a-title {
+    font-size: 18px;
+    color: #4a4a4a;
+    margin-top: 17px;
+    margin-left: 20px;
+    width: 110px;
+    height: 25px;
+    display: block;
+    float: left;
+}
+.b-title {
+    width: 100%;
+    height: 49px;
+}
+.b-title ul li{
+    width: 180px;
+    height: 49px;
+    float: left;
+    list-style: none;
+    line-height: 49px;
+    text-align: center;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+.account .span-a {
+    display: block;
+    float: left;
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 11px;
+    margin-left: 14px;
+    text-align: right;
+}
+.withdrawal-box .account-box .account .input-a {
+	display: block;
+    float: left;
+    width: 360px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    background: #fff;
+    border: none;
+    padding-left: 20px;
+}
+.withdrawal-box .account-box .account .input-b {
+	display: block;
+    float: left;
+    width: 360px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    background: #fff;
+    border: none;
+    padding-left: 20px;
+ }
+
+.withdrawal-box .account-box .account .input-c {
+	display: block;
+    float: left;
+    width: 256px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding-left: 20px;
+    border: none;
+    background: #fff;
+}
+
+.withdrawal-box .account-box .account .obtain-btn {
+    width: 88px;
+    height: 50px;
+    line-height: 50px;
+    border: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    background: #2cb7c9;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.withdrawal-box .account-box .account .confirm-btn {
+    width: 256px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 48px;
+    border: none;
+    background: #fea600;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    float: left;
+}
+button.cancel-btn {
+    width: 118px;
+    height: 38px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 48px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 18px;
+    color: #ccc;
+    background: none;
+    cursor: pointer;
+    float: left;
+    margin-left: 100px;
+}
+
+.sent {
+    width: 152px;
+    height: 19px;
+    font-size: 14px;
+    float: right;
+    display: block;
+    margin-top: 21px;
+    margin-right: 20px;
+    color: #4a4a4a;
+}
+
+.b-title ul {
+    width: 368px;
+    height: 49px;
+    border-bottom: 1px solid #b3b3b3;
+    position: relative;
+}
+
+.select-color{
+    color: #fea600;
+}
+.select-line{
+    width: 180px;
+    border-bottom: 3px solid #fea600;
+    position: absolute;
+    top: 48.5px;
+}
+
+.withdrawal-box .account-box .account .account-c {
+    width: 360px;
+    height: 40px;
+    position: absolute;
+    bottom: 30px;
+    left: 114px;
+}
+/*寮圭獥閽熺僵鏍峰紡*/
+.withdrawal-box .account-box{
+	position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    /*background: url(../../../images/ceo/layer_bg.png);*/
+    overflow-x: hidden;
+}
+
+.withdrawal-box .account-box .account {
+	position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    top: 50%;
+    margin-top: -256px;
+    z-index: 9999999;
+    background: #F5FBFC;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -o-border-radius: 12px;
+    width: 500px;
+    height: 512px;
+}
+
+/*寮圭獥閿欒淇℃伅*/
+
+.b-content .clearfloat{
+    position: relative;
+}
+
+.b-content .error {
+    font-size: 14px;
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 106px;
+}
+.b-content .relative .error {
+	position: absolute;
+    top: 50px;
+    left: 116px;
+    font-size: 14px;
+    color: red;
+}
+
+.way-group-b:hover {
+    background: #F5FBFC;
+    border: 1px solid #95D6E2;
+    border-radius: 6px;
+}
+
+.way-group-b {
+    margin-bottom: 25px;
+    border: 1px solid #fafafa;
+    cursor: pointer;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 20px;
+}
+.addAccount img {
+    margin-right: 12px;
+}
+
+
+
+
+/*锟斤拷锟斤拷锟斤拷示*/
+.withdrawal-box .public_btn_box {
+    position: relative;
+    padding-bottom: 200px;
+    height: 40px;
+}
+.withdrawal-box .public_btn_box .error_div {
+    position: absolute;
+    top: -56px;
+    left: 136px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #dd5b56;
+    background: #f4d7d6;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.withdrawal-box .public_btn_box .error_div .error_icon {
+    position: absolute;
+    top: 8px;
+    left: 32px;
+    display: block;
+    width: 32px;
+    height: 29px;
+    background: url(/res/images/error/error_icon.png) no-repeat;
+}
+
+.withdrawal-box .public_btn_box .error_div .error_text {
+    position: absolute;
+    top: 12px;
+    left: 79px;
+    font-size: 16px;
+    color: #dd5b56;
+}
+
+/*锟斤拷目锟斤拷锟斤拷锟斤拷*/
+.w-box-b .invoice{
+    height: 30px;
+    margin-bottom: 40px;
+}
+.w-box-b .invoice_text {
+    float: left;
+    font-size: 16px;
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    color: #4a4a4a;
+    font-weight: 600;
+    text-align: right;
+}
+.w-box-b .invoice_ul {
+    margin-bottom: 0;
+    margin-left: 135px;
+}
+.w-box-b .invoice_ul li {
+	position: relative;
+    float: left;
+    cursor: pointer;
+    margin-right: 60px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.w-box-b .invoice_ul li .example {
+    position: absolute;
+    left: 102px;
+    top: -2px;
+    width: 430px;
+    height: 106px;
+    background: #4a4a4a;
+    color: #fff;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.w-box-b .invoice_ul li .example .example_icon {
+    position: absolute;
+    top: 14px;
+    left: -18px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px;
+    border-color: transparent #4a4a4a transparent transparent;
+}
+
+.w-box-b .invoice_ul li .example .example_text {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.w-box-b .invoice_ul li img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+/*实锟绞碉拷锟斤拷*/
+.w-box-b .actual_money {
+    height: 80px;
+}
+
+.w-box-b .actual_money .money_text {
+    float: left;
+    width: 110px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4a4a4a;
+    text-align: right;
+}
+.w-box-b .actual_money .money_number {
+    width: 560px;
+    float: left;
+    margin-left: 26px;
+    min-height: 50px;
+}
+.w-box-b .actual_money .money_number .div1 span {
+    display: block;
+    float: left;
+    color: #fea600;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.w-box-b .actual_money .money_number .div1 img {
+    display: block;
+    float: left;
+    margin-top: 4px;
+}
+
+.w-box-b .actual_money .money_number .div2 {
+    width: 400px;
+    height: 40px;
+    background: #f5fbfc;
+    line-height: 40px;
+    font-size: 14px;
+    color: #9b9b9b;
+    /* text-align: center; */
+}
+
+/*预锟狡碉拷锟斤拷*/
+
+.w-box-b  .estimatedTime {
+    height: 30px;
+    margin-bottom: 60px;
+}
+
+.w-box-b .estimatedTime_text {
+	float: left;
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    color: #4a4a4a;
+    font-weight: 600;
+    text-align: right;
+    font-size: 16px;
+}
+
+.w-box-b .estimatedTime_time {
+    float: left;
+    margin-left: 26px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.w-box-b .estimatedTime_time span:nth-child(1){
+	font-size: 16px;
+}
+.w-box-b .estimatedTime_time span:nth-child(2){
+	margin-left:10px;
+	color: #9b9b9b;
+}

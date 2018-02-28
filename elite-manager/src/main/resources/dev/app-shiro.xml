@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">  
+    <!-- 缓存管理 -->  
+    <bean id="cacheManager" class="org.apache.shiro.cache.MemoryConstrainedCacheManager"></bean>  
+    <!-- Shiro安全管理器 -->  
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">  
+        <property name="realm" ref="shiroRealm"></property>  
+        <property name="cacheManager" ref="cacheManager"></property>  
+    </bean>  
+    <!--   
+       Shiro主过滤器本身功能十分强大，其强大之处就在于它支持任何基于URL路径表达式的、自定义的过滤器的执行  
+       Web应用中，Shiro可控制的Web请求必须经过Shiro主过滤器的拦截，Shiro对基于Spring的Web应用提供了完美的支持   
+    -->  
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">  
+        <property name="securityManager" ref="securityManager"></property>  
+        <property name="loginUrl" value="/"></property>
+        <!-- 忽略的url，比如访问文件 
+        <property name="ignoreUrls" value=".*/upload/.*"/>-->
+        <property name="successUrl" value="/index" ></property>
+        <!-- 用户访问未对其授权的资源时，所显示的连接 -->  
+        <property name="unauthorizedUrl" value="/common/unauthorized"></property>  
+        <property name="filters">
+            <map>
+                <!-- 是否启用验证码检验 -->
+                <entry key="authc" value-ref="captchaFormAuthenticationFilter"/>
+                <entry key="authPath" value-ref="authPath"/>
+            </map>
+        </property>
+        <property name="filterChainDefinitions">  
+            <value>  
+                 <!-- anon表示此地址不需要任何权限即可访问 -->
+                /login=anon 
+                /captcha/*=anon
+                /logout=anon  
+                /res/**=anon  
+                /inc/**=anon  
+                <!--所有的请求(除去配置的静态资源请求或请求地址为anon的请求)都要通过登录验证,如果未登录则跳到/login-->    
+                /** = authc
+            </value>  
+        </property>  
+    </bean>
+    <bean id="authPath" class="com.ledao.elite.manager.shiro.AuthPathMatchingFilter">
+	    <property name="logoutUrl" value="/logout" />
+	    <property name="unAuthUrl" value="/common/unauthorized" />
+	    <property name="logoutPaths">
+	        <list>
+	           <value>/index</value>
+	        </list>
+	    </property>
+	    <property name="unAuthPaths">
+	        <list>
+	           <value>/</value>
+	           <value>/login</value>
+	           <value>/captcha/*</value>
+	           <value>/common/error</value>
+	           <value>/common/unauthorized</value>
+	        </list>
+	    </property>
+	</bean>
+  
+    <!-- 保证实现了Shiro内部lifecycle函数的bean执行-->
+    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+    <!-- AOP式方法级权限检查 -->
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator" depends-on="lifecycleBeanPostProcessor">
+        <property name="proxyTargetClass" value="true" />
+    </bean>
+    <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager"/>
+    </bean>
+</beans> 

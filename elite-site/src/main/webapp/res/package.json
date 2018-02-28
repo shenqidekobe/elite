@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "browser-sync": "^2.12.8",
+    "gulp": "^3.9.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-uglify": "^0.2.1",
+    "gulp-watch": "^4.3.5"
+  }
+}

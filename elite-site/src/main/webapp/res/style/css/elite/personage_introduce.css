@@ -1,0 +1,79 @@
+	/*×ÔÎÒÃèÊö·¶Àý*/
+   .personage_introduce {
+	    position: relative;
+	    min-height: 548px;
+	    height: auto!important;
+	    margin-top: 40px;
+	}
+    
+    
+    .personage_introduce .form-control{
+	    height: 50px;
+	    line-height: 50px;
+	    border-radius: 6px;
+	    border: 1px solid #2cb7c9;
+	    font-size: 16px;
+	    color: #4a4a4a;
+	    background: #fff;
+	}
+	.personage_introduce .form-group{
+	    margin-bottom: 30px;
+	    min-height: 500px;
+	    height: auto!important;
+	}
+	
+	
+	.personage_introduce .sample{
+	    position: absolute;
+	    top: 348px;
+	    left: 18px;
+	}
+	
+	.personage_introduce .sample dt{
+	    font-weight: 500;
+	    margin-bottom: 12px;
+	}
+	
+	.personage_introduce .sample dd{
+	    margin-left: 0;
+	    margin-bottom: 10px;
+	}
+	
+	
+	.personage_introduce .modal-opt{
+		position: relative;
+		min-height: 80px;
+		margin-left: 20px;
+	}
+	
+	.personage_introduce .modal-opt .error-tip {
+	    position: absolute;
+	    z-index: 1100;
+	    bottom: 88px;
+	    color: red;
+	    width: 400px;
+	    height: 60px;
+	    border: 1px solid #dd5b56;
+	    background: #f4d7d6;
+	    border-radius: 4px;
+	    -webkit-border-radius: 4px;
+	    -moz-border-radius: 4px;
+	    -o-border-radius: 4px;
+	}
+    .personage_introduce .modal-opt .error-tip .error_icon {
+            display: block;
+            float: left;
+            margin-top: 15px;
+            margin-left: 32px;
+        }
+        .modal-opt .error-tip #tipError {
+            display: block;
+            float: left;
+            font-size: 18px;
+            margin-top: 18px;
+            margin-left: 24px;
+        }
+        
+        
+        
+	

@@ -1,0 +1,624 @@
+		#personRecommend{
+            padding-top: 100px;
+        }
+        #revenue .opt-and-search{
+            width:100%;
+        }
+        #revenue .add-title{
+            font-size: 18px;
+            line-height: 54px;
+        }
+        #revenue .add-btn img{
+            width:24px;
+            height:24px;
+            margin-left:20px;
+            vertical-align: middle;
+            margin-bottom: 3px;
+        }
+        #revenue .split-line{
+            width:100%;
+            border-bottom: 1px solid #E6E6E6;
+        }
+        #revenue .table-search >*{
+            display: inline-block;
+        }
+        #revenue .search-btn{
+            width:94px;
+            height:36px;
+            background-color: #FEA600;
+            border:none;
+            border-radius: 18px;
+            color:white;
+            font-size: 14px;
+            margin-left:20px;
+            vertical-align: top;
+        }
+        #revenue .revenue-report{
+    		width: 503px;
+    		height: 32px;
+    		color: #9B9B9B;
+    		line-height: 32px;
+    		border-radius: 6px;
+    		background: #F0EEEC;
+		}
+        #revenue .keyword{
+            color:#000;
+        }
+        #revenue .revenue-detail{
+            width:100%;
+            height:120px;
+            background-color: #F5FBFC;
+            border-radius: 4px;
+        }
+        #revenue .revenue-detail ul{
+            padding:20px;
+        }
+        #revenue .revenue-detail ul li{
+            float:left;
+            width:114px;
+            height:80px;
+            text-align: center;
+            border-right:1px solid #D9D9D9;
+        }
+        #revenue .revenue-index{
+            font-size: 14px;
+            color:#9B9B9B;
+        }
+        #revenue .revenue-index a{
+            font-size: 12px;
+        }
+        #revenue .index-title{
+            padding-top:14px;
+            padding-right:14px;
+            padding-left:14px;
+        }
+        #revenue .search-status{
+            margin-top:30px;
+            width:100%;
+        }
+        #revenue .person-table thead tr th{
+            background-color: #F5F5F5;
+            color:#9B9B9B;
+            font-weight: normal;
+            border-bottom: none;
+            line-height: 30px;
+            font-size: 12px;
+        }
+        #revenue .person-table tbody tr td{
+            border-top:none;
+            height:50px;
+            line-height: 30px;
+            font-size: 14px;
+            color:#4A4A4A;
+        }
+        #revenue #table1 tbody tr:nth-child(2n) {
+		    background-color: #f5fbfc;
+		}
+
+        /****************************��ҳ��ʽ*************************/
+        #revenue .page>*{
+            display: inline-block;
+        }
+        #revenue .prev{
+            color:#CCCCCC;
+        }
+
+        #revenue .next{
+            color:#CCCCCC;
+        }
+        #revenue .page-circle{
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            border: 1px solid #CCCCCC;
+            text-align: center;
+            color:#CCCCCC;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            font-size: 12px;
+        }
+        #revenue .active-page{
+            border:1px solid #4A4A4A;
+            color:#4A4A4A;
+        }
+        #revenue .goto-page{
+            width:40px;
+            height:20px;
+            border:1px solid #9B9B9B;
+            border-radius: 4px;
+            outline: none;
+            font-size: 12px;
+            text-align: center;
+        }
+        #revenue .go-circle{
+            width: 20px;
+            height: 20px;
+            border: 1px solid #979797;
+            text-align: center;
+            background-color: #979797;
+            color:white;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            font-size: 12px;
+        }
+         #revenue .color4a{
+            color: #4A90E2;
+        }
+        #revenue .marginright30{
+            margin-right: 30px;
+        }
+        #revenue .report-icon{
+    		width: 20px;
+    		height: 20px;
+    		display: block;
+    		margin-top: 6px;
+            margin-left: 15px;
+    		background: url("${_PATH}/res/images/report-icon.png");
+		}
+		#revenue .fl{
+			float: left;
+		}
+        #revenue .marginleft12 {
+   			 margin-left: 12px;
+		}
+		#revenue .color2c{
+    		color:#2CB7C9;
+		}
+		
+		
+		/*�˲ŷ���������*/
+		#revenue .earnings_center {
+		    position: relative;
+		    width: 745px;
+		    height: 180px;
+		    background: #f5fbfc;
+		}
+		#revenue .earnings_center h1 {
+		    width: 730px;
+		    height: 58px;
+		    font-size: 18px;
+		    line-height: 58px;
+		    margin-top: 0;
+		    margin-bottom: 0;
+		    border-bottom: 1px solid #e6e6e6;
+		    margin: 0 auto;
+		}
+		#revenue .earnings_center .earnBox {
+		    margin-top: 30px;
+		    margin-left: 30px;
+		}
+		#revenue .earnings_center .withdrawal_number {
+		    margin-top: 17px;
+		    margin-left: 30px;
+		}
+		#revenue .earnings_center .earn_text,.number_t {
+		    font-size: 16px;
+		}
+		#revenue .earnings_center .earn_number,.number_n {
+		    color: #2cb7c9;
+		    font-size: 18px;
+		    margin-left: 6px;
+		}
+		#revenue .earnings_center .withdrawal-btn {
+			position: absolute;
+		    right: 40px;
+		    top: 114px;
+		    width: 80px;
+		    height: 36px;
+		    border-radius: 50px;
+		    background: #FEA600;
+		    color: #fff;
+		    line-height: 36px;
+		    text-align: center;
+		    cursor: pointer;
+		}
+		
+		/*����ṹ�ֲ�*/
+		#revenue .earnings_construction h1 {
+			position: relative;
+		    width: 730px;
+		    height: 58px;
+		    font-size: 18px;
+		    line-height: 58px;
+		    margin-top: 0;
+		    margin-bottom: 0;
+		    border-bottom: 1px solid #e6e6e6;
+		    margin: 0 auto;
+		}
+		 #revenue .earnings_construction .timeDiv {
+		    position: absolute;
+		    right: 152px;
+		    bottom: 8px;
+		    width: 150px;
+		    height: 40px;
+		    border: 1px solid #d9d9d9;
+		    border-radius: 6px;
+		    -webkit-border-radius: 6px;
+		    -moz-border-radius: 6px;
+		    -o-border-radius: 6px;
+		    cursor: pointer;
+		}
+		#revenue .earnings_construction .timeDiv .time_text {
+		    position: absolute;
+		    top: -10px;
+		    left: 10px;
+		    font-size: 14px;
+		    color: #9b9b9b;
+		}
+		#revenue .earnings_construction .timeDiv .time_icon {
+		    position: absolute;
+		    top: 9px;
+		    right: 15px;
+		    width: 22px;
+		    height: 22px;
+		    background: url("/res/images/channel/time_icon.png") no-repeat;
+		}
+		
+		 
+		
+		
+		#revenue .earnings_construction .searchBtn {
+		    position: absolute;
+		    right: 32px;
+		    bottom: 8px;
+		    width: 100px;
+		    height: 40px;
+		    background: #fea600;
+		    border-radius: 28px;
+		    -webkit-border-radius: 28px;
+		    -moz-border-radius: 28px;
+		    -o-border-radius: 28px;
+		    cursor: pointer;
+		}
+		#revenue .earnings_construction .searchBtn  .search_icon {
+			position: absolute;
+		    top: 9px;
+		    left: 18px;
+		    width: 22px;
+		    height: 22px;
+		    background: url("/res/images/channel/search_icon.png") no-repeat;
+		}
+		#revenue .earnings_construction .searchBtn .search_text {
+		    position: absolute;
+		    top: -10px;
+		    left: 49px;
+		    font-size: 16px;
+		    color: #fff;
+		}
+		#revenue .earnings_construction .distribution .box1 {
+			position: relative;
+		    height: 312px;
+		}
+		#revenue .earnings_construction .distribution .box1 .imgDiv {
+		    position: absolute;
+		    top: 38px;
+		    left: 166px;
+		    width: 200px;
+		    height: 200px;
+		}
+		#revenue .earnings_construction .distribution .box1 .classification_ul {
+		    position: absolute;
+		    top: 100px;
+		    right: 120px;
+		    width: 90px;
+		    height: 80px;
+		    margin-bottom: 0;
+		    margin-top: 0;
+		}
+		#revenue .earnings_construction .distribution .box1 .classification_ul li {
+		    float: none;
+			position: relative;
+		    width: 90px;
+		    height: 22px;
+    		margin-bottom: 6px;
+		}
+		#revenue .earnings_construction .distribution .box1 .classification_ul li .li_icon {
+		    position: absolute;
+		    top: 3px;
+		    left: 0;
+		    display: block;
+		    width: 16px;
+		    height: 16px;
+		    border-radius: 50%;
+		    -webkit-border-radius: 50%;
+		    -moz-border-radius: 50%;
+		    -o-border-radius: 50%;
+		}
+		#revenue .earnings_construction .distribution .box1 .classification_ul li .li_text {
+		    position: absolute;
+		    top: 0;
+		    left: 26px;
+		}
+		#revenue .earnings_construction .distribution .box1 .classification_ul li:nth-child(1) .li_icon{
+			background: #ef8884;
+		}
+		#revenue .earnings_construction .distribution .box1 .classification_ul li:nth-child(2) .li_icon{
+			background: #F8C76F;
+		}
+		#revenue .earnings_construction .distribution .box1 .classification_ul li:nth-child(3) .li_icon{
+			background: #6AD2C5;
+		}
+		
+		/*����ṹ�ֲ�ͼ*/
+		#revenue .earnings_construction .distribution .box1 h2 {
+		    text-align: center;
+		    padding-top: 270px;
+		    margin-top: 0;
+		    margin-bottom: 0;
+		    font-size: 16px;
+		}
+		#revenue .earnings_construction .distribution .box1 h2 span:nth-child(1) {
+		    font-size: 16px;
+		    color: #4a4a4a;
+		    font-weight: 600;
+		}
+		#revenue .earnings_construction .distribution .box1 h2 span:nth-child(2) {
+		    font-size: 16px;
+		    color: #9b9b9b;
+		    margin-left: 6px;
+		}
+		
+		/*������*/
+		#revenue .form_money .template {
+		    width: 700px;
+		    min-height: 233px;
+		    background: #f5f5f5;
+		    margin: 0 auto;
+		    border-radius: 1px;
+		    margin-bottom: 10px;
+		}
+		#revenue .form_money .template .template_head {
+		    padding-top: 20px;
+		    margin-left: 23px;
+		    padding-bottom: 23px;
+		}
+		
+		#revenue .form_money .template .template_head .channel_title {
+		    font-size: 16px;
+		    font-weight: 600;
+		}
+		#revenue .form_money .template .template_head .channel_money {
+		    font-size: 16px;
+		    font-weight: 600;
+		    margin-left: 6px;
+		}
+		#revenue .form_money .template .template_head .results_money {
+		    font-size: 14px;
+		    color: #4a4a4a;
+		    font-weight: 600;
+		    margin-left: 8px;
+		}
+		#revenue .form_money .template .template_head .channel_div {
+		    margin-bottom: 5px;
+		}
+		
+		
+		/*���ͷ��*/
+		#revenue .tableBox {
+		    width: 651px;
+		    margin: 0 auto;
+		    min-height: 80px;
+		}
+		#revenue .tableBox .table_head {
+		    height: 42px;
+		    background: #e6e6e6;
+		    width: 650px;
+		    border: 1px solid #ccc;
+		    box-sizing: border-box;
+		    border-top-left-radius: 8px;
+		    border-top-right-radius: 8px;
+		}
+		#revenue .tableBox .table_head .part {
+		    float: left;
+		    position: static;
+		    height: 40px;
+		    text-align: center;
+		    line-height: 40px;
+		    font-weight: 600;
+		}
+		/*�������*/
+		#revenue .table_body {
+			width: 650px;
+		    min-height: 40px;
+		}
+		#revenue .table_body .group {
+		    width: 650px;
+		    height: 40px;
+		    border: 1px solid #ccc;
+		    border-top: none;
+		    background: #fff;
+		}
+		#revenue .tableBox .table_body .part{
+			float: left;
+			height: 40px;
+			text-align: center;
+		    line-height: 40px;
+			border-bottom:1px solid #ccc;
+			font-size: 14px;
+		}
+		
+		/*�����¼*/
+		#revenue .recordBox {
+		    position: absolute;
+		    top: 8px;
+		    right: 15px;
+		    width: 130px;
+		    height: 19px;
+		}
+		#revenue .recordBox .record_ul {
+		    margin-bottom: 0;
+		}
+		
+		#revenue .recordBox .record_ul li {
+		    float: left;
+		    list-style: none;
+		    width: 65px;
+		    height: 19px;
+		    font-size: 14px;
+		    cursor: pointer;
+		}
+		
+		#revenue .recordBox .li_line {
+		    position: absolute;
+		    top: 20px;
+		    left: 60px;
+		    height: 19px;
+		    border-right: 1px solid #9b9b9b;
+		}
+		
+		#revenue .form_accounts .searchBox {
+			position: relative;
+		    height: 40px;
+		    margin: 20px 0;
+		}
+		#revenue .form_accounts .searchBox .search_input {
+		    position: absolute;
+		    left: 0;
+		    width: 180px;
+		    height: 40px;
+		    line-height: 40px;
+		    border: 1px solid #ccc;
+		    border-radius: 6px;
+		    -webkit-border-radius: 6px;
+		    -moz-border-radius: 6px;
+		    -o-border-radius: 6px;
+		    padding-left: 10px;
+		}
+		#revenue .form_accounts .searchBox .search_ul {
+		    position: absolute;
+		    left: 188px;
+		    top: 10px;
+		    height: 40px;
+		    margin-bottom: 0;
+		}
+		#revenue .form_accounts .searchBox .search_ul li {
+		    float: left;
+		    margin-right: 3px;
+		}
+		#revenue .form_accounts .searchBox .search_ul li .li_icon {
+		    display: block;
+		    float: left;
+		    width: 20px;
+		    height: 20px;
+		    cursor: pointer;
+		}
+		#revenue .form_accounts .searchBox .search_ul .check{
+			background:url("/res/images/channel/check.png") no-repeat;
+		}
+		
+		#revenue .form_accounts .searchBox .search_ul .nocheck{
+			background:url("/res/images/channel/nocheck.png") no-repeat;
+		}
+		
+		
+		#revenue .form_accounts .searchBox .time_div {
+		    position: absolute;
+		    right: 140px;
+		    top: 0;
+		    width: 150px;
+		    height: 40px;
+		    border: 1px solid #d9d9d9;
+		    border-radius: 6px;
+		    -webkit-border-radius: 6px;
+		    -moz-border-radius: 6px;
+		    -o-border-radius: 6px;
+		    cursor: pointer;
+		}
+		#revenue .form_accounts .searchBox .time_div .time_text {
+		    position: absolute;
+		    top: 10px;
+		    left: 10px;
+		    font-size: 14px;
+		    color: #9b9b9b;
+		}
+		#revenue .form_accounts .searchBox .time_div .time_icon {
+		    position: absolute;
+		    top: 10px;
+		    right: 15px;
+		    width: 22px;
+		    height: 22px;
+		    background: url("/res/images/channel/time_icon.png") no-repeat;
+		}
+		
+		#revenue .form_accounts .searchBox .searchBtn {
+		    position: absolute;
+		    right: 32px;
+		    top: 0;
+		    width: 100px;
+		    height: 40px;
+		    background: #fea600;
+		    border-radius: 28px;
+		    -webkit-border-radius: 28px;
+		    -moz-border-radius: 28px;
+		    -o-border-radius: 28px;
+		    cursor: pointer;
+		}
+		#revenue .form_accounts .searchBox .searchBtn .search_icon {
+		    position: absolute;
+		    top: 9px;
+		    left: 18px;
+		    width: 22px;
+		    height: 22px;
+		    background: url("/res/images/channel/search_icon.png") no-repeat;
+		}
+		#revenue .form_accounts .searchBox .searchBtn .search_text {
+		    position: absolute;
+		    top: 6px;
+		    left: 49px;
+		    font-size: 16px;
+		    color: #fff;
+		}
+		
+		/*����ʱ����*/
+		#revenue .form_accounts .table_accounting{
+			width: 715px;
+		    margin: 0 auto;
+		    min-height: 80px;
+			margin-bottom: 30px;
+		}
+		#revenue .form_accounts .table_withdrawal{
+			width: 715px;
+		    margin: 0 auto;
+		    min-height: 80px;
+			margin-bottom: 100px;
+		}
+		#revenue .form_accounts .table_accounting .table_head,.table_withdrawal .table_head {
+		    height: 42px;
+		    background: #f2f2f2;
+		    width: 100p%;
+		    border: 1px solid #ccc;
+		    box-sizing: border-box;
+		    border-top-left-radius: 8px;
+		    border-top-right-radius: 8px;
+		}
+		#revenue .form_accounts .table_body{
+		    width:100%;
+		    min-height: 40px;
+		}
+		#revenue .form_accounts .table_body .group {
+		    width: 100%;
+		    height: 40px;
+		    border: 1px solid #ccc;
+		    border-top: none;
+		    background: #fff;
+		}
+		#revenue .form_accounts .table_head .part {
+		    float: left;
+		    position: static;
+		    height: 40px;
+		    text-align: center;
+		    line-height: 40px;
+		    font-weight: 600;
+		}
+		 #revenue .form_accounts .group .part {
+		    float: left;
+		    position: static;
+		    height: 40px;
+		    text-align: center;
+		    line-height: 40px;
+		}
+		
+		
+		

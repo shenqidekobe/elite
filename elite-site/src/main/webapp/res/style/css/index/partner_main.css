@@ -1,0 +1,975 @@
+		
+		/*������ע��*/
+		#project-form1 {
+		    margin-top: -20px;
+		}
+		
+		
+		/*label������ʽ*/
+		label.col-xs-3.col-md-3.control-label {
+		    height: 50px;
+		    line-height: 50px;
+		    font-size: 16px;
+		    color: #4a4a4a;
+		    padding: 0;
+		    font-weight: 500;
+		}
+		
+		.form-control {
+		    border: 1px solid #2cb7c9;
+		    height: 50px;
+		    line-height: 50px;
+		    border-radius: 8px;
+    		-webkit-border-radius: 8px;
+    		-moz-border-radius: 8px;
+		}
+		
+		.form-group {
+		    margin-bottom: 30px!important;
+		}
+		.viewbook {
+		    color: #4A90D2;
+		}
+		
+		#inlineCheckbox {
+		    width: 20px;
+		    height: 20px;
+		    margin: 0;
+		    margin-left: -13px;
+		    cursor: pointer;
+		}
+		
+		.loginDiv {
+		    font-size: 20px;
+		}
+		
+		.loginDiv a {
+		    margin-top: 20px;
+		    color: #2cb7c9;
+		    margin-left: 5px;
+		}
+		
+		/*��ͬ��ť*/
+		a.skip_btn {
+		    color: #4a90e2;
+		}
+		
+		/*�����li��ʽ�̶�*/
+		.ceoInfo-l-a-content li {
+		    height: 39px;
+		    line-height: 39px;
+		    width: 170px;
+		    margin-left: 70px;
+		    cursor: pointer;
+		}
+
+        /*������ʽ*/
+        .content{
+            width:1000px;
+            margin:0 auto;
+        }
+        
+       
+
+      
+        
+        /*form-control��ʽ*/
+        
+        .form-control {
+		    border: 1px solid #2cb7c9;
+		    height: 50px;
+		    line-height: 50px;
+		}
+		
+		.viewbook {
+		    color: #4A90D2;
+		}
+		
+		#inlineCheckbox {
+		    width: 20px;
+		    height: 20px;
+		    margin: 0;
+		    margin-left: -13px;
+		}
+		
+	
+		
+		.loginDiv a {
+		    margin-top: 20px;
+		    color: #2cb7c9;
+		    margin-left: 5px;
+		}
+
+        
+        /*ע��ĺ���*/
+        .recommend-form-box{
+		    position: relative;
+		    width: 100%;
+		    min-width: 1000px;
+		    margin: 0 auto;
+		    min-height: 1000px;
+		    background: url("/res/images/elite/partner_bg.png") no-repeat;
+		    background-size: cover;
+		    -webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    background-position: center;
+		}
+
+        /*ͼƬ��Ƕ�ı�*/
+        .recommend-form-box .recommend-form{
+        	position: absolute;
+            top:170px;
+            left:50%;
+            margin-left:-360px;
+            width:720px;
+            height:634px;
+            background-color:#fff;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .form-box{
+            padding:30px 30px;
+            text-align: center;
+        }
+
+        .title {
+		    font-size: 20px;
+		    color: #323232;
+		}
+        .hr-line{
+            width:100%;
+            border-bottom: 2px solid #2CB7C9;
+            margin:20px 0;
+        }
+
+        #recommend-form .btn-group{
+            display: block;
+        }
+        #recommend-form .btn,.btn-default{
+            border-color:#2CB7C9;
+            outline: none;
+        }
+
+        .active-title{
+            background-color: #2CB7C9!important;
+            color:white!important;
+            border:1px solid #2CB7C9!important;
+        }
+		.send-msg-btn {
+		    float: left;
+		    width: 124px;
+		    height: 50px;
+		    line-height: 50px;
+		    background-color: #2CB7C9;
+		    border: 1px solid #2CB7C9;
+		    border-radius: 8px;
+		    color: #fff;
+		    margin-left: 10px;
+		    font-size: 16px;
+		    cursor: pointer!important;
+		}
+
+        .hr-line2{
+            width:92%;
+            border-bottom: 1px dashed #CCCCCC;
+            margin-left:20px;
+            margin-top:30px;
+            margin-bottom: 20px;
+        }
+
+        .agree {
+		    font-size: 14px;
+		    color: #ababab;
+		    padding-left: 15px;
+		}
+
+        .error-tip {
+		    position: absolute;
+		    left: 124px;
+		    top: -20px;
+		    height: 24px;
+		    padding-left: 20px;
+		    font-size: 14px;
+		    color: red;
+		}
+
+      
+       .next-step-btn {
+		    width: 400px;
+		    height: 50px;
+		    line-height: 50px;
+		    background-color: #FEA600;
+		    border-radius: 72px;
+		    border: none;
+		    color: #fff;
+		    font-size: 20px;
+		}
+
+        .birth-box{
+            position: relative;
+        }
+        
+        
+       .recommend-form #workYear-select{
+             top: 50px;
+			 left:0;
+			 z-index: 100;
+			 border: 1px solid #2CB7C9;
+			 width: 179px;
+        }
+        
+        
+       #personnel-form2 #workYear-select{
+             top: 50px;
+			 left:0px;
+			 z-index: 100;
+			 border: none;
+			 width: 179px;
+        }
+        
+        
+        
+        
+        .birth-box #workYear-select{
+             top: 50px;
+			 left:0px;
+			 z-index: 100;
+			 border: 1px solid #2CB7C9;
+			 width: 179px;
+        }
+
+        #workYear-select{
+             top: 50px;
+			 left: 125px;
+			 z-index: 100;
+			 border: 1px solid #2CB7C9;
+			 width: 179px;
+        }
+      #workYear-select li {
+		    padding: 0!important;
+		    background-color: #f5fbfc;
+		    color: #4a4a4a;
+		    width: 177px;
+		    text-align: center;
+		    height: 30px;
+		    line-height: 30px;
+		}
+
+        .year-select{
+            display: none;
+            overflow: auto;
+        }
+
+        .year-select li{
+            padding:0 16px;
+            background-color: white;
+
+        }
+
+        #workYear-select li:hover{
+            background-color: #2CB7C9!important;
+            color:#fff!important;
+            cursor: pointer;
+        }
+        .birth-year{
+            position: absolute;
+            top:7px;
+            left:16px;
+        }
+
+        .birth-month{
+            position: absolute;
+            top:7px;
+            left:37px;
+        }
+        
+        .industry_select_box {
+		    position: absolute;
+		    height: 612px;
+		    left: 122px;
+		    z-index: 800;
+		    border: 1px solid #2cb7c9;
+		    margin: 0;
+		    padding: 0;
+		    width: 172px;
+		}
+         .industry_select_box .industry-select li {
+		    width: 170px;
+		    height: 30px;
+		    line-height: 30px;
+		    text-align: center;
+		    background: #fff;
+		    color: #4a4a4a;
+		}
+		
+		#workYear-select li:hover{
+            background-color: #2CB7C9!important;
+            color:#fff!important;
+            cursor: pointer;
+        }
+        
+        #personnel-form2 #industry-select{
+		    width: 174px;
+		    height: 260px!important;
+		    position: absolute!important;
+		    left: -29px;
+		    top: 50px;
+		    border: none;
+		    overflow-y: auto;
+		    overflow-x: hidden;
+		}
+        #industry-select {
+		    width: 172px;
+		    height: 602px!important;
+		    position: absolute!important;
+		    left: 120px;
+		    top: 49px;
+		}
+		.recommend-form #industry-select {
+		    width: 170px;
+		    height: 620px!important;
+		    position: absolute!important;
+		    left:0px;
+		    top: 49px;
+		}
+        #industry-select li {
+		    width: 170px;
+		    height: 30px;
+		    line-height: 30px;
+		    text-align: center;
+		    background: #f5fbfc;
+		    color: #4a4a4a;
+		    padding: 0!important;
+		}
+		#industry-select li:hover{
+            background-color: #2CB7C9!important;
+            color:#fff!important;
+            cursor: pointer;
+        }
+        
+        
+        #personnel-form2 #work-select{
+		    position: absolute!important;
+		    left: -12px;
+		    top: 50px;
+		    border: none;
+		}
+        
+        #work-select {
+		    width: 170px;
+		}
+		#work-select li{
+		    width: 170px;
+		    height: 30px;
+		    line-height: 30px;
+		    text-align: center;
+		    padding: 0!important;
+		    background: #f5fbfc;
+    		color: #4a4a4a;
+		}
+		#work-select li:hover{
+			background: #2cb7c9;
+    		color: #fff;
+		}
+		
+		#work-select {
+		    width: 170px;
+		    position: absolute!important;
+		    left: 122px;
+		    top: 50px;
+		}
+		.recommend-form #work-select {
+		    width: 170px;
+		    position: absolute!important;
+		    left: 0px;
+		    top: 50px;
+		}
+        .triangle{
+            position: absolute;
+            bottom: 6px;
+            left:58px;
+            cursor: pointer;
+        }
+        .trigger {
+            display: inline-block;
+            height: 0;
+            width: 0;
+            overflow: hidden;
+            border-style: solid;
+            margin-left: 4px;
+            margin-right: 4px;
+            position: relative;
+            top:0;
+            border-width:6px 6px 0;
+            border-color:#D8D8D8 transparent transparent;
+            -webkit-transition:all .4s ease 0s;
+            -moz-transition:all .4s ease 0s;
+            -o-transition:all .4s ease 0s;
+            transition:all .4s ease 0s;
+        }
+
+        .trigger-inverse{
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+            animation-fill-mode: forwards;
+        }
+
+        .active-control{
+            border-color:#2CB7C9;
+        }
+
+      .city_select .location {
+		    position: absolute;
+		    top: 36px;
+		    left: 148px;
+		    width: auto;
+		    height: 20px;
+		}
+	/*��Ŀ��ע����ҳ*/
+	
+	.form-group-cent {
+		width:100%;
+	}
+	.group-cent-inpt {
+		width:400px;
+		margin:0 auto;
+	}
+/*��Ŀ��ע����ҳ*/
+
+
+/*��Ŀ�Ƽ���-��������*/
+
+    .rdio {
+        width:99px;
+        height:40px;
+        border:none;
+        border-radius:8px;
+        background:#999;
+        text-indent: 1.6cm;
+        position:relative;
+    }
+    .group-yea {
+    	text-align:left;
+    }
+    .group-yea >p {
+        display:inline-block;
+        position: relative
+    }
+    .group-years> p .radio-male {
+        display: inline-block;
+        width:22px;
+        height:22px;
+        position:absolute;
+        top:9px;
+        left:20px;
+    }
+    .group-yea >p:hover input{
+        background:#7dd2e1;
+        color:#fff;
+    }
+    .radio-male {
+    	width:20px;
+    	height:21px;
+    	position:absolute;
+    	top:8px;
+    	left:19px;
+    }
+    .male {
+    	
+        background: url(/res/images/icon-women.png) no-repeat center;
+    }
+    .afmale {
+        background:url(/res/images/icon-women.png) no-repeat center;
+    }
+    .city {
+        width: 360px;
+        height:50px;
+        border:1px solid #7dd2e1;
+        border-radius: 8px;
+        list-style: none;
+    }
+    .maps {
+        width:20px;
+        height:30px;
+        position: absolute;
+        top:11px;
+        left:30px;
+        background:url(/res/images/location_icon.png) no-repeat center;
+    }
+    .city li {
+        width:50%;
+        line-height: 50px;
+        float:left;
+        position: relative;
+    }
+    .Angle {
+        display: inline-block;
+        border-top:7px solid #333;
+        border-right:7px solid transparent;
+        border-left:7px solid transparent;
+        position:absolute;
+        top:20px;
+        right:33px;
+    }
+
+
+
+
+
+		/*������ʽ*/
+        .content{
+            width:1000px;
+            margin:0 auto;
+        }
+
+        /*ͼƬ��Ƕ�ı�*/
+       
+       .required {
+		    font-family: "Microsoft YaHei" !important;
+		    color: #fea600;
+		}
+		
+		label.col-xs-3.col-md-3.control-label.label_sex {
+		    height: 40px;
+		    line-height: 40px;
+		}
+
+        .form-box{
+            padding:30px 30px;
+            text-align: center;
+        }
+
+        
+
+        #recommend-form .btn-group{
+            display: block;
+        }
+        #recommend-form .btn,.btn-default{
+            border-color:#2CB7C9;
+            outline: none;
+        }
+
+        .active-title{
+            background-color: #2CB7C9!important;
+            color:white!important;
+            border:1px solid #2CB7C9!important;
+        }
+
+      
+        .hr-line2{
+            width:92%;
+            border-bottom: 1px dashed #CCCCCC;
+            margin-left:20px;
+            margin-top:30px;
+            margin-bottom: 20px;
+        }
+
+        .agree{
+            font-size: 12px;
+            color:#D0021B;
+        }
+
+       
+
+        .next-step{
+        	position: relative;
+        	padding-left: 20px;
+            margin-top:20px;
+        }
+
+
+        .birth-box{
+            position: relative;
+        }
+
+        .year-select{
+            position: absolute;
+            top:33px;
+            left:0px;
+            z-index: 100;
+            border:1px solid #2CB7C9;
+
+        }
+
+        .year-select{
+            display: none;
+            overflow: auto;
+        }
+
+        .year-select li{
+            padding:0 16px;
+            background-color: white;
+
+        }
+
+        .year-select li:hover{
+            background-color: #2CB7C9;
+            color:white;
+            cursor: pointer;
+        }
+        .birth-year{
+            position: absolute;
+            top:7px;
+            left:16px;
+        }
+
+        .birth-month{
+            position: absolute;
+            top:7px;
+            left:37px;
+        }
+
+        .triangle{
+            position: absolute;
+            bottom: 6px;
+            left:58px;
+            cursor: pointer;
+        }
+        .trigger {
+            display: inline-block;
+            height: 0;
+            width: 0;
+            overflow: hidden;
+            border-style: solid;
+            margin-left: 4px;
+            margin-right: 4px;
+            position: relative;
+            top:0;
+            border-width:6px 6px 0;
+            border-color:#D8D8D8 transparent transparent;
+            -webkit-transition:all .4s ease 0s;
+            -moz-transition:all .4s ease 0s;
+            -o-transition:all .4s ease 0s;
+            transition:all .4s ease 0s;
+        }
+
+        .trigger-inverse{
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+            animation-fill-mode: forwards;
+        }
+
+        .active-control{
+            border-color:#2CB7C9;
+        }
+
+        .location {
+		    position: absolute;
+		    top: 12px;
+		    left: 20px;
+		    width: auto;
+		    height: 20px;
+		}
+
+	/*��Ŀ��ע����ҳ*/
+	.form-grp {
+		margin:15px auto;
+	}
+	.form-group-cent {
+		width:100%;
+	}
+	
+/*��Ŀ��ע����ҳ*/
+
+
+/*��Ŀ�Ƽ���-��������*/
+
+    .rdio {
+        width:99px;
+        height:40px;
+        border:none;
+        border-radius:8px;
+        background:#999;
+        text-indent: 1.6cm;
+        position:relative;
+    }
+    .group-yea {
+    	text-align:left;
+    }
+    .group-yea >p {
+        display:inline-block;
+        position: relative
+    }
+    .group-years> p .radio-male {
+        display: inline-block;
+        width:22px;
+        height:22px;
+        position:absolute;
+        top:9px;
+        left:20px;
+    }
+    .group-yea >p:hover input{
+        background:#7dd2e1;
+        color:#fff;
+    }
+    .radio-male {
+    	width:20px;
+    	height:21px;
+    	position:absolute;
+    	top:8px;
+    	left:19px;
+    }
+    .male {
+    	
+        background: url(/res/images/icon-women.png) no-repeat center;
+    }
+    .afmale {
+        background:url(/res/images/icon-women.png) no-repeat center;
+    }
+    .city {
+        width: 360px;
+        height:50px;
+        border:1px solid #7dd2e1;
+        border-radius: 8px;
+        list-style: none;
+    }
+    .maps {
+        width:20px;
+        height:30px;
+        position: absolute;
+        top:11px;
+        left:30px;
+        background:url(/res/images/location_icon.png) no-repeat center;
+    }
+    .city li {
+        width:50%;
+        line-height: 50px;
+        float:left;
+        position: relative;
+    }
+    .Angle {
+        display: inline-block;
+        border-top:7px solid #333;
+        border-right:7px solid transparent;
+        border-left:7px solid transparent;
+        position:absolute;
+        top:20px;
+        right:33px;
+    }
+
+
+/*button*/
+button.btn {
+    height: 50px;
+    line-height: 50px;
+}
+#personnel-form1 .identity_btn button {
+    width: 82px!important;
+    padding: 0!important;
+}
+
+/*elite ��basic*/
+
+.date-select img {
+    width: 26px;
+    height: 26px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+}
+
+/*���ð�ť*/ 
+.lastStep {
+    font-size: 18px;
+    color: #fea600;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 30px;
+}    
+
+
+#context .line-box {
+	position: relative;
+    width: 560px;
+    height: 36px;
+    margin: 0 auto;
+}  
+#context .line-box .line {
+    position: absolute;
+    left: 0;
+    top: 18px;
+    width: 200px;
+    border-bottom: 1px solid #95d6e2;
+}
+#context .line-box .line_left {
+    left: 0;
+}
+#context .line-box .line_right {
+    left: 375px;
+}
+#context .line-box .line-btn {
+    position: absolute;
+    width: 120px;
+    left: 220px;
+    height: 36px;
+    border-radius: 100px;
+    background: #2cb7c9;
+    color: #fff;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+}
+#context .line-box .cy-r{
+	position: absolute;
+    right: -18px;
+}
+
+
+.partnerElite_data {
+    min-height: 300px;
+    height: auto!important;
+}
+#displayCreditInfo .id_number_div {
+    font-size: 16px;
+    margin-top: 54px;
+    margin-left: 42px;
+}
+#displayCreditInfo .id_img_div {
+    margin-top: -20px;
+    min-height: 160px;
+    height: auto!important;
+}
+form#resetPassForm {
+    margin-top: 100px;
+}
+
+.search-status #datalist {
+    min-height: 1200px;
+    height: auto!important;
+}
+
+.content-box .partnerElite_left .username_box {
+    position: relative;
+    height: 54px;
+    width: 100%;
+}
+.content-box .partnerElite_left .username_box .username_box_content {
+    margin: 0!important;
+    height: 28px;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.content-box .partnerElite_left .username_box .username .username_name {
+    float: left;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    font-size: 20px;
+    color: #4a4a4a;
+}
+.content-box .partnerElite_left .username_box .username .username_city {
+    float: left;
+    display: block;
+    font-size: 14px;
+    color: #9b9b9b;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+
+/*��Ӣ����ע��*/
+.people_div button.btn {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 80px;
+    padding: 0!important;
+}
+
+.city_div .location {
+    position: absolute;
+    top: 16px;
+    left: 12px;
+    width: auto;
+    height: 20px;
+}
+.btn_div .opt-btn-ok {
+    width: 126px;
+    height: 40px;
+    background-color: #FEA600;
+    border: 1px solid #FEA600;
+    border-radius: 20px;
+    color: white;
+    margin-right: 50px;
+}
+
+#personnelStep2 .birth-box{
+    cursor: pointer;
+}
+
+#personnelStep2 .error-tip{
+    position: absolute;
+    left: 220px;
+    top: -23px;
+    height: 24px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: red;
+}
+
+/*������ע��*/
+
+#personnelStep1 .processBox{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background: #f5fbfc;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#personnelStep1 .processBox .ball{
+	position: absolute;
+    top: 24px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+#personnelStep1 .processBox .ball1{
+	border: 1px solid #2cb7c9;
+	color:#2cb7c9;
+	left: 170px
+}
+
+#personnelStep1 .processBox .ball2{
+	border: 1px solid #9b9b9b;
+	color:#4a4a4a;
+	left: 510px;
+}
+
+#personnelStep1 .processBox .line{
+    position: absolute;
+    left: 230px;
+    top: 44px;
+    width: 260px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+#personnelStep1 .processBox .text{
+    position: absolute;
+    top: 74px;
+    font-size: 16px;
+}
+#personnelStep1 .processBox .text1{
+    left: 156px;
+    color: #2cb7c9;
+}
+#personnelStep1 .processBox .text2 {
+    left: 499px;
+}
